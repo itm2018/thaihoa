@@ -1,0 +1,183 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: panorama360\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-01-15 18:44+0200\n"
+"PO-Revision-Date: 2015-01-15 18:44+0200\n"
+"Last-Translator: Liviu Cerchez\n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../panorama360.php:66
+msgid ""
+"Please define valid width and height attributes for remote images. This will "
+"also optimize the loading time of the remote panorama."
+msgstr ""
+
+#: ../panorama360.php:84
+msgid "Please define a valid source image (<em>src</em> attribute)."
+msgstr ""
+
+#: ../tinymce/localisation.php:4
+msgid "Insert 360° panorama"
+msgstr ""
+
+#: ../tinymce/localisation.php:5
+msgid "Insert Shortcode"
+msgstr ""
+
+#: ../tinymce/localisation.php:6
+msgid "Cancel"
+msgstr ""
+
+#: ../tinymce/localisation.php:7
+msgid "Image"
+msgstr ""
+
+# @ cross
+#: ../tinymce/localisation.php:8
+msgid "Upload"
+msgstr ""
+
+# @ cross
+#: ../tinymce/localisation.php:9
+msgid "Remove"
+msgstr ""
+
+#: ../tinymce/localisation.php:10
+msgid "Image Alt Attribute"
+msgstr ""
+
+#: ../tinymce/localisation.php:11
+msgid "Image Width"
+msgstr ""
+
+#: ../tinymce/localisation.php:12
+msgid "Image Height"
+msgstr ""
+
+#: ../tinymce/localisation.php:13
+msgid "Panorama Type"
+msgstr ""
+
+#: ../tinymce/localisation.php:14
+msgid "Determine the type of rotation of the panorama image."
+msgstr ""
+
+#: ../tinymce/localisation.php:15
+msgid "Extra CSS Style"
+msgstr ""
+
+#: ../tinymce/localisation.php:16
+msgid "Add extra CSS style to the panorama container."
+msgstr ""
+
+#: ../tinymce/localisation.php:17
+msgid "Start Position"
+msgstr ""
+
+#: ../tinymce/localisation.php:18
+msgid "Initial horizontal position of the panoramic viewer."
+msgstr ""
+
+# @ cross
+#: ../tinymce/localisation.php:19
+msgid "Title"
+msgstr ""
+
+#: ../tinymce/localisation.php:20
+msgid "Title Link"
+msgstr ""
+
+#: ../tinymce/localisation.php:21
+msgid "Title Link Target"
+msgstr ""
+
+#: ../tinymce/localisation.php:22
+msgid "Open in same tab/window"
+msgstr ""
+
+#: ../tinymce/localisation.php:23
+msgid "Open in new tab/window"
+msgstr ""
+
+#: ../tinymce/localisation.php:24
+msgid "Mouse Wheel"
+msgstr ""
+
+#: ../tinymce/localisation.php:25
+msgid ""
+"Determine if the panorama can be controlled with the mouse wheel scroll."
+msgstr ""
+
+#: ../tinymce/localisation.php:26
+msgid "Mouse Wheel Multiplier"
+msgstr ""
+
+#: ../tinymce/localisation.php:27
+msgid "Determine the mouse wheel scrolling factor."
+msgstr ""
+
+#: ../tinymce/localisation.php:28
+msgid "Sliding Controls"
+msgstr ""
+
+#: ../tinymce/localisation.php:29
+msgid ""
+"Determine if the sliding controls are visible at the bottom of the panoramic "
+"viewer."
+msgstr ""
+
+#: ../tinymce/localisation.php:30
+msgid "Automatic Sliding"
+msgstr ""
+
+# @ cross
+#: ../tinymce/localisation.php:31
+msgid "No"
+msgstr ""
+
+#: ../tinymce/localisation.php:32
+msgid "Left side"
+msgstr ""
+
+#: ../tinymce/localisation.php:33
+msgid "Right side"
+msgstr ""
+
+#: ../tinymce/localisation.php:34
+msgid "Sliding Interval"
+msgstr ""
+
+#: ../tinymce/localisation.php:35
+msgid "Sets the slide timer refresh interval (in miliseconds)."
+msgstr ""
+
+#: ../tinymce/localisation.php:36
+msgid "Block Context Menu"
+msgstr ""
+
+#: ../tinymce/localisation.php:37
+msgid ""
+"Determines if the context menu is blocked (right click on the panoramic "
+"viewer)."
+msgstr ""
+
+#: ../tinymce/localisation.php:38
+msgid "For more details please consult the "
+msgstr ""
+
+#: ../tinymce/localisation.php:38
+msgid "complete documentation"
+msgstr ""

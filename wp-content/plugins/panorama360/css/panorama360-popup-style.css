@@ -1,0 +1,42 @@
+@font-face { font-family: 'Panorama360'; src:url('fonts/panorama360.eot?-81815e'); src:url('fonts/panorama360.eot?#iefix-81815e') format('embedded-opentype'), url('fonts/panorama360.woff?-81815e') format('woff'), url('fonts/panorama360.ttf?-81815e') format('truetype'), url('fonts/panorama360.svg?-81815e#panorama360') format('svg'); font-weight: normal; font-style: normal; }
+
+.mce-tinymce i.mce-i-panorama360 { font: 400 21px/1 'Panorama360'; }
+.mce-tinymce i.mce-i-panorama360:before { content: "\7e"; }
+
+.mceToolbar span.mce_panorama360 { font: 400 20px/1 'Panorama360' !important; }
+.mceToolbar span.mce_panorama360:before { content: "\7e"; }
+.no-font-face .mceToolbar span.mce_panorama360 { -moz-transition: none; -webkit-transition: none; transition: none; background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QAAAAAAAD5Q7t/AAAAyElEQVR42u2T0Q2DMAxEGaEjJJmAERilG8EIGYER2IBsQDegG1BbsqWrm5CmUv+wFGF89pOJTddd9jdzzt1+0XLJd+/9HkI46LnRew9azzHRds6twjiZzpPOJIWz6uQvok+ScxShCNOuCPDgmOZo19ptEZqDacx0OCMgC63AEg6AfY6dQqF41WLyo40BcBUt2thHlwVohE+OVZi9RwNNvB5mKKkKy0B510bxF+gwyX2Puo8tu/g2KDuAr2B4+XSGE31o+v0ua7IXycSKb9l25TgAAAAASUVORK5CYII=) no-repeat center center; }
+
+.panorama360-shortcodes-modal .media-frame-title, .panorama360-shortcodes-modal .media-frame-content, .panorama360-shortcodes-modal .media-frame-toolbar { left: 0; }
+.panorama360-shortcodes-modal .media-frame-title { display: block; top: 0; }
+.panorama360-shortcodes-modal .media-frame-content { top : 60px; }
+.panorama360-shortcodes-modal .media-frame-content-inner { padding: 16px; }
+.panorama360-shortcodes-modal .media-modal-close { top: 11px; }
+.panorama360-shortcodes-modal h3 { margin: 0 0 0.5em; }
+
+.panorama360-shortcodes-modal .option-line { border-bottom: 1px solid #eee; padding-bottom: 1em; margin-bottom: 0.8em; }
+.panorama360-shortcodes-modal .option-line.no-border { border-bottom: 0; padding-bottom: 0; }
+.panorama360-shortcodes-modal .option-line.margin-bottom { margin-bottom: 1.5em; }
+.panorama360-shortcodes-modal .option-field-description { margin-top: 0.25em; font-size: 90%; color: #999; }
+.panorama360-shortcodes-modal .option-line-info { border: 1px solid #eee; padding: 8px 10px; background-color: #fffce2; }
+.panorama360-shortcodes-modal label:after { content: ':'; }
+.panorama360-shortcodes-modal .option-line-checkbox .option-content { display: inline; }
+.panorama360-shortcodes-modal .option-line-checkbox input[type=checkbox] { margin: 0 0 0 6px; }
+
+.panorama360-shortcodes-modal .uploads_actions { margin-top: 0.4em; }
+.panorama360-shortcodes-modal .uploads_actions .button { margin-right: 0.5em; }
+.panorama360-shortcodes-modal .uploads_actions .hide { display: none; }
+.panorama360-shortcodes-modal .uploads_actions .alt-text { position: relative; top: 1px; }
+.panorama360-shortcodes-modal .screenshot { margin-bottom: 0.5em; }
+.panorama360-shortcodes-modal .screenshot img { margin-top: 0.5em; display: block; max-width: 100%; }
+.panorama360-shortcodes-modal .option-line-aspect-ratio input[type="text"] { width: 5em; }
+.panorama360-shortcodes-modal .popup-col { width: 49%; }
+.panorama360-shortcodes-modal .popup-col.first { float: left; margin-right: 1%; }
+.panorama360-shortcodes-modal .popup-col.last { float: right; margin-left: 1%; }
+
+@media (min-width: 768px) {
+	.panorama360-shortcodes-modal { left: 50%; width: 580px; margin-left: -290px; right: auto; }
+}
+@media (min-width: 768px) {
+	.panorama360-shortcodes-modal .uploads_actions .alt-text { top: -1px; padding: 5px 8px; }
+}

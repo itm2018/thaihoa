@@ -1,0 +1,29 @@
+/* panorama layout */
+.panorama360, .panorama-view { width: 100%; height: 100%; overflow: hidden; margin: 0; padding: 0; }
+.panorama360, .panorama360 .panorama-container { position: relative; }
+.panorama360 .panorama-container img { position: absolute; top: 0; height: 100%; border: 0; vertical-align: middle; -ms-interpolation-mode: bicubic; border-radius: 0; box-shadow: none; }
+.panorama360 .title, .panorama360 .panorama-view .area { position: absolute; display: block; margin: 0; }
+.panorama360 .title { right: 7px; bottom: 7px; }
+.panorama360 .controls { position: absolute; left: 7px; bottom: 7px; }
+.panorama360 .controls a { display: block; float: left; margin-right: 5px; }
+.panorama360 p { margin: 0; padding: 0; }
+
+/* panorama style */
+.panorama360 .panorama-view { background: url(../images/preloader.gif) no-repeat center center; cursor: url(../images/openhand.cur),default; -webkit-transform: translateZ(0); }
+.panorama360 .panorama-view.grab { cursor: url(../images/closedhand.cur),default; }
+.panorama360 .title, .panorama360 .controls a, .panorama360 .title:visited, .panorama360 .controls a:visited { opacity: 0.6; filter: alpha(opacity=60); background-color: #000; color: #fff; border: 0; font: bold 11px/14px Arial,sans-serif; text-decoration: none; padding: 6px 7px; cursor: pointer; -webkit-transition: all .2s linear; -moz-transition: all .2s linear; -o-transition: all .2s linear; -ms-transition: all .2s linear; transition: all .2s linear; }
+.panorama360 .title:hover, .panorama360 .controls a:hover { opacity: 0.8; filter: alpha(opacity=80); }
+.panorama360 .panorama-view .area { opacity: 0.25; filter: alpha(opacity=25); background-color: #000; cursor: pointer; overflow: hidden; text-decoration: none; border: 0; text-indent: -9999px; }
+.panorama360 .panorama-view .area.round { -webkit-border-radius: 100%; -moz-border-radius: 100%; border-radius: 100%; }
+.panorama360 .panorama-view .area:hover { opacity: 0.5; filter: alpha(opacity=50); }
+.panorama360 .no-contextmenu img { -o-user-select: none; -moz-user-select: none; -webkit-user-select: none; user-select: none; }
+.panorama360 .controls a span { display: block; text-indent: -999px; overflow: hidden; background: url(../images/panorama-controls.png) no-repeat -999px 0; }
+.panorama360 .controls a.prev span, .panorama360 .controls a.next span { width: 8px; height: 14px; margin-left: 2px; margin-right: 2px; }
+.panorama360 .controls a.prev span { background-position: 0 0; }
+.panorama360 .controls a.next span { background-position: -8px 0; }
+.panorama360 .controls a.stop span { margin: 2px 1px; width: 10px; height: 10px; background-position: -16px -2px; }
+
+/* retina display graphics */
+@media only screen and (min-width: 480px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+	.panorama360 .controls a span { background-image: url(../images/panorama-controls@2x.png); -webkit-background-size: 26px 14px; -moz-background-size: 26px 14px; -o-background-size: 26px 14px; background-size: 26px 14px; }
+}
