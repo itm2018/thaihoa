@@ -410,3 +410,7 @@ span.wpcf7-not-valid-tip { display: block; position: absolute; left: 0; top: 30p
 	.thumb .icon-fullsize, .thumb .icon-link, .thumb .icon-video, .icon-social, #header #logo .menu-toggle span, .post .meta p span:before, .post a.all, .commentlist .comment p.date:before, .page-template-template-nocontent-php .panorama360 .controls a span, .supersized-fullscreen span, .supersized-prev span, .supersized-next span { background-image: url(images/sprite2.png)!important; -webkit-background-size: 200px 80px; -moz-background-size: 200px 80px; background-size: 200px 80px; }
 	.oldie .thumb .icon-fullsize, .oldie .thumb .icon-link, .oldie .thumb .icon-video, .oldie .icon-social, .oldie #header #logo .menu-toggle span, .oldie .post .meta p span:before, .oldie .post a.all, .oldie .commentlist .comment p.date:before, .oldie .page-template-template-nocontent-php .panorama360 .controls a span, .oldie .supersized-fullscreen span, .oldie .supersized-prev span, .oldie .supersized-next span { background-image: url(images/sprite.png)!important; }
 }
+
+#wp-live-chat{
+	margin-bottom: 65px !important;
+}

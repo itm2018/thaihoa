@@ -261,7 +261,7 @@ function reservations_form_shortcode($atts){
 		} elseif($field[0] == "rooms" || $field[0]=="resources"){
 			$roomfield=1;
 			if(isset($field['exclude'])) $exclude = explode(',', $field['exclude']); else $exclude = '';
-			$theForm=str_replace('['.$fields.']', '<select name="easyroom" style="'.$style.'" id="form_room" '.$disabled.' onchange="'.$price_action.$validate_action.'">'.easyreservations_resource_options(($value == '') ? $atts['resource'] : $value, 0, $exclude).'</select>', $theForm);
+			$theForm=str_replace('['.$fields.']', '<select name="easyroom" style="'.$style.'" id="form_room" '.$disabled.' onchange="'.$price_action.$validate_action.'">'.WPGlobus_Core::extract_text(easyreservations_resource_options(($value == '') ? $atts['resource'] : $value, 0, $exclude)).'</select>', $theForm);
 		} elseif($field[0] == "custom"){
 			if(isset($field['id'])){
 				$custom_fields = get_option('reservations_custom_fields');
