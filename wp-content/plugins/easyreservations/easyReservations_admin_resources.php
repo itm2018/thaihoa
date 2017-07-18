@@ -218,8 +218,8 @@ if(!isset($site) || $site=='' || $site =='main'){
 					<th nowrap><?php echo __( 'Reservations' , 'easyReservations' ); ?></th>
 					<th style="text-align:center;" nowrap><?php echo __( 'Filter' , 'easyReservations' ); ?></th>
 					<th nowrap><?php echo __( 'Status' , 'easyReservations' ); ?></th>
-					<th nowrap><?php echo __( 'Excerpt' , 'easyReservations' ); ?></th>
-					<th nowrap></th>
+<!--					<th nowrap>--><?php //echo __( 'Excerpt' , 'easyReservations' ); ?><!--</th>-->
+					<th nowrap style="min-width: 300px;text-align:center;"><?php echo __( 'Action' , 'easyReservations' ); ?></th>
 				</tr>
 			</thead>
 			<tbody><?php
@@ -250,15 +250,15 @@ if(!isset($site) || $site=='' || $site =='main'){
 						<td style="text-align:left; vertical-align:middle;max-width:25px;width:25px;"><a href="post.php?post=<?php echo $allroom->ID; ?>&action=edit" title="<?php echo __( 'edit' , 'easyReservations' ); ?>"><?php echo $img; ?></a></td><?php
 					} else echo '<td></td>';
 				} ?>
-				<td><a name="thelink" href="admin.php?page=reservation-resources&room=<?php echo $allroom->ID;?>" title="<?php echo __( 'edit ' , 'easyReservations' ).' '.$allroom->post_title; ?>"><?php echo '<b>'.__($allroom->post_title).'</b>'; ?></a></td>
+				<td><a name="thelink" href="admin.php?page=reservation-resources&room=<?php echo $allroom->ID;?>" title="<?php echo __( 'edit ' , 'easyReservations' ).' '.$allroom->post_title; ?>"><?php echo '<b>'.WPGlobus_Core::extract_text(__($allroom->post_title)).'</b>'; ?></a></td>
 				<td style="text-align:center"><?php echo '<b>'.$allroom->ID.'</b>'; ?></td>
 				<td style="text-align:center;"><?php echo $theRoomCount; ?></td>
 				<td style="text-align:right;width:100px" nowrap><?php echo easyreservations_format_money($meta_gp, 1);?></td>
 				<td style="text-align:center;width:85px" nowrap><?php echo $countallrooms; ?></td>
 				<td style="text-align:center" nowrap><?php if(empty($getfilters)) echo 0; else echo count($getfilters); ?></td>
 				<td nowrap><?php echo $status; ?></td>
-				<td><?php echo strip_tags(substr($allroom->post_content, 0, 36)); ?></td>
-				<td style="text-align:right;width:100px">
+<!--				<td>--><?php //echo strip_tags(substr($allroom->post_content, 0, 36)); ?><!--</td>-->
+				<td class="admin-resource-edit" style="text-align:right;width:100px">
 					<a href="post.php?post=<?php echo $allroom->ID; ?>&action=edit" title="<?php echo __( 'edit post' , 'easyReservations' ); ?>"><img style="vertical-align:text-bottom;" src="<?php echo RESERVATIONS_URL; ?>images/message.png"></a>
 					<a href="admin.php?page=reservation-resources&room=<?php echo $allroom->ID;?>" title="<?php echo __( 'edit resource' , 'easyReservations' ); ?>"><img style="vertical-align:text-bottom;" src="<?php echo RESERVATIONS_URL; ?>images/money.png"></a>
 					<a href="admin.php?page=reservation-resources&addresource=room&dopy=<?php echo $allroom->ID;?>" target="_blank" title="<?php echo __( 'copy resource settings' , 'easyReservations' ); ?>"><img name="copylink" style="vertical-align:text-bottom;" src="<?php echo RESERVATIONS_URL; ?>images/copy.png"></a>

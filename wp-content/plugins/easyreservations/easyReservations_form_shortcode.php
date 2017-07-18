@@ -414,12 +414,12 @@ function reservations_form_shortcode($atts){
 
 	$popuptemplate = '<span class="easy_validate_message">'.$atts['validate'].'</span>';
 	if(!empty($atts['subvalidate'])) $popuptemplate.= '<span class="easy_validate_message_sub">'.$atts['subvalidate'].'</span>';
-	$popuptemplate.= '<table id="easy_overlay_table"><thead><tr>';
+	$popuptemplate.= '<div class="table-responsive"><table class="table" id="easy_overlay_table"><thead><tr>';
 	$popuptemplate.= '<th>'.__('Time', 'easyReservations').'</th>';
 	$popuptemplate.= '<th>'.__($atts['resourcename']).'</th>';
 	if($atts['pers'] && $atts['pers'] == 1) $popuptemplate.= '<th>'.__('Persons', 'easyReservations').'</th>';
 	$popuptemplate.= '<th>'.__('Price', 'easyReservations').'</th>';
-	$popuptemplate.= '<th></th></tr></thead><tbody id="easy_overlay_tbody"></tbody></table>';
+	$popuptemplate.= '<th></th></tr></thead><tbody id="easy_overlay_tbody"></tbody></table></div>';
 	$popuptemplate.= '<input onclick="easyAddAnother();" type="button" value="'.__('Add another reservation', 'easyReservations').'">';
 	$popuptemplate.= '<input class="easy_overlay_submit"  type="button" onclick="easyFormSubmit(1);" value="'.__('Submit all reservations', 'easyReservations').'">';
 
@@ -503,7 +503,7 @@ JAVASCRIPT;
 		global $the_rooms_array;
 		$rooms = array();
 		foreach($the_rooms_array as $key => $resource){
-			$rooms[$key] = array( 'post_title' => __($resource->post_title));
+			$rooms[$key] = array( 'post_title' => WPGlobus_Core::extract_text(__($resource->post_title)));
 		}
 		$easyreservations_script .= 'var all_resoures_array='.json_encode($rooms).';';
 	}

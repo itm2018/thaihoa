@@ -1,3 +1,25 @@
+jQuery(function(t){
+    t.datepicker.regional.vi=
+        {
+            closeText:"Đóng",
+            prevText:"Lùi",
+            nextText:"Tới",
+            currentText:"",
+            monthNames:["Tg1","Tg2","Tg3","Tg4","Tg5","Tg6","Tg7","Tg8","Tg9","Tg10","Tg11","Tg12"],
+            monthNamesShort:["Tg1","Tg2","Tg3","Tg4","Tg5","Tg6","Tg7","Tg8","Tg9","Tg10","Tg11","Tg12"],
+            dayNames:["Chủ Nhật","Thứ Hai","Thứ Ba","Thứ Tư","Thứ Năm","Thứ Sáu","Thứ 7"],
+            dayNamesShort:["CN","T2","T3","T4","T5","T6","T7"],
+            dayNamesMin:["CN","T2","T3","T4","T5","T6","T7"],
+            weekHeader:"Tuần",
+            dateFormat:"dd-mm-yyyy",
+            firstDay:0,isRTL:!1,
+            showMonthAfterYear:!0,
+            yearSuffix:"Năm"
+        },
+        t.datepicker.setDefaults(t.datepicker.regional.vi)
+});
+
+
 var easyCalendars = [];
 jQuery("body").on({
 	click: function(){
@@ -65,7 +87,8 @@ function easyCalendar(nonce, atts, type){
 		}
 
 		if(this.clicknr == 1){
-			jQuery("#CalendarFormular-"+this.id+' .reqstartdisabled').addClass('reqdisabled');
+
+            jQuery("#CalendarFormular-"+this.id+' .reqstartdisabled').addClass('reqdisabled');
 			if(jQuery(cell).hasClass('reqenddisabled')) return false;
 			this.cellnr = parseFloat(this.cellnr);
 			this.calm = parseFloat(this.calm);

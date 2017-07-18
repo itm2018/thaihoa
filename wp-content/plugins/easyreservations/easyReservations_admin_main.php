@@ -969,7 +969,7 @@ if(!isset($approve) && !isset($delete) && !isset($view) && !isset($edit) && !iss
 									else $class="even";?>
 									<tr class="<?php echo $class; ?>">
 										<td><b><a href="admin.php?page=reservations&edit=<?php echo $depature->id; ?>"><?php echo $depature->name; ?></a></b></td>
-										<td><?php echo $the_rooms_array[$depature->resource]->post_title; ?></td>
+										<td><?php echo WPGlobus_Core::extract_text($the_rooms_array[$depature->resource]->post_title); ?></td>
 										<td style="text-align:center;"><?php echo $depature->adults; ?> (<?php echo $depature->childs; ?>)</td>
 										<td style="text-align:right;"><?php echo $depature->formatPrice(true); ?></td>
 									</tr><?php 
@@ -994,7 +994,7 @@ if(!isset($approve) && !isset($delete) && !isset($view) && !isset($edit) && !iss
 								else $class="even";?>
 								<tr class="<?php echo $class; ?>">
 									<td><b><a href="admin.php?page=reservations&edit=<?php echo $depature->id; ?>"><?php echo $depature->name; ?></a></b></td>
-									<td><?php echo $the_rooms_array[$depature->resource]->post_title; ?></td>
+									<td><?php echo WPGlobus_Core::extract_text($the_rooms_array[$depature->resource]->post_title); ?></td>
 									<td style="text-align:center;"><?php echo $depature->adults; ?> (<?php echo $depature->childs; ?>)</td>
 									<td style="text-align:right;"><?php echo $depature->formatPrice(true); ?></td>
 								</tr><?php 
@@ -1090,7 +1090,7 @@ if(!isset($approve) && !isset($delete) && !isset($view) && !isset($edit) && !iss
 				</tr>
 				<tr>
 					<td nowrap><img style="vertical-align:text-bottom;" src="<?php echo RESERVATIONS_URL; ?>images/room.png"> <?php printf ( __( 'Resource' , 'easyReservations' ));?></td> 
-					<td><b><?php echo __($resource_name); if(!$bypers && $res->resourcenumbername) echo ' - '.$res->resourcenumbername; ?></b></td>
+					<td><b><?php echo __(WPGlobus_Core::extract_text($resource_name)); if(!$bypers && $res->resourcenumbername) echo ' - '.$res->resourcenumbername; ?></b></td>
 				</tr>
 				<?php if(!empty($res->country)){ ?>
 					<tr class="alternate">
@@ -1538,7 +1538,7 @@ if(isset($add)){
 
 /* - + - + - + - + - + - + - + - + - + - + - + - + - + - + - + - + - + - + - + - + APPROVE / REJECT - + - + - + - + - + - + - + - + - + - + - + - + - + - + - + - + - + - + - + - + */
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////2//////////////////z////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 if(isset($approve) || isset($delete)) {
 	if(isset($delete)){ $delorapp=$delete; $delorapptext='reject'; } elseif(isset($approve)){ $delorapp=$approve; $delorapptext='approve'; } ?>  <!-- Content will only show on delete or approve Reservation //--> 
 	<form method="post" action="admin.php?page=reservations<?php if(isset($approve)) echo "&approve=".$approve ;  if(isset($delete)) echo "&delete=".$delete ;?>"  id="reservation_approve" name="reservation_approve">

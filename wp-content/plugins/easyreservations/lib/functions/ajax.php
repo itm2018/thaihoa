@@ -936,7 +936,7 @@ function easyreservations_send_table_callback() {
 					<?php } if($table_options['table_persons'] == 1){ ?>
             <td style="text-align:center;color:#777;font-weight: bold !important;font-size:14px"><?php echo $res->adults; ?> +<?php echo $res->childs; ?></td>
 					<?php }  if($table_options['table_room'] == 1 || $table_options['table_exactly'] == 1){  ?>
-            <td nowrap><?php if($table_options['table_room'] == 1) echo '<a href="admin.php?page=reservation-resources&room='.$res->resource.'">'.__($the_rooms_array[$res->resource]->post_title).'</a> '; if($table_options['table_exactly'] == 1 && isset($res->resourcenumber)) echo '<b>'.easyreservations_get_roomname($res->resourcenumber, $res->resource).'</b>'; ?></td>
+            <td nowrap><?php if($table_options['table_room'] == 1) echo '<a href="admin.php?page=reservation-resources&room='.$res->resource.'">'.WPGlobus_Core::extract_text(__($the_rooms_array[$res->resource]->post_title)).'</a> '; if($table_options['table_exactly'] == 1 && isset($res->resourcenumber)) echo '<b>'.easyreservations_get_roomname($res->resourcenumber, $res->resource).'</b>'; ?></td>
 					<?php }  if($table_options['table_country'] == 1){  ?>
             <td nowrap><?php echo easyreservations_country_name( $res->country); ?></td>
 					<?php }  if($table_options['table_custom'] == 1){ ?>

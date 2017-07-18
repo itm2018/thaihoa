@@ -41,6 +41,11 @@ if (!empty($return_page)) {
 				</div>
 <?php endif; // show meta data information ?>
 				<div class="small">
+                    <!--FB like-->
+                    <div class="fb-like" data-href="<?php the_permalink() ;?>" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+                    <a class="twitter-share-button"
+                       href="https://twitter.com/intent/tweet?text=<?php the_permalink();?>"
+                       data-size="large" ><button type="button" class="btn btn-primary btn-tweet"><i class="fa fa-twitter"> </i><span style="text-transform: capitalize;">Tweet</span></button> </a>
 					<?php
 						the_content();
 						wp_link_pages();
@@ -58,3 +63,14 @@ if (!empty($return_page)) {
 	</section>
 
 <?php get_footer(); ?>
+
+<!--FB-->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.10";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+<!--/End FB-->

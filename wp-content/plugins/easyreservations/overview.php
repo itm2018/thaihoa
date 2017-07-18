@@ -200,7 +200,7 @@ foreach( $all_resources as $key => $resource){ /* - + - FOREACH ROOM - + - */
 		}
 	} ?>
 <tr class="ov_resource_row" style="background:#EAE8E8">
-    <td nowrap><span>&nbsp;<a href="admin.php?page=reservation-resources&room=<?php echo $resource->ID; ?>" title="<?php __( $resource->post_title); ?>" style="color: #6B6B6B;"><?php echo substr(__( $resource->post_title),0,20); ?></a></td>
+    <td nowrap><span>&nbsp;<a href="admin.php?page=reservation-resources&room=<?php echo $resource->ID; ?>" title="<?php WPGlobus_Core::extract_text(__( $resource->post_title)); ?>" style="color: #6B6B6B;"><?php echo substr(WPGlobus_Core::extract_text(__( $resource->post_title)),0,20); ?></a></td>
 	<?php
 	$co=0;
 	while($co < $days_to_show){

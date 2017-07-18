@@ -240,7 +240,7 @@
 			if(empty($exclude) || !in_array($room->ID, $exclude)){
 				if($addslashes) $room->post_title = addslashes($room->post_title);
 				$select = !empty($selected) && $selected == $room->ID ? ' selected="selected"' : '';
-				$rooms_options .= '<option value="'.$room->ID.'"'.$select.'>'.__($room->post_title).'</option>';
+				$rooms_options .= '<option value="'.$room->ID.'"'.$select.'>'.WPGlobus_Core::extract_text(__($room->post_title)).'</option>';
 			}
 		}
 		return $rooms_options;
