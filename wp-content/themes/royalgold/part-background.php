@@ -31,7 +31,9 @@ if (count($background_images)==0) {
 } ?>
 	<span id="supersized-loader"></span>
 	<ul id="supersized"></ul>
-	<a class="supersized-fullscreen"><span></span></a>
+    <?php if(!strstr(basename(get_page_template()), 'reservation')): ?>
+	    <a class="supersized-fullscreen"><span></span></a>
+    <?php endif;?>
 	<a class="supersized-prev"><span></span></a>
 	<a class="supersized-next"><span></span></a>
 

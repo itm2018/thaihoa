@@ -85,7 +85,16 @@ ID: [ID]<br>Name: [thename] <br>Email: [email] <br>From: [arrival] <br>To: [depa
 <label>Captcha
 <span class="small">Type in code</span>
 </label>[captcha]
-
+<script type="text/javascript">
+      var onloadCallback = function() {
+        grecaptcha.render(\'html_element\', {
+          \'sitekey\' : \'6LfmYxwUAAAAAKUlWMewMCJFpz4qiXMVv548avFh\'
+        });
+      };
+</script>
+ <div id="html_element"></div>
+ <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer>
+ </script>
 <div style="text-align:center;">[submit Send]</div>';
 
 		$permission = array('dashboard' => 'edit_posts', 'statistics' => 'edit_posts', 'resources' => 'edit_posts', 'settings' => 'edit_posts');

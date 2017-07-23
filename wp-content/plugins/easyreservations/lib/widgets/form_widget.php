@@ -146,9 +146,10 @@ class easyReservations_form_widget extends WP_Widget {
 			$form_url = __( 'type in URL to a form', 'easyReservations' );
 			$form_button = __( 'Reserve now!', 'easyReservations' );
 			$form_editor = '[date-from] [date-from-hour] [date-from-min]<br>[date-to] [date-to-hour] [date-to-min]<br>
-<label>Res:</label> [resources]<br>
-<label>Name:</label> [thename]<br>
-<label>Email:</label> [email]<br><label>Country:</label> [country]';
+<label>'. __('Res:', 'easyReservations').' </label> [resources]<br>
+<label>'. __('Name:', 'easyReservations').'</label> [thename]<br>
+<label>'. __('Email:', 'easyReservations').'</label> [email]<br>
+<label>'. __('Country:', 'easyReservations').'</label> [country]';
 		} ?>
 		<p>
 			<label for="<?php echo $this->get_field_id('title'); ?>"><?php _e('Title:', 'easyReservations'); ?></label> 

@@ -425,3 +425,10 @@ ul.tabs a.current {
     display: block;
     padding: 1px 0;
 }
+
+/*
+cahs
+ */
+#easy_price_simulator{
+	float: right;
+}

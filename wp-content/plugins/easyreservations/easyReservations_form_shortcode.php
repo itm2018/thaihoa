@@ -47,10 +47,10 @@ function reservations_form_shortcode($atts){
 	wp_enqueue_script('easyreservations_data');
 
 	if(wp_style_is( 'easy-form-'.$atts['style'], 'registered')) wp_enqueue_style('easy-form-'.$atts['style'] , false, array(), false, 'all');
-	else wp_enqueue_style('easy-form-none' , false, array(), false, 'all');	
+	else wp_enqueue_style('easy-form-none' , false, array(), false, 'all');
 
 	if(strpos($theForm, '[error') !== false){
-		$validate_action = 'easyreservations_send_validate(false,\''.$formid.'\');';
+		$validate_action = 'easyreservations_send_validate(false,\''.$formid.'\')';
 		wp_enqueue_script( 'easyreservations_send_validate' );
 	} else {
 		$validate_action = '';
@@ -130,7 +130,7 @@ function reservations_form_shortcode($atts){
 				}
 			}
 		} catch(Exception $e){
-			$error.=  '<li><label>'.$e->getMessage().'</label></li>';
+			$error.=  '<li><label>'.__($e->getMessage(),'easyReservations').'</label></li>';
 		}
 
 		if(empty($error) && isset($arrival)){ //When Check gives no error Insert into Database and send mail
@@ -190,17 +190,17 @@ function reservations_form_shortcode($atts){
 		} elseif($field[0]=="units" || $field[0]=="nights" || $field[0]=="times"){
 			$tofield = true;
 			$start = 1;
-			if(isset($field[1])) $start = $field[1]; 
+			if(isset($field[1])) $start = $field[1];
 			if(isset($field[2])) $end = $field[2]; else $end = 6;
 			$theForm=str_replace('['.$fields.']', '<select id="easy-form-units" name="nights" '.$disabled.' title="'.$title.'" style="'.$style.'" onchange="'.$price_action.$validate_action.'">'.easyreservations_num_options($start, $end, $value).'</select>', $theForm);
 		} elseif($field[0]=="persons" || $field[0]=="adults"){
 			$start = 1;
-			if(isset($field[1])) $start = $field[1]; 
+			if(isset($field[1])) $start = $field[1];
 			if(isset($field[2])) $end = $field[2]; else $end = 6;
 			$theForm=preg_replace('/\['.$fields.'\]/', '<select id="easy-form-persons" name="persons" '.$disabled.' style="'.$style.'" title="'.$title.'" onchange="'.$price_action.$validate_action.'">'.easyreservations_num_options($start,$end,$value).'</select>', $theForm);
 		} elseif($field[0]=="childs"){ //CHILDRENS
 			$start = 0;
-			if(isset($field[1])) $start = $field[1]; 
+			if(isset($field[1])) $start = $field[1];
 			if(isset($field[2])) $end = $field[2]; else $end = 6;
 			$theForm=preg_replace('/\['.$fields.'\]/', '<select name="childs" '.$disabled.' style="'.$style.'" title="'.$title.'" onchange="'.$price_action.$validate_action.'">'.easyreservations_num_options($start,$end,$value).'</select>', $theForm);
 		} elseif($field[0] == "thename"){ //NAME
@@ -214,9 +214,9 @@ function reservations_form_shortcode($atts){
 				$class = ' hide-it';
 			}
 			if(isset($field['error_title'])) $error_title = $field['error_title'];
-			else $error_title='Errors found in the form';
+			else $error_title=__('Errors found in the form', 'easyReservations');
 			if(isset($field['error_message'])) $error_message = $field['error_message'];
-			else $error_message='There is a problem with the form, please check and correct the following:';
+			else $error_message= __('There is a problem with the form, please check and correct the following:', 'easyReservations');
 			$theForm=preg_replace('/\['.$fields.'\]/', '<div class="easy-show-error-div'.$class.'" id="easy-show-error-div" style="'.$style.'"><h2>'.$error_title.'</h2>'.$error_message.'<ul id="easy-show-error">'.$form_error.'</ul></div>', $theForm);
 		} elseif($field[0]=="infobox"){ //INFOBOX
 			$resource_block = '<div id="resource_infobox" style="'.$style.'" title="'.$title.'"></div>';
@@ -238,7 +238,8 @@ function reservations_form_shortcode($atts){
 			if(isset($field['color']) && $field['color'] == 'white') $captcha->fg = array( 255, 255, 255 );
 			$prefix = mt_rand();
 			$url = $captcha->generate_image($prefix, $captcha->generate_random_word());
-			$theForm=preg_replace('/\['.$fields.'\]/', '<span class="row"><input type="text" title="'.$title.'" name="captcha_value" id="easy-form-captcha" style="width:40px;'.$style.'" ><span class="captcha-image"><img id="easy-form-captcha-img"	style="vertical-align:middle;margin-top: -5px;" src="'.RESERVATIONS_URL.'lib/captcha/tmp/'.$url.'"></span><input type="hidden" value="'.$prefix.'" name="captcha_prefix"></span>', $theForm);
+//			$theForm=preg_replace('/\['.$fields.'\]/', '<span class="row"><input type="text" title="'.$title.'" name="captcha_value" id="easy-form-captcha" style="width:40px;'.$style.'" ><span class="captcha-image"><img id="easy-form-captcha-img"	style="vertical-align:middle;margin-top: -5px;" src="'.RESERVATIONS_URL.'lib/captcha/tmp/'.$url.'"></span><input type="hidden" value="'.$prefix.'" name="captcha_prefix"></span>', $theForm);
+			$theForm=preg_replace('/\['.$fields.'\]/', '<input type="text" title="'.$title.'" name="captcha_value" id="easy-form-captcha" style="'.$style.'" ><label><span class="small">What are characters showing on the image?</span></label><span class="captcha-image"><img id="easy-form-captcha-img"	style="vertical-align:middle;margin-top: -5px;" src="'.RESERVATIONS_URL.'lib/captcha/tmp/'.$url.'"></span><input type="hidden" value="'.$prefix.'" name="captcha_prefix">', $theForm);
 		} elseif($field[0]=="hidden"){
 			if($field[1] == "room" || $field[1] == "resource"){
 				$roomfield=1;
@@ -288,7 +289,7 @@ function reservations_form_shortcode($atts){
 				if($field[1]=="text"){
 					$theForm=str_replace('['.$fields.']', '<input title="'.$title.'" style="'.$style.'" '.$disabled.' type="text" name="easy-custom-'.$field[2].'" id="easy-custom-'.$req.'-'.$field[2].'" '.$onchange.' value="'.$value.'">', $theForm);
 				} elseif($field[1]=="textarea"){
-					$theForm=str_replace('['.$fields.']', '<textarea title="'.$title.'" style="'.$style.'" '.$disabled.' name="easy-custom-'.$field[2].'" id="easy-custom-'.$req.'-'.$field[2].'" '.$onchange.' value="'.$value.'"></textarea>', $theForm);
+					$theForm=str_replace('['.$fields.']', '<textarea title="'.$title.'" style="'.$style.'" '.$disabled.' name="easy-custom-'.$field[2].'" id="easy-custom-'.$req.'-'.$field[2].'" '.$onchange.' value="'.$value.'" maxlength="1000"></textarea>', $theForm);
 				} elseif($field[1]=="check" || $field[1]=="checkbox"){
 					$checked = isset($field['checked']) ? ' checked="'.$field['checked'].'"' : '';
 					if(!empty($disabled)) $theForm=str_replace('['.$fields.']', '<input type="hidden" title="'.$title.'" '.$checked.' style="'.$style.'" name="easy-custom-'.$field[2].'" id="easy-custom-'.$req.'-'.$field[2].'">', $theForm);
@@ -395,7 +396,7 @@ function reservations_form_shortcode($atts){
 			elseif(isset($field[1])) $value = $field[1];
 			$action = '';
 			if(!empty($validate_action)) $action .= 'easyreservations_send_validate(\'send\',\''.$formid.'\'); return false';
-			$theForm = preg_replace('/\['.$fields.'\]/', '<input type="submit" title="'.$title.'" style="'.$style.'" class="easy-button" value="'.$value.'" '.$disabled.' onclick="'.$action.'"><span id="easybackbutton"></span>', $theForm);
+			$theForm = preg_replace('/\['.$fields.'\]/', '<input type="submit" title="'.$title.'" style="'.$style.'" class="btn btn-default" value="'.$value.'" '.$disabled.' onclick="'.$action.'"><span id="easybackbutton"></span>', $theForm);
 		} else {
 			$theForm = apply_filters('easy-form-tag', $theForm, $fields, $formid);
 		}
@@ -416,14 +417,14 @@ function reservations_form_shortcode($atts){
 	if(!empty($atts['subvalidate'])) $popuptemplate.= '<span class="easy_validate_message_sub">'.$atts['subvalidate'].'</span>';
 	$popuptemplate.= '<div class="table-responsive"><table class="table" id="easy_overlay_table"><thead><tr>';
 	$popuptemplate.= '<th>'.__('Time', 'easyReservations').'</th>';
-	$popuptemplate.= '<th>'.__($atts['resourcename']).'</th>';
+	$popuptemplate.= '<th>'.__($atts['resourcename'], 'easyReservations').'</th>';
 	if($atts['pers'] && $atts['pers'] == 1) $popuptemplate.= '<th>'.__('Persons', 'easyReservations').'</th>';
 	$popuptemplate.= '<th>'.__('Price', 'easyReservations').'</th>';
 	$popuptemplate.= '<th></th></tr></thead><tbody id="easy_overlay_tbody"></tbody></table></div>';
-	$popuptemplate.= '<input onclick="easyAddAnother();" type="button" value="'.__('Add another reservation', 'easyReservations').'">';
-	$popuptemplate.= '<input class="easy_overlay_submit"  type="button" onclick="easyFormSubmit(1);" value="'.__('Submit all reservations', 'easyReservations').'">';
+	$popuptemplate.= '<div class="row submit-reservation"><input class="btn btn-default" onclick="easyAddAnother();" type="button" value="'.__('Add another reservation', 'easyReservations').'">';
+	$popuptemplate.= '<input class="btn btn-primary easy_overlay_submit"  type="button" onclick="easyFormSubmit(1);" value="'.__('Submit all reservations', 'easyReservations').'"></div>';
 
-	$easyreservations_script.= str_replace(array("\n","\r"), '', trim('var easyReservationAtts = '.json_encode($atts).';var easyInnerlayTemplate = "'.addslashes($popuptemplate).'";'));;
+	$easyreservations_script.= str_replace(array("\n","\r"), '', trim('var easyReservationAtts = '.json_encode($atts).';var easyInnerlayTemplate = "'.addslashes($popuptemplate).'";'));
 	if(!empty($atts['datefield'])) define('EASYDATEFIELD', $atts['datefield']);
 	add_action('wp_print_footer_scripts', 'easyreservations_make_datepicker');
 	if(isset($final)) return $final;
@@ -467,7 +468,7 @@ function reservations_form_shortcode($atts){
 			if($content == 1 && is_numeric($info_box['content'])) $all_rooms[$key]['post_content'] = html_entity_decode(strip_tags(substr( $all_rooms[$key]['post_content'], 0 , $info_box['content'])));
 			if($excerpt == 1){
 				$content_post = get_post($resource->ID);
-				$all_rooms[$key]['excerpt'] = $content_post->post_excerpt;	
+				$all_rooms[$key]['excerpt'] = $content_post->post_excerpt;
 			}
 		}
 		$all_rooms = json_encode($all_rooms);

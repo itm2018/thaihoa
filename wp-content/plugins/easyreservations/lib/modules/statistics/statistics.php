@@ -647,18 +647,24 @@ EOF;
 			<?php echo easyreservations_statistics_mini(false,1); ?>
 		</div>
 		<div id="er-dash-navi" style="width:100%;padding:4px;">
-			<a id="current" name="sendajax" style="cursor:pointer" onclick="navibackground(this)">Current</a> | 
-			<a id="leaving" name="sendajax" style="cursor:pointer" onclick="navibackground(this)">Leaving today</a> | 
-			<a id="arrival" name="sendajax" style="cursor:pointer" onclick="navibackground(this)">Arrival today</a> | 
-			<a id="pending" name="sendajax" style="cursor:pointer;font-size:12px;" onclick="navibackground(this)">Pending <b><?php echo $pen; ?></b></a> | 
-			<a id="future" name="sendajax" style="cursor:pointer" onclick="navibackground(this)">Future</a>
+			<a id="current" name="sendajax" style="cursor:pointer" onclick="navibackground(this)"><?php _e('Current', 'easyReservations')?></a> |
+			<a id="leaving" name="sendajax" style="cursor:pointer" onclick="navibackground(this)"><?php _e('Departure today', 'easyReservations')?></a> |
+			<a id="arrival" name="sendajax" style="cursor:pointer" onclick="navibackground(this)"><?php _e('Arrival today', 'easyReservations')?></a> |
+			<a id="pending" name="sendajax" style="cursor:pointer;font-size:12px;" onclick="navibackground(this)"><?php _e('Pending', 'easyReservations')?> <b><?php echo $pen; ?></b></a> |
+			<a id="future" name="sendajax" style="cursor:pointer" onclick="navibackground(this)"><?php _e('Future', 'easyReservations')?></a>
 			<span id="er-loading" style="float:right;"></span>
 		</div>
 		<div id="easy-dashboard-div"></div><?php
 	}
 
 	function easyreservations_add_dashboard_widgets() {
-		wp_add_dashboard_widget('easyreservations_dashboard_widget', 'easyReservations Dashboard Widget', 'easyreservations_dashboard_widget_function');	
+	    /*
+	     * cahs add check permission
+	     */
+	    $user = wp_get_current_user();
+	    if ( in_array( 'administrator', (array) $user->roles ) ) {
+		    wp_add_dashboard_widget('easyreservations_dashboard_widget', __('easyReservations Dashboard Widget', 'easyReservations'), 'easyreservations_dashboard_widget_function');
+		}
 	}
 
 	/* *
@@ -732,7 +738,7 @@ EOF;
 				$table .= '<tr class="'.$class.'">';
 					$table .= '<td><a href="admin.php?page=reservations&view='.$res->id.'">'.$res->name.'</a></td>';
 					$table .= '<td>'.date(RESERVATIONS_DATE_FORMAT, $res->arrival).' - '.date(RESERVATIONS_DATE_FORMAT, $res->departure).' ('.$res->times.')</td>';
-					$table .= '<td>'.__($the_rooms_array[$res->resource]->post_title).'</td>';
+					$table .= '<td>'.WPGlobus_Core::extract_text(__($the_rooms_array[$res->resource]->post_title)).'</td>';
 					$table .= '<td style="text-align:center;">'.$res->adults.' ('.$res->childs.')</td>';
 					$table .= '<td style="text-align:right">'.$res->formatPrice(true).'</td>';
 				$table .= '</tr>';

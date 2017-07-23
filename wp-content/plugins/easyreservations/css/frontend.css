@@ -81,7 +81,7 @@ div.easy_infobox_border.only-image img {
 	display:none;
 	position:absolute;
 	margin-top:50px;
-	background:#fff;
+	/*background:#fff;*/
 	border:1px solid #b5b5b5;
 	padding:10px;
 	color:#000;
@@ -128,7 +128,7 @@ div.easy_infobox_border.only-image img {
 
 #easyFormInnerlay input[type="button"] {
 	margin-top:10px;
-	width:48%;
+	width:46%;
 }
 
 #easyFormInnerlay .easy_overlay_submit {
@@ -138,7 +138,7 @@ div.easy_infobox_border.only-image img {
 #easy_overlay_table {
 	width: 99%;
 	margin:0px;
-	border-bottom: 0px;
+	/*border-bottom: 0px;*/
 	border-collapse: collapse;
 }
 
@@ -195,7 +195,7 @@ div.easy_infobox_border.only-image img {
 	border-radius: 0px;
 }
 
-#easyFormInnerlay input[type="button"] {
+/*#easyFormInnerlay input[type="button"] {
 	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
 	box-shadow:inset 0px 1px 0px 0px #ffffff;
@@ -210,10 +210,10 @@ div.easy_infobox_border.only-image img {
 	line-height:1.1;
 	font-size:12px;
 	font-weight:bold;
-	padding:8px 16px;
+	!*padding:8px 16px;*!
 	text-decoration:none;
 	cursor:pointer;
-}
+}*/
 #easyFormInnerlay input[type="button"]:hover {
 	-moz-box-shadow: 0px 0px 5px #bfbfbf;
 	-webkit-box-shadow: 0px 0px 5px #bfbfbf;
@@ -332,4 +332,14 @@ span.creditor {
 
 .captcha-image {
     background-color:#fff;
+}
+.table-responsive{
+	padding-right: 10px;
+}
+.submit-reservation{
+	padding-right: 12px;
+}
+
+#easybackbutton{
+	float: right;
 }

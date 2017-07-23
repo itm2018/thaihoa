@@ -88,7 +88,7 @@ function easyInnerlay(content,add){
 	if(!add){
 		add = true;
 		if(easyReservationAtts['cancel'] != ""){
-			jQuery('#easybackbutton').html('<input type="button" class="easy-button back" value="'+easyReservationAtts['cancel']+'" onclick="easyOverlayDimm(0);easyInnerlay(1,342);">');
+			jQuery('#easybackbutton').html('<input type="button" class="btn btn-default back" value="'+easyReservationAtts['cancel']+'" onclick="easyOverlayDimm(0);easyInnerlay(1,342);">');
 		}
 	} else {
 		easyDoAdd = false;

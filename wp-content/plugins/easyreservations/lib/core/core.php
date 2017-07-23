@@ -382,7 +382,7 @@ License:GPL2
 									}
 								}
 								echo '</table>'; ?>
-					<table class="<?php echo RESERVATIONS_STYLE; ?> easy-modules-table" style="min-width:300px;width:300px;margin-top:5px;margin-right:5px;float:left;text-align:left;">
+					<table class="<?php echo RESERVATIONS_STYLE; ?> easy-modules-table login-to-premium-reservation" style="min-width:300px;width:300px;margin-top:5px;margin-right:5px;float:left;text-align:left;">
 						<thead>
 							<tr>
 								<th><?php if($login) echo __( 'Premium Login' , 'easyReservations' ); else echo __( 'Premium Features' , 'easyReservations' ); ?>
@@ -430,7 +430,7 @@ License:GPL2
 							</tr>
 						</tbody>
 					</table>
-					<table class="<?php echo RESERVATIONS_STYLE; ?> easy-modules-table" style="width:200px;margin-top:5px">
+					<table class="<?php echo RESERVATIONS_STYLE; ?> easy-modules-table manually-setup-reservation-module" style="width:200px;margin-top:5px">
 						<thead>
 							<tr>
 								<th><?php echo __( 'Install or Update Module manually' , 'easyReservations' );?></th>

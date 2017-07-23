@@ -330,19 +330,19 @@ if(is_admin()){
 							</tr>
 							<tr>
 								<td style="font-weight:bold">Secret Key</td>
-								<td><input type="text" name="stripe_seckey" value="<?php echo $ccoptions['stripe']['seckey']; ?>"></td>
+								<td><input type="text" name="stripe_seckey" value="<?php echo (!empty($ccoptions['stripe']['seckey']) ? $ccoptions['stripe']['seckey'] : ''); ?>"></td>
 							</tr>
 							<tr class="alternate">
 								<td style="font-weight:bold">Publishable Key</td>
-								<td><input type="text" name="stripe_pubkey" value="<?php echo $ccoptions['stripe']['pubkey']; ?>"></td>
+								<td><input type="text" name="stripe_pubkey" value="<?php echo !empty($ccoptions['stripe']['pubkey']) ? $ccoptions['stripe']['pubkey'] : '' ; ?>"></td>
 							</tr>
 							<tr>
 								<td style="font-weight:bold"><?php echo __( 'Description' , 'easyReservations' );?></td>
 								<td>
 									<?php echo __( 'Attach transaction to' , 'easyReservations' );?> 
 									<select name="stripe_desc">
-										<option <?php selected( $ccoptions['stripe']['desc'], 'email' ); ?> value="email"><?php echo __( 'Email' , 'easyReservations' );?></option>
-										<option <?php selected( $ccoptions['stripe']['desc'], 'name' ); ?> value="name"><?php echo __( 'Name' , 'easyReservations' ); ?></option>
+										<option <?php selected( (!empty($ccoptions['stripe']['desc']) ? $ccoptions['stripe']['desc'] : null), 'email' ); ?> value="email"><?php echo __( 'Email' , 'easyReservations' );?></option>
+										<option <?php selected( (!empty($ccoptions['stripe']['desc']) ? $ccoptions['stripe']['desc'] : null), 'name' ); ?> value="name"><?php echo __( 'Name' , 'easyReservations' ); ?></option>
 									</select> 
 									<?php echo __( 'in Stripes system' , 'easyReservations' );?>
 								</td>
@@ -379,9 +379,11 @@ if(is_admin()){
 						<tbody>
 							<tr>
 								<td colspan="2">
-									This function saves the credit card information's in the database. That is a heavy security risk and it's always recommend to use a payment gateway instead.<br>
+									<?php
+                                    _e("This function saves the credit card information's in the database. That is a heavy security risk and it's always recommend to use a payment gateway instead.<br>
 									They cover the transaction and more important they take the <strong>legal responsibility</strong> to secure the information’s. If you're using this function you are responsible.<br>
-									Only use this function with <strong><a href="http://wordpress.org/extend/plugins/wordpress-https/" target="_blank">HTTPS</a></strong> (SSL Certificate required) and delete the credit card information's directly to reduce the possible damage. The CCV's aren't allowed to be saved at all.<br>
+									Only use this function with <strong><a href=\"http://wordpress.org/extend/plugins/wordpress-https/\" target=\"_blank\">HTTPS</a></strong> (SSL Certificate required) and delete the credit card information's directly to reduce the possible damage. The CCV's aren't allowed to be saved at all.", 'easyReservations')
+                                    ?><br>
 									<?php if(isset($error) && !empty($error)){?>
 										<span style="color:#f00"><?php echo $error; ?></span>
 									<?php } ?>
@@ -396,7 +398,7 @@ if(is_admin()){
 							<tr>
 								<td style="font-weight:bold"><?php echo __( 'Owner' , 'easyReservations' );?></td>
 								<td>
-									<input type="checkbox" name="ccname" value="1" <?php checked($ccoptions['name'], 1); ?>> <?php echo __( 'Ask for name of card holder' , 'easyReservations' );?>
+									<input type="checkbox" name="ccname" value="1" <?php checked((!empty($ccoptions['name'])?$ccoptions['name']:null), 1); ?>> <?php echo __( 'Ask for name of card holder' , 'easyReservations' );?>
 								</td>
 							</tr>
 							<tr class="alternate">

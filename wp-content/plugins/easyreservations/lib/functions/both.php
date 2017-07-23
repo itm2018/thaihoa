@@ -388,10 +388,10 @@
 			$custom_field = $custom_fields['fields'][$id];
 			if($custom_field['type'] == 'text'){
 				$value = $sel ? $sel : '';
-				$form_field = '<input type="text" name="easy-new-custom-'.$id.'" id="easy-new-custom-'.$id.'" value="'.$value.'" '.$after.'>';
+				$form_field = '<input type="text" name="easy-new-custom-'.$id.'" id="easy-new-custom-'.$id.'" value="'.$value.'" '.$after.' maxlength="191">';
 			} elseif($custom_field['type'] == 'area'){
 				$value = $sel ? $sel : '';
-				$form_field = '<textarea name="easy-new-custom-'.$id.'" id="easy-new-custom-'.$id.'"'.$after.'>'.$value.'</textarea>';
+				$form_field = '<textarea name="easy-new-custom-'.$id.'" id="easy-new-custom-'.$id.'"'.$after.' maxlength="1000">'.$value.'</textarea>';
 			} elseif($custom_field['type'] == 'check'){
 				foreach($custom_field['options'] as $opt_id => $option){
 					$checked = $sel || (!$sel && isset($option['checked'])) ? ' checked="checked"' : '';
@@ -556,6 +556,17 @@
 		if(file_exists(WP_PLUGIN_DIR . '/easyreservations/css/custom/calendar.css')) wp_register_style('easy-cal-custom', WP_PLUGIN_URL . '/easyreservations/css/custom/calendar.css', array(), RESERVATIONS_VERSION); // custom form style override
 		wp_register_style('easy-cal-1', WP_PLUGIN_URL . '/easyreservations/css/calendar/style_1.css', array(), RESERVATIONS_VERSION);
 		wp_register_style('easy-cal-2', WP_PLUGIN_URL . '/easyreservations/css/calendar/style_2.css', array(), RESERVATIONS_VERSION);
+
+		/*
+		 * cuppa
+		 */
+		/*wp_register_script('cuppa-calendar', WP_PLUGIN_URL . '/easyreservations/assets/cuppa/js/cuppa-calendar.js',array(), RESERVATIONS_VERSION);
+		wp_register_script('cuppa-calendar-moment', WP_PLUGIN_URL . '/easyreservations/assets/cuppa/js/lib/moment.js',array(), RESERVATIONS_VERSION);
+        wp_register_style('cuppa-font', WP_PLUGIN_URL . '/easyreservations/assets/cuppa/css/font-awesome.min.css',array(), RESERVATIONS_VERSION);
+        wp_register_style('cuppa-datepicker-styles', WP_PLUGIN_URL . '/easyreservations/assets/cuppa/css/cuppa-datepicker-styles.css',array(), RESERVATIONS_VERSION);
+        wp_register_style('cuppa-styles', WP_PLUGIN_URL . '/easyreservations/assets/cuppa/css/main.css',array(), RESERVATIONS_VERSION);*/
+
+
 	}
 
 	function easyreservations_register_scripts_both(){
@@ -565,6 +576,7 @@
 		wp_register_script('easyreservations_js_both', WP_PLUGIN_URL.'/easyreservations/js/both.js' , array( "jquery" ), RESERVATIONS_VERSION);
 		wp_localize_script('easyreservations_js_both', 'easy_both', array('date_format' => RESERVATIONS_DATE_FORMAT, 'time' => time(), 'offset' => date("Z")));
 		wp_enqueue_script('easyreservations_js_both');
+
 	}
 
 	add_action('admin_enqueue_scripts', 'easyreservations_register_scripts_both');
@@ -645,9 +657,9 @@
 		$daynamesmin = '["'.$function($daysnames[6],0, 2).'","'.$function($daysnames[0],0, 2).'","'.$function($daysnames[1],0, 2).'","'.$function($daysnames[2],0, 2).'","'.$function($daysnames[3],0, 2).'","'.$function($daysnames[4],0, 2).'","'.$function($daysnames[5],0, 2).'"]';
 		$monthes = easyreservations_get_date_name(1,0,false,true);
 		$monthnames =  '["'.$monthes[0].'","'.$monthes[1].'","'.$monthes[2].'","'.$monthes[3].'","'.$monthes[4].'","'.$monthes[5].'","'.$monthes[6].'","'.$monthes[7].'","'.$monthes[8].'","'.$monthes[9].'","'.$monthes[10].'","'.$monthes[11].'"]';
-		$monthnamesshort =  '["'.$function($monthes[0],0,3).'","'.$function($monthes[1],0,3).'","'.$function($monthes[2],0,3).'","'.$function($monthes[3],0,3).'","'.$function($monthes[4],0,3).'","'.$function($monthes[5],0,3).'","'.$function($monthes[6],0,3).'","'.$function($monthes[7],0,3).'","'.$function($monthes[8],0,3).'","'.$function($monthes[9],0,3).'","'.$function($monthes[10],0,3).'","'.$function($monthes[11],0,3).'"]';
+		$monthnamesshort =  '["'.$function($monthes[0],0,3).'","'.$function($monthes[1],0,3).'","'.$function($monthes[2],0,3).'","'.$function($monthes[3],0,3).'","'.$function($monthes[4],0,3).'","'.$function($monthes[5],0,3).'","'.$function($monthes[6],0,3).'","'.$function($monthes[7],0,3).'","'.$function($monthes[8],0,3).'","'.$function($monthes[9],0,4).'","'.$function($monthes[10],0,4).'","'.$function($monthes[11],0,4).'"]';
 		$translations = <<<EOF
-dayNames: $daynames,
+            dayNames: $daynames,
 			dayNamesShort: $daynamesshort,
 			dayNamesMin: $daynamesmin,
 			monthNames: $monthnames,
@@ -679,6 +691,9 @@ EOF;
 				var dates = jQuery( "$jquery" ).datepicker({
 					dateFormat: '$dateformat',
 					minDate: 0,
+					dayNamesMin: ["CN", "T2", "T3", "T4", "T5", "T6", "T7"],
+					monthNames: ["1","2","3","4","5","6","7","8","9","10","11","12"],
+                    monthNamesShort: ["1","2","3","4","5","6","7","8","9","10","11","12"],
 					beforeShowDay: function(date){
 						if($search == 2 && window.easydisabledays ){
 								return easydisabledays(date, jQuery(this).parents("form:first").find( "[name=easyroom],#room" ).val());

@@ -207,7 +207,8 @@ function reservation_settings_page(){
 		</a></li>
 		<li><a <?php if(isset($ifemailcurrent)) echo $ifemailcurrent; ?> href="admin.php?page=reservation-settings&site=email"><img style="vertical-align:text-bottom ;" src="<?php echo RESERVATIONS_URL; ?>images/email.png"> <?php printf ( __( 'Emails' , 'easyReservations' ));?></a></li>
 		<?php do_action( 'er_set_tab_add' ); ?>
-		<li><a <?php if(isset($ifaboutcurrent)) echo $ifaboutcurrent; ?> href="admin.php?page=reservation-settings&site=about"><img style="vertical-align:text-bottom ;" src="<?php echo RESERVATIONS_URL; ?>images/logo.png"> <?php printf ( __( 'About' , 'easyReservations' ));?></a></li>
+        <!--  tat tab about -->
+<!--		<li><a --><?php //if(isset($ifaboutcurrent)) echo $ifaboutcurrent; ?><!-- href="admin.php?page=reservation-settings&site=about"><img style="vertical-align:text-bottom ;" src="--><?php //echo RESERVATIONS_URL; ?><!--images/logo.png"> --><?php //printf ( __( 'About' , 'easyReservations' ));?><!--</a></li>-->
 	</ul>
 </div>
 <?php do_action( 'er_add_settings_top' );
@@ -282,30 +283,30 @@ if($setting_current_page == "general"){
 			 do_action( 'er_set_main_out' ); ?>
 			</td><td style="width:1%;" valign="top">
 			</td><td style="width:29%;" valign="top">
-				<table class="<?php echo RESERVATIONS_STYLE; ?>" style="width:100%;margin-bottom:7px;" cellspacing="0" cellpadding="0" style="background:#fff;">
-					<thead>
-						<tr>
-							<th colspan="2"> <?php printf ( __( 'Status' , 'easyReservations' ));?></th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td style="font-weight:bold;padding:10px;text-align:center"><span style="width:20%;display: inline-block">Version: <?php echo RESERVATIONS_VERSION; ?></span><span style="width:30%;display: inline-block">Last update: 09.07.2017</span><span style="width:30%;display: inline-block">written by Feryaz Beer</span></td>
-						</tr>
-						<tr class="alternate">
-							<td style="font-size:14px;text-align:center;font-weight:bold;padding:10px"><a href="http://easyreservations.org/knowledgebase/" target="_blank" id="iddocumentation"><?php echo __( 'Documentation' , 'easyReservations' );?></a></td>
-						</tr>
-						<tr>
-							<td style="font-size:14px;text-align:center;font-weight:bold;padding:10px"><a href="http://easyreservations.org/forums/forum/bug-reports/" target="_blank" id="idbugreport"><?php echo __( 'Report bug' , 'easyReservations' );?></a></td>
-						</tr>
-						<tr class="alternate"> 
-							<td style="font-size:14px;text-align:center;font-weight:bold;padding:10px"><a href="http://easyreservations.org/premium/" target="_blank" id="idpremium"><?php echo __( 'Premium' , 'easyReservations' );?></a></td>
-						</tr>
-						<tr>
-							<td style="font-size:14px;text-align:center;font-weight:bold;padding:10px"><a href="http://wordpress.org/extend/plugins/easyreservations/" target="_blank" id="idrate"><?php echo __( 'Rate the Plugin' , 'easyReservations' );?>, please!</a></td>
-						</tr>
-					</tbody>
-				</table>
+<!--				<table class="--><?php //echo RESERVATIONS_STYLE; ?><!--" style="width:100%;margin-bottom:7px;" cellspacing="0" cellpadding="0" style="background:#fff;">-->
+<!--					<thead>-->
+<!--						<tr>-->
+<!--							<th colspan="2"> --><?php //printf ( __( 'Status' , 'easyReservations' ));?><!--</th>-->
+<!--						</tr>-->
+<!--					</thead>-->
+<!--					<tbody>-->
+<!--						<tr>-->
+<!--							<td style="font-weight:bold;padding:10px;text-align:center"><span style="width:20%;display: inline-block">Version: --><?php //echo RESERVATIONS_VERSION; ?><!--</span><span style="width:30%;display: inline-block">Last update: 09.07.2017</span><span style="width:30%;display: inline-block">written by Feryaz Beer</span></td>-->
+<!--						</tr>-->
+<!--						<tr class="alternate">-->
+<!--							<td style="font-size:14px;text-align:center;font-weight:bold;padding:10px"><a href="http://easyreservations.org/knowledgebase/" target="_blank" id="iddocumentation">--><?php //echo __( 'Documentation' , 'easyReservations' );?><!--</a></td>-->
+<!--						</tr>-->
+<!--						<tr>-->
+<!--							<td style="font-size:14px;text-align:center;font-weight:bold;padding:10px"><a href="http://easyreservations.org/forums/forum/bug-reports/" target="_blank" id="idbugreport">--><?php //echo __( 'Report bug' , 'easyReservations' );?><!--</a></td>-->
+<!--						</tr>-->
+<!--						<tr class="alternate"> -->
+<!--							<td style="font-size:14px;text-align:center;font-weight:bold;padding:10px"><a href="http://easyreservations.org/premium/" target="_blank" id="idpremium">--><?php //echo __( 'Premium' , 'easyReservations' );?><!--</a></td>-->
+<!--						</tr>-->
+<!--						<tr>-->
+<!--							<td style="font-size:14px;text-align:center;font-weight:bold;padding:10px"><a href="http://wordpress.org/extend/plugins/easyreservations/" target="_blank" id="idrate">--><?php //echo __( 'Rate the Plugin' , 'easyReservations' );?><!--, please!</a></td>-->
+<!--						</tr>-->
+<!--					</tbody>-->
+<!--				</table>-->
 				<?php do_action( 'er_set_main_side_top' ); ?>
 				<form method="post" action="admin.php?page=reservation-settings" id="reservation_clean_database">
 					<input type="hidden" name="action" value="reservation_clean_database" id="reservation_clean_database">
@@ -582,12 +583,12 @@ if($setting_current_page == "general"){
 	                  error_title: {
 	                      title: '<?php echo addslashes(__( 'Title' , 'easyReservations' ));?>',
 	                      input: 'text',
-	                      default: 'Errors found in the form'
+	                      default: <?php echo __('Errors found in the form', 'easyReservations')?>
 	                  },
 	                  error_message: {
 	                      title: '<?php echo addslashes(__( 'Message' , 'easyReservations' ));?>',
 	                      input: 'textarea',
-	                      default: 'There is a problem with the form, please check and correct the following:'
+	                      default: <?php echo __('There is a problem with the form, please check and correct the following:', 'easyReservations')?>
 	                  },
 	                  style: style,
 	                  title: title
@@ -1246,7 +1247,7 @@ if($setting_current_page == "general"){
 	$table .= '<th>'.__('Title', 'easyReservations').'</th>';
 	$table .= '<th>'.__('Type', 'easyReservations').'</th>';
 	$table .= '<th>'.__('Value', 'easyReservations').'</th>';
-	$table .= '<th colspan="2">'.__('Else', 'easyReservations').'</th>';
+	$table .= '<th colspan="2">'.__('Action', 'easyReservations').'</th>';
 	$table .= '</tr>';
 	$table .= '</thead>';
 	$table .= '<tbody>';
@@ -1278,8 +1279,8 @@ if($setting_current_page == "general"){
 					$table .= $custom_field['value'];
 			}
 			$table .= '</td><td>'.$custom_field['unused'].'</td><td>';
-			$table .= '<a href="javascript:custom_edit(\''.$key.'\');"><img style="vertical-align:middle;" src="'.RESERVATIONS_URL.'/images/edit.png"></a>';
-			$table .= '<a href="'.wp_nonce_url('admin.php?page=reservation-settings&site=custom&delete='.$key, 'easy-delete-custom').'"><img style="vertical-align:middle;" src="'.RESERVATIONS_URL.'/images/delete.png"></a>';
+			$table .= '<a href="javascript:custom_edit(\''.$key.'\');"><img style="vertical-align:middle;" src="'.RESERVATIONS_URL.'/images/edit.png" title="'.__('edit', 'easyReservations').'"></a>&nbsp;&nbsp;&nbsp;';
+			$table .= '<a href="'.wp_nonce_url('admin.php?page=reservation-settings&site=custom&delete='.$key, 'easy-delete-custom').'"><img style="vertical-align:middle;" src="'.RESERVATIONS_URL.'/images/delete.png" title="'.__('delete', 'easyReservations').'"></a>';
 			$table .= '</td></tr>';
 		}
 	} else $table .= '<tr><td colspan="5 ">'.__('No custom fields defined', 'easyReservations').'</td></tr>';

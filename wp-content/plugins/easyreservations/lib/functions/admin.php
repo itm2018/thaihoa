@@ -16,7 +16,7 @@ function easyreservations_add_pages(){  //  Add Pages Admincenter and Order them
 	if($pending_reservations_cnt != 0) $pending = '<span class="update-plugins count-'.$pending_reservations_cnt.'"><span class="plugin-count">'.$pending_reservations_cnt.'</span></span>';
 	else $pending = '';
 
-	add_menu_page(__('easyReservation','easyReservations'), __('Reservation','easyReservations').' '.$pending, $dashboard, 'reservations', 'reservation_main_page', RESERVATIONS_URL.'/images/logo.png' );
+	add_menu_page(__('easyReservation','easyReservations'), __('Reservation','easyReservations').' '.$pending, $dashboard, 'reservations', 'reservation_main_page', RESERVATIONS_URL.'/images/logo.png', 3);
 	add_submenu_page('reservations', __('Dashboard','easyReservations'), __('Dashboard','easyReservations'), $dashboard, 'reservations', 'reservation_main_page');
 	add_submenu_page('reservations', __('Resources','easyReservations'), __('Resources','easyReservations'), $resources, 'reservation-resources', 'reservation_resources_page');
 	do_action('easy-add-submenu-page');
@@ -384,7 +384,7 @@ if(isset($_GET['page'])){
 						$check = '';
 						if($reservations_show_rooms == '') $check= 'checked';
 						elseif( substr_count($reservations_show_rooms, $raum->ID) > 0) $check = 'checked';
-						$current.='<label><input type="checkbox" name="overview_show_rooms['.$theNumber.']" value="'.$raum->ID.'" '.$check.'> '.__($raum->post_title).'</label><br>';
+						$current.='<label><input type="checkbox" name="overview_show_rooms['.$theNumber.']" value="'.$raum->ID.'" '.$check.'> '.WPGlobus_Core::extract_text(__($raum->post_title)).'</label><br>';
 					}
 				$current .= '</p>';
 				$current .= '<p style="float:left;">';
@@ -438,11 +438,38 @@ if(isset($_GET['page'])){
 	function easyreservations_dashboard_message(){
 		global $easy_errors;
 		if(!empty($easy_errors)){
+            /**
+             * alertify
+             */
+            wp_register_script('alertifyjs', WP_PLUGIN_URL . '/easyreservations/assets/alertifyjs/alertify.min.js',array(), RESERVATIONS_VERSION);
+            wp_register_style('alertifyjs', WP_PLUGIN_URL . '/easyreservations/assets/alertifyjs/css/alertify.min.css',array(), RESERVATIONS_VERSION);
+            wp_enqueue_script('alertifyjs');
+            wp_enqueue_style('alertifyjs');
+
 			foreach($easy_errors as $error){
-				if(!is_array($error)) $error = array('error', $error);
-				elseif(!isset($error[1])){ $error[1] = $error[0]; $error[0] = 'error'; }
-				echo '<div class="'.$error[0].'" style="margin-top:-5px !important"><p>'.$error[1].'</p></div>';
+
+				if(!is_array($error)){
+				    $error = array('error', $error);
+                }elseif(!isset($error[1])){
+				    $error[1] = $error[0];
+				    $error[0] = 'error';
+				}
+				?>
+                    <script type="text/javascript">
+                        jQuery(function() {
+                            <?php if($error[0] == 'updated'): ?>
+                            alertify.success("<?php echo strip_tags($error[1]);?>");
+                            <?php else: ?>
+                            alertify.error("<?php echo strip_tags($error[1]);?>");
+                           <?php endif;?>
+                        });
+                    </script>
+                <?php
+				    echo '<div class="'.$error[0].'" style="margin-top:-5px !important"><p>'.$error[1].'</p></div>';
 			}
+            //alert message for easier catch up errors
+
+
 		}
 	}
 }

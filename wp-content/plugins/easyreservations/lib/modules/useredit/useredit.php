@@ -72,8 +72,8 @@ YOU ARE ALLOWED TO USE AND MODIFY THE FILES, BUT NOT TO SHARE OR RESELL THEM IN 
 			if($place == 'admin' ) $return .= '<select id="easy-chat-mode"><option value="visible">'.__( 'Message to guest', 'easyReservations' ).'</option><option value="hidden">'.__( 'Message to admin or Note', 'easyReservations' ).'</option></select>';
 			$return .= '<input type="hidden" id="easy-chat-nonce" value="'.wp_create_nonce('easy-send-chat').'">';
 			$return .= '<textarea style="width:85%;height:100px;margin:0px 0px 8px 15px;" id="easy-chat-message"></textarea>';
-			if($place == 'admin' ) $return .= '<input type="button" style="float:right;margin-right:15px" class="easy-button" value="Submit" onclick="easyreservations_send_chat(\''.$res->id.'\', \'\', \'\', \'0\', \'add\', \'\', this); return false;">';
-			else $return .= '<input type="button" style="float:right;margin-right:15px" class="easy-button" value="'.__( 'Send', 'easyReservations' ).'" onclick="easyreservations_send_chat(); return false;">';
+			if($place == 'admin' ) $return .= '<input type="button" style="float:right;margin-right:15px" class="button button-primary easy-button" value="'.__( 'Send', 'easyReservations' ).'" onclick="easyreservations_send_chat(\''.$res->id.'\', \'\', \'\', \'0\', \'add\', \'\', this); return false;">';
+			else $return .= '<input type="button" style="float:right;margin-right:15px" class="button button-primary easy-button" value="'.__( 'Send', 'easyReservations' ).'" onclick="easyreservations_send_chat(); return false;">';
 		$return .= '</div>';
 
 		if(($place == 'edit' && $options['mode'] == 2) || ($place == 'admin' && $options['mode'] != 0)) return $return;
@@ -372,8 +372,17 @@ if(is_admin()){
 			<input type="button" value="<?php echo __( 'Save Changes' , 'easyReservations' );?>" onclick="document.getElementById('er_usercp_set').submit(); return false;" style="margin-top:7px;" class="easybutton button-primary" style="margin-top:4px" >
 			<?php
 		$chat_options = get_option('reservations_chat_options');
-		if(!empty($chat_options) && is_array($chat_options)) $options = $chat_options;
-		else $options = array('mode' => 2, 'img' => 1, 'time' => 1, 'title' => 'Speak with us!', 'table' => 1, 'timetodelete' => 3600, 'name' => 1, 'dummy' => 1, 'dummy_user' => 1, 'dummy_message' => 'Thank you for reserving in our hotel. If you have any question feel free to ask.', 'guest_img' => RESERVATIONS_URL.'images/guest.png' ); ?>
+		if(!empty($chat_options) && is_array($chat_options)){
+            $options = $chat_options;
+        } else {
+            $options = array('mode' => 2, 'img' => 1, 'time' => 1,
+                'title' => __('Speak with us!', 'easyReservations'),
+                'table' => 1,
+                'timetodelete' => 3600, 'name' => 1, 'dummy' => 1, 'dummy_user' => 1,
+                'dummy_message' => __('Thank you for reserving in our hotel. If you have any question feel free to ask.', 'easyReservations'),
+                'guest_img' => RESERVATIONS_URL.'images/guest.png' );
+        }
+             ?>
 			<table class="<?php echo RESERVATIONS_STYLE; ?>" style="width:99%;margin-top:7px">
 				<thead>
 					<tr>
@@ -784,7 +793,7 @@ if(is_admin()){
 					$return .= '<input name="easy-user-edit" type="hidden" value="'.wp_create_nonce('easy-user-edit').'">';
 					$return .= '<label>'.__( 'Name' , 'easyReservations' ).'<span class="small">'.__( 'Your name' , 'easyReservations' ).'</span></label><input type="text" name="thename" id="easy-form-thename" onchange="'.$v_action.'" value="'.$res->name.'">';
 					$return .= '<label>'.__( 'Email' , 'easyReservations' ).'<span class="small">'.__( 'Your email' , 'easyReservations' ).'</span></label><input type="text" name="email" id="easy-form-email" onchange="'.$p_action.$v_action.'" value="'.$res->email.'">';
-					$return .= '<label>'.__( 'From' , 'easyReservations' ).'<span class="small">'.__( 'The arrival date' , 'easyReservations' ).'</span></label><span class="row"><input type="text" name="from" style="width:75px" onchange="'.$p_action.$v_action.'" id="easy-form-from" value="'.date(RESERVATIONS_DATE_FORMAT, $res->arrival).'"><select id="date-from-hour" name="date-from-hour" style="width:auto" onchange="'.$p_action.$v_action.'">'.easyreservations_time_options(date('G', $res->arrival)).'</select>:<select id="date-from-min" name="date-from-min" style="width:48px" onchange="'.$p_action.$v_action.'">'.easyreservations_num_options("00", 59, date('i', $res->arrival)).'</select></span>';
+					$return .= '<label>'.__( 'From' , 'easyReservations' ).'<span class="small">'.__( 'The arrival date' , 'easyReservations' ).'</span></label><span class="row"><input type="text" name="from" style="width:75px" onchange="'.$p_action.$v_action.'" id="easy-form-from" class="input-date" value="'.date(RESERVATIONS_DATE_FORMAT, $res->arrival).'"><select id="date-from-hour" name="date-from-hour" style="width:auto" onchange="'.$p_action.$v_action.'">'.easyreservations_time_options(date('G', $res->arrival)).'</select>:<select id="date-from-min" name="date-from-min" style="width:48px" onchange="'.$p_action.$v_action.'">'.easyreservations_num_options("00", 59, date('i', $res->arrival)).'</select></span>';
 					$return .= '<label>'.__( 'To' , 'easyReservations' ).'<span class="small">'.__( 'The departure date' , 'easyReservations' ).'</span></label><span class="row"><input type="text" name="to" style="width:75px" onchange="'.$p_action.$v_action.'" id="easy-form-to" value="'.date(RESERVATIONS_DATE_FORMAT, $res->departure).'"><select id="date-to-hour" name="date-to-hour" style="width:auto"  onchange="'.$p_action.$v_action.'">'.easyreservations_time_options(date('G', $res->departure)).'</select>:<select id="date-to-min" name="date-from-min" style="width:48px" onchange="'.$p_action.$v_action.'">'.easyreservations_num_options("00", 59, date('i', $res->departure)).'</select></span>';
 					$return .= '<label>'.__( 'Persons' , 'easyReservations' ).'<span class="small">'.__( 'Amount of persons' , 'easyReservations' ).'</span></label><select name="persons" id="easy-form-persons" onchange="'.$p_action.$v_action.'">'.easyreservations_num_options(1,50,$res->adults).'</select>';
 					$return .= '<label>'.__( 'Children\'s' , 'easyReservations' ).'<span class="small">'.__( 'Amount of children' , 'easyReservations' ).'</span></label><select name="childs" onchange="'.$p_action.$v_action.'">'.easyreservations_num_options(0,50,$res->childs).'</select>';

@@ -41,11 +41,7 @@ if (!empty($return_page)) {
 				</div>
 <?php endif; // show meta data information ?>
 				<div class="small">
-                    <!--FB like-->
-                    <div class="fb-like" data-href="<?php the_permalink() ;?>" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
-                    <a class="twitter-share-button"
-                       href="https://twitter.com/intent/tweet?text=<?php the_permalink();?>"
-                       data-size="large" ><button type="button" class="btn btn-primary btn-tweet"><i class="fa fa-twitter"> </i><span style="text-transform: capitalize;">Tweet</span></button> </a>
+
 					<?php
 						the_content();
 						wp_link_pages();
@@ -54,6 +50,12 @@ if (!empty($return_page)) {
 						}
 					?>
 <?php if ( comments_open() ) : ?>
+                    <div class="row social-links">
+                        <!--FB like and share-->
+                        <div class="fb-like" data-href="<?php the_permalink() ;?>" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+                        <!--Twitter like-->
+                        <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=<?php the_title() ?> <?php the_permalink();?>" data-size="large" ><button type="button" class="btn btn-primary btn-tweet"><i class="fa fa-twitter"> </i><span style="text-transform: capitalize;">Tweet</span></button> </a>
+                    </div>
 					<div class="sep"><span></span></div>
 					<?php comments_template( '', true ); ?>
 <?php endif; ?>

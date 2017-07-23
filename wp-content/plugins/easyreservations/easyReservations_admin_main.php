@@ -1,6 +1,7 @@
 <?php
 
-function reservation_main_page(){
+function reservation_main_page()
+{
 	wp_enqueue_style( 'datestyle');
 	$main_options = get_option("reservations_main_options");
 	$custom_fields = get_option('reservations_custom_fields');
@@ -169,8 +170,9 @@ function reservation_main_page(){
 				global $easy_errors;
 				if($_POST['copy'] == 'no'){
 					$return = $res->editReservation(array('all'), true, $mail, $res->email);
-					if(!$return) $easy_errors[] = array( 'updated' , __( 'Reservation edited.' , 'easyReservations' ).'</p><p><a href="admin.php?page=reservations">&#8592; Back to Dashboard</a>');
-					else {
+					if ( !$return ) {
+					    $easy_errors[] = array( 'updated' , __( 'Reservation edited.' , 'easyReservations' ));
+					} else {
 						$easy_errors = array_merge_recursive((array) $easy_errors, (array) $return);
 						$res->destroy();
 					}
@@ -936,13 +938,13 @@ if(!isset($approve) && !isset($delete) && !isset($view) && !isset($edit) && !iss
 				if(is_array($roomcount)) $roomcount = $roomcount[0];
 				$rooms += $roomcount;
 			}
-			$queryDepartures = $wpdb->get_results("SELECT id FROM ".$wpdb->prefix ."reservations WHERE NOW() BETWEEN arrival AND departure AND approve='yes'"); // Search query 
+			$queryDepartures = $wpdb->get_results("SELECT id FROM ".$wpdb->prefix ."reservations WHERE NOW() BETWEEN arrival AND departure AND approve='yes'"); // Search query
 		?>
 		<table class="<?php echo RESERVATIONS_STYLE; ?>" style="width:350px;clear:none;margin:0px 10px 10px 0px">
 			<thead>
 				<tr>
 					<th>
-						 <?php echo __( 'What\'s happening today' , 'easyReservations' ); ?><span style="float:right;font-family:Georgia;font-size:16px;vertical-align:middle" title="<?php echo __( 'workload today' , 'easyReservations' ); ?>"><?php if($rooms > 0) echo round((100/$rooms)*count($queryDepartures)); ?><span id="idworkload" style="font-size:22px;vertical-align:middle">%<span></span>
+						 <?php echo __( 'What\'s happening today' , 'easyReservations' ); ?><span style="float:right;font-family:Georgia;font-size:16px;vertical-align:middle" title="<?php echo __( 'workload today' , 'easyReservations' ); ?>"><?php if($rooms > 0) echo round((count($queryDepartures)/$rooms)*100, 1); ?><span id="idworkload" style="font-size:22px;vertical-align:middle">%<span></span>
 					</th>
 				</tr>
 			</thead>
@@ -1170,11 +1172,11 @@ if(isset($edit)){
 			$number_1++;
 			if(isset($custom['id'])){
 				$customfields .= '<tr class="'.$class.'">';
-				$customfields .= '<td style="vertical-align:text-bottom;text-transform: capitalize;" nowrap><img style="vertical-align:text-bottom;" src="'.RESERVATIONS_URL.'/images/message.png"> <b>'.__($custom_fields['fields'][$custom['id']]['title']).'</b> ('.$custom['mode'].') <a href="admin.php?page=reservations&edit='.$edit.'&deletecustomfield='.$key.'"><img style="vertical-align:middle;" src="'.RESERVATIONS_URL.'/images/delete.png"></a> <input type="hidden" name="customtitle'.$key.'" value="'.$custom['title'].'"></td>';
+				$customfields .= '<td style="vertical-align:text-bottom;text-transform: capitalize;" nowrap><img style="vertical-align:text-bottom;" src="'.RESERVATIONS_URL.'/images/message.png"> <b>'.__($custom_fields['fields'][$custom['id']]['title'], 'easyReservations').'</b> ('.$custom['mode'].') <a href="admin.php?page=reservations&edit='.$edit.'&deletecustomfield='.$key.'"><img style="vertical-align:middle;" src="'.RESERVATIONS_URL.'/images/delete.png"></a> <input type="hidden" name="customtitle'.$key.'" value="'.(!empty($custom['title']) ? $custom['title'] : '').'"></td>';
 				$customfields .= '<td>'.easyreservations_generate_custom_field($custom['id'], $custom['value']).'</td></tr>';
 			} else {
 				$customfields .= '<tr class="'.$class.'">';
-				$customfields .= '<td style="vertical-align:text-bottom;text-transform: capitalize;" nowrap><img style="vertical-align:text-bottom;" src="'.RESERVATIONS_URL.'/images/message.png"> <b>'.__($custom['title']).'</b> ('.$custom['mode'].') <a href="admin.php?page=reservations&edit='.$edit.'&deletecustomfield='.$key.'"><img style="vertical-align:middle;" src="'.RESERVATIONS_URL.'/images/delete.png"></a> <input type="hidden" name="customtitle'.$key.'" value="'.$custom['title'].'"></td>';
+				$customfields .= '<td style="vertical-align:text-bottom;text-transform: capitalize;" nowrap><img style="vertical-align:text-bottom;" src="'.RESERVATIONS_URL.'/images/message.png"> <b>'.__($custom['title'], 'easyReservations').'</b> ('.$custom['mode'].') <a href="admin.php?page=reservations&edit='.$edit.'&deletecustomfield='.$key.'"><img style="vertical-align:middle;" src="'.RESERVATIONS_URL.'/images/delete.png"></a> <input type="hidden" name="customtitle'.$key.'" value="'.$custom['title'].'"></td>';
 				$customfields .= '<td><input type="text" name="customvalue'.$key.'" value="'.$custom['value'].'"><input type="hidden" name="custommodus'.$key.'" value="'.$custom['mode'].'"></td></tr>';
 			}
 		}
@@ -1286,7 +1288,8 @@ if(isset($edit)){
 					<tbody id="customPrices">
 					</tbody>
 				</table>
-				<input type="submit" onclick="document.getElementById('editreservation').submit(); return false;" class="easybutton button-primary" value="<?php printf ( __( 'Edit reservation' , 'easyReservations' ));?>"><input type="submit" onclick="document.getElementById('copy').value = 'yes';document.getElementById('editreservation').submit(); return false;" class="button" value="<?php printf ( __( 'Copy' , 'easyReservations' ));?>"><span class="showPrice" style="float:right;"><?php echo __( 'Price' , 'easyReservations' ); ?>: <span id="showPrice" style="font-weight:bold;"><b><?php echo easyreservations_format_money(0,1); ?></b></span></span></div>
+				<input type="submit" onclick="document.getElementById('editreservation').submit(); return false;" class="easybutton button button-primary" value="<?php printf ( __( 'Edit reservation' , 'easyReservations' ));?>">&nbsp;&nbsp;&nbsp;
+				<input type="submit" onclick="document.getElementById('copy').value = 'yes';document.getElementById('editreservation').submit(); return false;" class="button button-default" value="<?php printf ( __( 'Copy' , 'easyReservations' ));?>"><span class="showPrice" style="float:right;"><?php echo __( 'Price' , 'easyReservations' ); ?>: <span id="showPrice" style="font-weight:bold;"><b><?php echo easyreservations_format_money(0,1); ?></b></span></span></div>
 				<div style="width:99%;margin-top:10px;"><?php echo easyreservations_detailed_price($res->history, $res->resource); ?><?php echo $information; ?></div>
 			</td>
 			<td style="width:1%"></td>
@@ -1604,6 +1607,7 @@ if(isset($sendmail)) {
 	if(isset($approve) || isset($delete) || isset($view) || isset($sendmail)) echo '</td></tr></table>';
 }
 
-function easyreservations_restrict_input_dash(){
-	easyreservations_generate_restrict(array(array('#customPamount,input[name^="custom_price"]', true), array('input[name="priceset"],input[name="EDITwaspaid"],input[name="ccnumber"]', false)));
-}?>
+function easyreservations_restrict_input_dash()
+{
+    easyreservations_generate_restrict(array(array('#customPamount,input[name^="custom_price"]', true), array('input[name="priceset"],input[name="EDITwaspaid"],input[name="ccnumber"]', false)));
+} ?>

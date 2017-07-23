@@ -247,7 +247,7 @@ if(!isset($site) || $site=='' || $site =='main'){
 			<tr class="<?php echo $class; ?>"><?php
 				if(function_exists('get_the_post_thumbnail')){ 
 					if(($img=get_the_post_thumbnail($allroom->ID, array(25,25))) != '' ){ ?>
-						<td style="text-align:left; vertical-align:middle;max-width:25px;width:25px;"><a href="post.php?post=<?php echo $allroom->ID; ?>&action=edit" title="<?php echo __( 'edit' , 'easyReservations' ); ?>"><?php echo $img; ?></a></td><?php
+						<td class="thumbnail"><a href="post.php?post=<?php echo $allroom->ID; ?>&action=edit" title="<?php echo __( 'edit' , 'easyReservations' ); ?>"><?php echo $img; ?></a></td><?php
 					} else echo '<td></td>';
 				} ?>
 				<td><a name="thelink" href="admin.php?page=reservation-resources&room=<?php echo $allroom->ID;?>" title="<?php echo __( 'edit ' , 'easyReservations' ).' '.$allroom->post_title; ?>"><?php echo '<b>'.WPGlobus_Core::extract_text(__($allroom->post_title)).'</b>'; ?></a></td>

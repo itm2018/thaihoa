@@ -1,3 +1,25 @@
 .admin-resource-edit img{
     padding: 5px;
 }
+
+table.greyfat tr td{
+    vertical-align:middle;
+}
+table.greyfat tr td.thumbnail{
+    text-align:left;
+    vertical-align:middle;
+    max-width:50px;
+    width:50px;
+}
+table.greyfat tr td:first-child{
+    /*width: 100px;*/
+}
+table.greyfat tr td:first-child a img{
+    height: 50px;
+    width: 50px;
+}
+table.login-to-premium-reservation,
+table.manually-setup-reservation-module{
+    display: none;
+    visibility: hidden;
+}

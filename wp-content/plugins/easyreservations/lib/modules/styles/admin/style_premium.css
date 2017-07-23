@@ -499,3 +499,8 @@ table.statisticstable > tbody > tr > td:nth-child(2) > b { font-family: Arial; f
     display: block;
     padding: 1px 0;
 }
+
+#easy_price_simulator{
+	float: right;
+	max-width: 306px;
+}

@@ -957,8 +957,14 @@
 						$errors = $this->checkRequirements($resource_req, $errors, $mini);
 					}
 				}
-				if(empty($errors)) return false;
-				else return $errors;
+
+				if(empty($errors)){
+				    return false;
+				}else {
+				    return $errors;
+                }
+
+
 			}
 
 			private function checkRequirements($resource_req, $errors, $mini = false){
@@ -1357,10 +1363,10 @@
 					}
 					$return = $wpdb->update( $wpdb->prefix.'reservations', $sql, array('id' => $this->id));
 					if($return === 0){
-						throw new easyException( 'No changes');
+						throw new easyException( __('No changes', 'easyReservations'));
 						return true;
 					} elseif(!$return){
-						throw new easyException( 'Reservation could not be edited. Error: '.mysql_error(), mysql_errno() );
+						throw new easyException( __('Reservation could not be edited. Error:', 'easyReservations').' '.mysql_error(), mysql_errno() );
 						return true;
 					} else return false;
 				}

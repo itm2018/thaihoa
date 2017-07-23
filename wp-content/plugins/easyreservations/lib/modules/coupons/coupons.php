@@ -63,13 +63,13 @@ if(is_admin()){
 				<table class="<?php echo RESERVATIONS_STYLE; ?>" style="width:500px;margin-top: 5px">
 					<thead>
 						<tr>
-							<th colspan="2"><?php printf ( __( 'Add coupon' , 'easyReservations' ));?> <input class="easybutton button-primary" type="button" style="float:right" onclick="document.getElementById('reservation_coupon_settings').submit(); return false;" value="Add"></th>
+							<th colspan="2"><?php printf ( __( 'Add coupon' , 'easyReservations' ));?> <input class="easybutton button-primary" type="button" style="float:right" onclick="document.getElementById('reservation_coupon_settings').submit(); return false;" value="<?php echo __('Add', 'easyReservations')?>"></th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr class="alternate">
 							<td><?php echo __( 'Code' , 'easyReservations' ); ?></td>
-							<td style="text-align:right"><select name="generator"><?php echo easyreservations_num_options(1,32,6); ?></select><a href="javascript:randomString(document.reservation_coupon_settings.generator.value)" class="button">gen</a> <input type="text" name="name"></td>
+							<td style="text-align:right"><select name="generator"><?php echo easyreservations_num_options(1,32,6); ?></select><a href="javascript:randomString(document.reservation_coupon_settings.generator.value)" class="button"><?php echo __("Generate", 'easyReservations')?> >></a> <input type="text" name="name"></td>
 						</tr>
 						<tr>
 							<td><?php echo __( 'From' , 'easyReservations' ); ?></td>

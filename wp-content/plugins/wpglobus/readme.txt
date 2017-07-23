@@ -189,6 +189,22 @@ WPGlobus 1.8.x is required for WordPress 4.8.
 
 == Changelog ==
 
+= 1.8.4 =
+
+* ADDED:
+	* Apply filter to the `url_to_postid()` function so it will return the correct Post ID for URLs in non-default language.
+	* Allow `oembed` to handle URLs in non-default language.
+	* Localize the output of the oembed's JSON.
+
+= 1.8.3 =
+
+* ADDED:
+	* Multilingual editor for the WYSIWYG text widgets (`arbitraryTextOrHTML`).
+	* Customizer: `Customizr Pro` theme added to the list of exceptions.
+	* Admin: additional translations in `ar` and `ro`.
+* FIXED:
+	* Yoast SEO: saving description on the `term.php` page.
+
 = 1.8.2 =
 
 * ADDED:

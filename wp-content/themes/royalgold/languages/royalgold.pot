@@ -1037,3 +1037,19 @@ msgstr ""
 #: ../utils/meta-box/meta-box-config.php:48
 msgid "Additional Images"
 msgstr ""
+
+msgid "Choose your language:"
+msgstr ""
+
+msgid "Vietnamese"
+msgstr ""
+
+msgid "English"
+msgstr ""
+
+msgid "Russian"
+msgstr ""
+
+msgid "Chinese"
+msgstr ""
+

@@ -198,7 +198,7 @@ EOF;
 				}
 			} elseif(!empty($res->custom)){
 				foreach($customs as $custom){
-					if(isset($tags[1]) && $tags[1] == $custom['title']){
+					if(isset($tags[1]) && isset($custom['title']) && $tags[1] == $custom['title']){
 						$content = $custom['value'];
 						break;
 					}
