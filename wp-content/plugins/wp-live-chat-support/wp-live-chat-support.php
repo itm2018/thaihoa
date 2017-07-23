@@ -878,20 +878,20 @@ function wplc_admin_menu() {
 
     /* If user is either an agent or an admin, access the page. */
     if( get_user_meta( $wplc_current_user, 'wplc_ma_agent', true ) || current_user_can("wplc_ma_agent")){
-      $wplc_mainpage = add_menu_page('WP Live Chat', __('Live Chat', 'wplivechat'), $cap[0], 'wplivechat-menu', 'wplc_admin_menu_layout', 'dashicons-format-chat');
+      $wplc_mainpage = add_menu_page('WP Live Chat', __('Live Chat', 'wplivechat'), $cap[0], 'wplivechat-menu', 'wplc_admin_menu_layout', 'dashicons-format-chat', 4);
       add_submenu_page('wplivechat-menu', __('Settings', 'wplivechat'), __('Settings', 'wplivechat'), $cap[1], 'wplivechat-menu-settings', 'wplc_admin_settings_layout');
       add_submenu_page('wplivechat-menu', __('Surveys', 'wplivechat'), __('Surveys', 'wplivechat'). $survey_new, $cap[2], 'wplivechat-menu-survey', 'wplc_admin_survey_layout');
     }
 
     //Only if pro is not active
     if(!function_exists("wplc_pro_reporting_page")){
-    	add_submenu_page('wplivechat-menu', __('Reporting', 'wplivechat'), __('Reporting', 'edit_posts') . ' <span class="update-plugins"><span class="plugin-count">Pro</span></span>', $cap[0], 'wplc-basic-reporting', 'wplc_basic_reporting_page');
+    	add_submenu_page('wplivechat-menu', __('Reporting', 'wplivechat'), __('Reporting', 'wplivechat') . ' <span class="update-plugins"><span class="plugin-count">Pro</span></span>', $cap[0], 'wplc-basic-reporting', 'wplc_basic_reporting_page');
     }
 
 
     //Only if pro is not active
     if(!function_exists("wplc_pro_triggers_page")){
-    	add_submenu_page('wplivechat-menu', __('Triggers', 'wplivechat'), __('Triggers', 'edit_posts') . ' <span class="update-plugins"><span class="plugin-count">Pro</span></span>', $cap[0], 'wplc-basic-triggers', 'wplc_basic_triggers_page');
+    	add_submenu_page('wplivechat-menu', __('Triggers', 'wplivechat'), __('Triggers', 'wplivechat') . ' <span class="update-plugins"><span class="plugin-count">Pro</span></span>', $cap[0], 'wplc-basic-triggers', 'wplc_basic_triggers_page');
     }
 
     /* only if user is both an agent and an admin that has the cap assigned, can they access these pages */
@@ -2090,6 +2090,7 @@ function wplc_filter_control_live_chat_box_html_1st_layer($wplc_settings,$logged
     $ret_msg .= $wplc_tl_msg;
   } else {
     $wplc_na = __('Chat offline. Leave a message', 'wplivechat');
+    var_dump($wplc_using_locale);
     $wplc_tl_msg = "<span class='wplc_offline'>" . ($wplc_using_locale ? $wplc_na : stripslashes($wplc_settings['wplc_pro_na'])) . "</span>";
     $ret_msg .= $wplc_tl_msg;
   }
@@ -5518,23 +5519,23 @@ function wplc_hook_control_admin_settings_chat_box_settings_after() {
 function wplc_basic_reporting_page(){
 
 	$content = "<div class='wrap'>";
-    $content .= "<h2>".__('WP Live Chat Support Reporting', 'wp-livechat')." (beta) </h2>";
+    $content .= "<h2>".__('WP Live Chat Support Reporting', 'wplivechat')." (beta) </h2>";
 	$content .= "<table class=\"wp-list-table widefat fixed form-table\" cellspacing=\"0\" style='width:98%'>";
 	$content .= 	"<tr>";
 	$content .= 		"<td style='width:35%; vertical-align:top;'>";
 	$content .= 			"<img class='reporting_img_main' style='width:99%; height:auto; padding:2px; border:1px lightgray solid;box-shadow: 3px 3px 2px -2px #999;-webkit-box-shadow: 3px 3px 2px -2px #999;-moz-box-shadow: 3px 3px 2px -2px #999;-o-box-shadow: 3px 3px 2px -2px #999;' src='".plugins_url('/images/reporting_sample.jpg', __FILE__)."'>";
 	$content .= 		"</td>";
 	$content .= 		"<td style='vertical-align:top;'>";
-	$content .= 			"<h3>".__('WP Live Chat Support Reporting', 'wp-livechat')."</h3>";
-	$content .= 			"<p>".__('View comprehensive reports regarding your chat and agent activity.', 'wp-livechat')."</p>";
+	$content .= 			"<h3>".__('WP Live Chat Support Reporting', 'wplivechat')."</h3>";
+	$content .= 			"<p>".__('View comprehensive reports regarding your chat and agent activity.', 'wplivechat')."</p>";
 	
 	
-	$content .= 			"<br><p><strong>".__('Reports', 'wp-livechat').":</strong></p>";
+	$content .= 			"<br><p><strong>".__('Reports', 'wplivechat').":</strong></p>";
 	$content .= 			"<ul style='list-style: inherit;margin-left: 22px;'>";
-	$content .= 				"<li>".__('Chat statistics', 'wp-livechat')."</li>";
-	$content .= 				"<li>".__('Popular pages', 'wp-livechat')."</li>";
-	$content .= 				"<li>".__('ROI reporting and tracking (identify which agents produce the most sales)', 'wp-livechat')."</li>";
-	$content .= 				"<li>".__('User experience ratings (identify which agents produce the happiest customers)', 'wp-livechat')."</li>";			
+	$content .= 				"<li>".__('Chat statistics', 'wplivechat')."</li>";
+	$content .= 				"<li>".__('Popular pages', 'wplivechat')."</li>";
+	$content .= 				"<li>".__('ROI reporting and tracking (identify which agents produce the most sales)', 'wplivechat')."</li>";
+	$content .= 				"<li>".__('User experience ratings (identify which agents produce the happiest customers)', 'wplivechat')."</li>";			
 	$content .= 			"</ul>";
 
 	if (function_exists("wplc_pro_activate")) {
@@ -5544,7 +5545,7 @@ function wplc_basic_reporting_page(){
 			$content .=  "<br><a title='Update Now' href='./update-core.php' style='width: 200px;height: 58px;text-align: center;line-height: 56px;font-size: 18px;' class='button button-primary'>".__("Update now" ,"wplivechat")."</a>";
         }
 	} else {
-		$content .= 			"<p>".__('Get all this and more in the ', 'wp-livechat')."<a href='https://www.wp-livechat.com/purchase-pro/?utm_source=plugin&utm_medium=link&utm_campaign=reporting' target='_BLANK'>".__("Pro add-on", "wplivechat")."</a></p>";
+		$content .= 			"<p>".__('Get all this and more in the ', 'wplivechat')."<a href='https://www.wp-livechat.com/purchase-pro/?utm_source=plugin&utm_medium=link&utm_campaign=reporting' target='_BLANK'>".__("Pro add-on", "wplivechat")."</a></p>";
 		$content .= 			"<br><a title='Upgrade Now' href='https://www.wp-livechat.com/purchase-pro/?utm_source=plugin&utm_medium=link&utm_campaign=reporting' style='width: 200px;height: 58px;text-align: center;line-height: 56px;font-size: 18px;' class='button button-primary'  target='_BLANK'>".__("Upgrade Now" ,"wplivechat")."</a>";
 	}
 	$content .= 		"</td>";
@@ -5560,7 +5561,7 @@ function wplc_basic_reporting_page(){
  */
 function wplc_basic_triggers_page(){
 	$content = "<div class='wrap'>";
-    $content .= "<h2>".__('WP Live Chat Support Triggers', 'wp-livechat')." (beta) </h2>";
+    $content .= "<h2>".__('WP Live Chat Support Triggers', 'wplivechat')." (beta) </h2>";
     $content .= "<script>
     				var isOn = true;
     				jQuery(function(){
@@ -5590,16 +5591,16 @@ function wplc_basic_triggers_page(){
 	$content .= 			"<img class='trigger_img_sec'style='display: none; width:49%; height:auto; border:1px lightgray solid;box-shadow: 3px 3px 2px -2px #999;-webkit-box-shadow: 3px 3px 2px -2px #999;-moz-box-shadow: 3px 3px 2px -2px #999;-o-box-shadow: 3px 3px 2px -2px #999;' src='".plugins_url('/images/trigger_sample_front.jpg', __FILE__)."'>";
 	$content .= 		"</td>";
 	$content .= 		"<td style='vertical-align:top;'>";
-	$content .= 			"<h3>".__('WP Live Chat Support Triggers', 'wp-livechat')."</h3>";
-	$content .= 			"<p>".__('Create custom data triggers when users view a certain page, spend a certain amount of time on a page, scroll past a certain point or when their mouse leaves the window.', 'wp-livechat')."</p>";
+	$content .= 			"<h3>".__('WP Live Chat Support Triggers', 'wplivechat')."</h3>";
+	$content .= 			"<p>".__('Create custom data triggers when users view a certain page, spend a certain amount of time on a page, scroll past a certain point or when their mouse leaves the window.', 'wplivechat')."</p>";
 	
 	
-	$content .= 			"<br><p><strong>".__('Trigger Types', 'wp-livechat').":</strong></p>";
+	$content .= 			"<br><p><strong>".__('Trigger Types', 'wplivechat').":</strong></p>";
 	$content .= 			"<ul style='list-style: inherit;margin-left: 22px;'>";
-	$content .= 				"<li>".__('Page Trigger', 'wp-livechat')."</li>";
-	$content .= 				"<li>".__('Time Trigger', 'wp-livechat')."</li>";
-	$content .= 				"<li>".__('Scroll Trigger', 'wp-livechat')."</li>";
-	$content .= 				"<li>".__('Page Leave Trigger', 'wp-livechat')."</li>";			
+	$content .= 				"<li>".__('Page Trigger', 'wplivechat')."</li>";
+	$content .= 				"<li>".__('Time Trigger', 'wplivechat')."</li>";
+	$content .= 				"<li>".__('Scroll Trigger', 'wplivechat')."</li>";
+	$content .= 				"<li>".__('Page Leave Trigger', 'wplivechat')."</li>";			
 	$content .= 			"</ul>";
 
 	if (function_exists("wplc_pro_activate")) {
@@ -5609,7 +5610,7 @@ function wplc_basic_triggers_page(){
 			$content .=  "<br><a title='Update Now' href='./update-core.php' style='width: 200px;height: 58px;text-align: center;line-height: 56px;font-size: 18px;' class='button button-primary'>".__("Update now" ,"wplivechat")."</a>";
         }
 	} else {
-		$content .= 			"<p>".__('Get all this and more in the ', 'wp-livechat')."<a href='https://www.wp-livechat.com/purchase-pro/?utm_source=plugin&utm_medium=link&utm_campaign=data_triggers' target='_BLANK'>".__("Pro add-on", "wplivechat")."</a></p>";
+		$content .= 			"<p>".__('Get all this and more in the ', 'wplivechat')."<a href='https://www.wp-livechat.com/purchase-pro/?utm_source=plugin&utm_medium=link&utm_campaign=data_triggers' target='_BLANK'>".__("Pro add-on", "wplivechat")."</a></p>";
 		$content .= 			"<br><a title='Upgrade Now' href='https://www.wp-livechat.com/purchase-pro/?utm_source=plugin&utm_medium=link&utm_campaign=data_triggers' style='width: 200px;height: 58px;text-align: center;line-height: 56px;font-size: 18px;' class='button button-primary' target='_BLANK'>".__("Upgrade Now" ,"wplivechat")."</a>";
 	}
 	$content .= 		"</td>";
@@ -5632,12 +5633,12 @@ function wplc_basic_custom_fields_page(){
 	$content .= 			"<img class='trigger_img_main' style='width:99%; height:auto; padding:2px; border:1px lightgray solid;box-shadow: 3px 3px 2px -2px #999;-webkit-box-shadow: 3px 3px 2px -2px #999;-moz-box-shadow: 3px 3px 2px -2px #999;-o-box-shadow: 3px 3px 2px -2px #999;' src='".plugins_url('/images/trigger_sample.jpg', __FILE__)."'>";	
 	$content .= 		"</td>";
 	$content .= 		"<td style='vertical-align:top;'>";
-	$content .= 			"<h3>".__('WP Live Chat Support Custom Fields', 'wp-livechat')."</h3>";
-	$content .= 			"<p>".__('Create custom fields, allowing your visitors to enter the data you need before starting a chat.', 'wp-livechat')."</p>";	
-	$content .= 			"<br><p><strong>".__('Custom Field Types', 'wp-livechat').":</strong></p>";
+	$content .= 			"<h3>".__('WP Live Chat Support Custom Fields', 'wplivechat')."</h3>";
+	$content .= 			"<p>".__('Create custom fields, allowing your visitors to enter the data you need before starting a chat.', 'wplivechat')."</p>";	
+	$content .= 			"<br><p><strong>".__('Custom Field Types', 'wplivechat').":</strong></p>";
 	$content .= 			"<ul style='list-style: inherit;margin-left: 22px;'>";
-	$content .= 				"<li>".__('Text Fields', 'wp-livechat')."</li>";
-	$content .= 				"<li>".__('Dropdown Fields', 'wp-livechat')."</li>";	
+	$content .= 				"<li>".__('Text Fields', 'wplivechat')."</li>";
+	$content .= 				"<li>".__('Dropdown Fields', 'wplivechat')."</li>";	
 	$content .= 			"</ul>";
 
 	if (function_exists("wplc_pro_activate")) {
@@ -5647,7 +5648,7 @@ function wplc_basic_custom_fields_page(){
 			$content .=  "<br><a title='Update Now' href='./update-core.php' style='width: 200px;height: 58px;text-align: center;line-height: 56px;font-size: 18px;' class='button button-primary'>".__("Update now" ,"wplivechat")."</a>";
         }
 	} else {
-		$content .= 			"<p>".__('Get all this and more in the ', 'wp-livechat')."<a href='https://www.wp-livechat.com/purchase-pro/?utm_source=plugin&utm_medium=link&utm_campaign=custom_fields' target='_BLANK'>".__("Pro add-on", "wplivechat")."</a></p>";
+		$content .= 			"<p>".__('Get all this and more in the ', 'wplivechat')."<a href='https://www.wp-livechat.com/purchase-pro/?utm_source=plugin&utm_medium=link&utm_campaign=custom_fields' target='_BLANK'>".__("Pro add-on", "wplivechat")."</a></p>";
 		$content .= 			"<br><a title='Upgrade Now' href='https://www.wp-livechat.com/purchase-pro/?utm_source=plugin&utm_medium=link&utm_campaign=custom_fields' style='width: 200px;height: 58px;text-align: center;line-height: 56px;font-size: 18px;' class='button button-primary' target='_BLANK'>".__("Upgrade Now" ,"wplivechat")."</a>";
 	}
 	$content .= 		"</td>";
@@ -5885,12 +5886,12 @@ if ( ! function_exists( "wplc_active_chat_box_notices" ) ) {
 		$wplc_settings   = get_option( "WPLC_SETTINGS" );
 		if ( $wplc_settings["wplc_settings_enabled"] == 2 ) { ?>
             <div class="wplc-chat-box-notification wplc-chat-box-notification--disabled">
-                <p><?php echo sprintf( __( 'The Live Chat box is currently disabled on your website due to : <a href="%s">General Settings</a>', 'wp-livechat' ), admin_url( 'admin.php?page=wplivechat-menu-settings#tabs-1' ) ) ?></p>
+                <p><?php echo sprintf( __( 'The Live Chat box is currently disabled on your website due to : <a href="%s">General Settings</a>', 'wplivechat' ), admin_url( 'admin.php?page=wplivechat-menu-settings#tabs-1' ) ) ?></p>
             </div>
 			<?php
 		} else {
 			//$notice = '<div class="wplc-chat-box-notification">';
-			//$notice .= '<p>' . __( 'The Live Chat box is currently active', 'wp-livechat' ) . '</p>';
+			//$notice .= '<p>' . __( 'The Live Chat box is currently active', 'wplivechat' ) . '</p>';
 			//$notice .= '</div>';
 			$notice = '';
 			$notice = apply_filters( 'wplc_filter_active_chat_box_notice', $notice );

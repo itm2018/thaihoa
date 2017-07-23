@@ -118,7 +118,7 @@
 						global $the_rooms_intervals_array, $the_rooms_array;
 						if(isset($the_rooms_intervals_array[$this->resource])){
 							$this->interval = $the_rooms_intervals_array[$this->resource];
-							$this->resourcename = __($the_rooms_array[$this->resource]->post_title);
+							$this->resourcename = WPGlobus_Core::extract_text(__($the_rooms_array[$this->resource]->post_title));
 							$this->times = $this->getTimes( 0 );
 						} else {
 							$this->destroy();
@@ -975,28 +975,28 @@
 					if($mini) $errors[] = array('pers-min', $resource_req['pers-min']);
 					else {
 						$errors[] = 'easy-form-persons';
-						$errors[] =  sprintf(__( 'At least %1$s persons in %2$s' , 'easyReservations' ), $resource_req['pers-min'], __($the_rooms_array[$this->resource]->post_title));
+						$errors[] =  sprintf(__( 'At least %1$s persons in %2$s' , 'easyReservations' ), $resource_req['pers-min'], WPGlobus_Core::extract_text(__($the_rooms_array[$this->resource]->post_title)));
 					}
 				}
 				if($resource_req['pers-max'] != 0 && $resource_req['pers-max'] < ($this->adults+$this->childs)){
 					if($mini) $errors[] = array('pers-max', $resource_req['pers-max']);
 					else {
 						$errors[] = 'easy-form-persons';
-						$errors[] =  sprintf(__( 'Maximum %1$s persons in %2$s' , 'easyReservations' ), $resource_req['pers-max'], __($the_rooms_array[$this->resource]->post_title));
+						$errors[] =  sprintf(__( 'Maximum %1$s persons in %2$s' , 'easyReservations' ), $resource_req['pers-max'], WPGlobus_Core::extract_text(__($the_rooms_array[$this->resource]->post_title)));
 					}
 				}
 				if($resource_req['nights-min'] != 0 && $resource_req['nights-min'] > $this->times){
 					if($mini) $errors[] = array('nights-min', $resource_req['nights-min']);
 					else {
 						$errors[] = 'date';
-						$errors[] =  sprintf(__( 'At least %1$s %2$s in %3$s' , 'easyReservations' ), $resource_req['nights-min'], easyreservations_interval_infos($the_rooms_intervals_array[$this->resource], 0, $resource_req['nights-min']), __($the_rooms_array[$this->resource]->post_title));
+						$errors[] =  sprintf(__( 'At least %1$s %2$s in %3$s' , 'easyReservations' ), $resource_req['nights-min'], easyreservations_interval_infos($the_rooms_intervals_array[$this->resource], 0, $resource_req['nights-min']), WPGlobus_Core::extract_text(__($the_rooms_array[$this->resource]->post_title)));
 					}
 				}
 				if($resource_req['nights-max'] != 0 && $resource_req['nights-max'] < $this->times){
 					if($mini) $errors[] = array('nights-max', $resource_req['nights-max']);
 					else {
 						$errors[] = 'date';
-						$errors[] =  sprintf(__( 'Maximum %1$s %2$s in %3$s' , 'easyReservations' ), $resource_req['nights-max'], easyreservations_interval_infos($the_rooms_intervals_array[$this->resource], 0, $resource_req['nights-max']), __($the_rooms_array[$this->resource]->post_title));
+						$errors[] =  sprintf(__( 'Maximum %1$s %2$s in %3$s' , 'easyReservations' ), $resource_req['nights-max'], easyreservations_interval_infos($the_rooms_intervals_array[$this->resource], 0, $resource_req['nights-max']), WPGlobus_Core::extract_text(__($the_rooms_array[$this->resource]->post_title)));
 					}
 				}
 				$day_names = easyreservations_get_date_name(0, 3);
@@ -1255,7 +1255,7 @@
 				if($beforeArray['adults'] != $afterArray['adults']) $changelog .= __('The amount of adults was edited' , 'easyReservations' ).': '.$beforeArray['adults'].' => '.$afterArray['adults'].'<br>';
 				if($beforeArray['childs'] != $afterArray['childs']) $changelog .= __('The amount of children was edited' , 'easyReservations' ).': '.$beforeArray['childs'].' => '.$afterArray['childs'].'<br>';
 				if($beforeArray['country'] != $afterArray['country']) $changelog .= __('The country was edited' , 'easyReservations' ).': '.$beforeArray['country'].' => '.$afterArray['country'].'<br>';
-				if($beforeArray['resource'] != $afterArray['resource']) $changelog .= __('The resource was edited' , 'easyReservations' ).': '.__($the_rooms_array[$beforeArray['resource']]->post_title).' => '.__($the_rooms_array[$afterArray['resource']]->post_title).'<br>';
+				if($beforeArray['resource'] != $afterArray['resource']) $changelog .= __('The resource was edited' , 'easyReservations' ).': '. WPGlobus_Core::extract_text(__($the_rooms_array[$beforeArray['resource']]->post_title)) .' => '. WPGlobus_Core::extract_text(__($the_rooms_array[$afterArray['resource']]->post_title)) .'<br>';
 				if($beforeArray['custom'] != $afterArray['custom']) $changelog .= __('Custom fields got edited', 'easyReservations' ).'<br>';
 				if(isset($beforeArray['prices']) && $beforeArray['prices'] != $afterArray['prices']) $changelog .= __('Prices got edited' , 'easyReservations' ).'<br>';
 

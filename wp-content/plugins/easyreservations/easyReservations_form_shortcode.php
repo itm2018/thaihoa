@@ -415,7 +415,7 @@ function reservations_form_shortcode($atts){
 
 	$popuptemplate = '<span class="easy_validate_message">'.$atts['validate'].'</span>';
 	if(!empty($atts['subvalidate'])) $popuptemplate.= '<span class="easy_validate_message_sub">'.$atts['subvalidate'].'</span>';
-	$popuptemplate.= '<div class="table-responsive"><table class="table" id="easy_overlay_table"><thead><tr>';
+	$popuptemplate.= '<div class="table-responsive cart-table"><table class="table" id="easy_overlay_table" class="display" cellspacing="0" width="100%"><thead><tr>';
 	$popuptemplate.= '<th>'.__('Time', 'easyReservations').'</th>';
 	$popuptemplate.= '<th>'.__($atts['resourcename'], 'easyReservations').'</th>';
 	if($atts['pers'] && $atts['pers'] == 1) $popuptemplate.= '<th>'.__('Persons', 'easyReservations').'</th>';
@@ -425,7 +425,8 @@ function reservations_form_shortcode($atts){
 	$popuptemplate.= '<input class="btn btn-primary easy_overlay_submit"  type="button" onclick="easyFormSubmit(1);" value="'.__('Submit all reservations', 'easyReservations').'"></div>';
 
 	$easyreservations_script.= str_replace(array("\n","\r"), '', trim('var easyReservationAtts = '.json_encode($atts).';var easyInnerlayTemplate = "'.addslashes($popuptemplate).'";'));
-	if(!empty($atts['datefield'])) define('EASYDATEFIELD', $atts['datefield']);
+
+    if(!empty($atts['datefield'])) define('EASYDATEFIELD', $atts['datefield']);
 	add_action('wp_print_footer_scripts', 'easyreservations_make_datepicker');
 	if(isset($final)) return $final;
 

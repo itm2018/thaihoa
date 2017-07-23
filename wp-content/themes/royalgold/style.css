@@ -556,7 +556,7 @@ body.page-template-template-fullpage #wp-live-chat{
 	text-decoration: none;
 }
 .language-switch li a:visited{
-	color: #222;
+	color: #222 !important;
 	text-decoration: none !important;
 }
 .language-switch li a:hover{
@@ -583,3 +583,4 @@ body.page-template-template-fullpage #wp-live-chat{
 		float: left;
 	}
 }
+/*#footer{background-color: #faee9c;}*/

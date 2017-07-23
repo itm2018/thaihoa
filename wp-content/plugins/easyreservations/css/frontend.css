@@ -69,6 +69,7 @@ div.easy_infobox_border.only-image img {
 	opacity:0.80;
     z-index: 1;
 	-ms-filter:\'progid:DXImageTransform.Microsoft.Alpha\'(Opacity=80);
+	width: 99% !important;
 }
 
 #easyFormOverlay.full {
@@ -88,7 +89,7 @@ div.easy_infobox_border.only-image img {
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
-    min-width: 400px;
+    /*min-width: 400px;*/
     z-index:2;
 }
 
@@ -188,8 +189,8 @@ div.easy_infobox_border.only-image img {
 
 #easyFormInnerlay.full {
 	border: 0px;
-	margin-left:15px;
-	padding:10px;
+	/*margin-left:15px;*/
+	/*padding:10px;*/
 	-webkit-border-radius: 0px;
 	-moz-border-radius: 0px;
 	border-radius: 0px;

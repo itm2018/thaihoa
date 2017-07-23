@@ -2,123 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f20e23d-42f0-4923-8595-a32a96761a88" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/easyreservations/easyreservations.pot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/captcha/tmp/1026063128.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/captcha/tmp/1026063128.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/captcha/tmp/1302007559.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/captcha/tmp/1302007559.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/captcha/tmp/1323190101.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/captcha/tmp/1323190101.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/captcha/tmp/1365053379.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/captcha/tmp/1365053379.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/captcha/tmp/1511274371.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/captcha/tmp/1511274371.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/captcha/tmp/1802977349.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/captcha/tmp/1802977349.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/captcha/tmp/2133946397.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/captcha/tmp/2133946397.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/captcha/tmp/388626438.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/captcha/tmp/388626438.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/captcha/tmp/534818633.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/captcha/tmp/534818633.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/captcha/tmp/622742064.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/captcha/tmp/622742064.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/captcha/tmp/646191758.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/captcha/tmp/646191758.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/captcha/tmp/74598400.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/captcha/tmp/74598400.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/royalgold/images/sprite.png" afterPath="$PROJECT_DIR$/wp-content/themes/royalgold/images/sprite.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-live-chat-support/images/support.png" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-live-chat-support/images/support.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-live-chat-support/images/wplc-logo.png" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-live-chat-support/images/wplc-logo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-config.php" afterPath="$PROJECT_DIR$/wp-config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/easyreservations/css/admin.css" afterPath="$PROJECT_DIR$/wp-content/plugins/easyreservations/css/admin.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/easyreservations/css/frontend.css" afterPath="$PROJECT_DIR$/wp-content/plugins/easyreservations/css/frontend.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/easyreservations/css/style_greyfat.css" afterPath="$PROJECT_DIR$/wp-content/plugins/easyreservations/css/style_greyfat.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/easyreservations/easyReservations.php" afterPath="$PROJECT_DIR$/wp-content/plugins/easyreservations/easyReservations.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/easyreservations/easyReservations_admin_main.php" afterPath="$PROJECT_DIR$/wp-content/plugins/easyreservations/easyReservations_admin_main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/easyreservations/easyReservations_admin_resources.php" afterPath="$PROJECT_DIR$/wp-content/plugins/easyreservations/easyReservations_admin_resources.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/easyreservations/easyReservations_admin_settings.php" afterPath="$PROJECT_DIR$/wp-content/plugins/easyreservations/easyReservations_admin_settings.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/easyreservations/easyReservations_form_shortcode.php" afterPath="$PROJECT_DIR$/wp-content/plugins/easyreservations/easyReservations_form_shortcode.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/easyreservations/js/ajax/form.js" afterPath="$PROJECT_DIR$/wp-content/plugins/easyreservations/js/ajax/form.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/easyreservations/languages/easyreservations.pot" afterPath="$PROJECT_DIR$/wp-content/plugins/easyreservations/languages/easyreservations.pot" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/classes/reservation.class.php" afterPath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/classes/reservation.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/core/core.php" afterPath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/core/core.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/functions/admin.php" afterPath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/functions/admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/functions/both.php" afterPath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/functions/both.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/modules/coupons/coupons.php" afterPath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/modules/coupons/coupons.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/modules/invoice/invoice.php" afterPath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/modules/invoice/invoice.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/modules/paypal/creditcards.php" afterPath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/modules/paypal/creditcards.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/modules/paypal/paypal.php" afterPath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/modules/paypal/paypal.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/modules/statistics/statistics.php" afterPath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/modules/statistics/statistics.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/modules/styles/admin/style_premium.css" afterPath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/modules/styles/admin/style_premium.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/modules/styles/form/form_premium.css" afterPath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/modules/styles/form/form_premium.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/modules/useredit/useredit.php" afterPath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/modules/useredit/useredit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/tutorials/dashboard.tutorials.php" afterPath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/tutorials/dashboard.tutorials.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/widgets/form_widget.php" afterPath="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/widgets/form_widget.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/fa-custom-admin/custom-login.php" afterPath="$PROJECT_DIR$/wp-content/plugins/fa-custom-admin/custom-login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/data/wpglobus-product-info.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/data/wpglobus-product-info.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/admin/class-wpglobus-customize-options.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/admin/class-wpglobus-customize-options.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/class-wpglobus-config.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/class-wpglobus-config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/class-wpglobus-filters.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/class-wpglobus-filters.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/css/wpglobus-dialog-ui.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/css/wpglobus-dialog-ui.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/css/wpglobus-dialog-ui.less" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/css/wpglobus-dialog-ui.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/css/wpglobus-dialog-ui.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/css/wpglobus-dialog-ui.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/js/wpglobus-widgets.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/js/wpglobus-widgets.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/js/wpglobus-widgets.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/js/wpglobus-widgets.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/js/wpglobus-yoastseo-48.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/js/wpglobus-yoastseo-48.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/js/wpglobus-yoastseo-48.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/js/wpglobus-yoastseo-48.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/wpglobus-controller.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/wpglobus-controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-ar.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-ar.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-ar.po" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-ar.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-de_CH.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-de_CH.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-de_CH.po" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-de_CH.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-de_DE.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-de_DE.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-de_DE.po" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-de_DE.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-en_AU.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-en_AU.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-en_AU.po" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-en_AU.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-en_CA.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-en_CA.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-en_CA.po" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-en_CA.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-en_GB.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-en_GB.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-en_GB.po" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-en_GB.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-en_NZ.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-en_NZ.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-en_NZ.po" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-en_NZ.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-en_US.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-en_US.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-en_US.po" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-en_US.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-en_ZA.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-en_ZA.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-en_ZA.po" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-en_ZA.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-es_ES.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-es_ES.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-es_ES.po" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-es_ES.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-fr_BE.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-fr_BE.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-fr_BE.po" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-fr_BE.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-fr_CA.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-fr_CA.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-fr_CA.po" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-fr_CA.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-fr_FR.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-fr_FR.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-fr_FR.po" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-fr_FR.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-id_ID.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-id_ID.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-id_ID.po" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-id_ID.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-ko_KR.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-ko_KR.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-ko_KR.po" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-ko_KR.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-pl_PL.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-pl_PL.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-pl_PL.po" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-pl_PL.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-pt_PT.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-pt_PT.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-pt_PT.po" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-pt_PT.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-ro_RO.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-ro_RO.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-ro_RO.po" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-ro_RO.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-ru_RU.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-ru_RU.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-ru_RU.po" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-ru_RU.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-sv_SE.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-sv_SE.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-sv_SE.po" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-sv_SE.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-tr_TR.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-tr_TR.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-tr_TR.po" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-tr_TR.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-uk.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-uk.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-uk.po" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-uk.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus.pot" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus.pot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/readme.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/readme.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/wpglobus.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/wpglobus.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/royalgold/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/royalgold/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/royalgold/languages/royalgold.pot" afterPath="$PROJECT_DIR$/wp-content/themes/royalgold/languages/royalgold.pot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/royalgold/page.php" afterPath="$PROJECT_DIR$/wp-content/themes/royalgold/page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/royalgold/part-background.php" afterPath="$PROJECT_DIR$/wp-content/themes/royalgold/part-background.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/royalgold/single.php" afterPath="$PROJECT_DIR$/wp-content/themes/royalgold/single.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-live-chat-support/wp-live-chat-support.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-live-chat-support/wp-live-chat-support.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/royalgold/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/royalgold/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -134,209 +27,215 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="easyReservations_admin_settings.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="easyReservations_admin_settings.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/easyreservations/easyReservations_admin_settings.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="308" column="31" lean-forward="true" selection-start-line="308" selection-start-column="31" selection-end-line="308" selection-end-column="31" />
-              <folding>
-                <marker date="1500786086908" expanded="true" signature="512:599" ph="DELETE FROM " />
-                <marker date="1500786086908" expanded="true" signature="12111:12205" ph="SELECT optio... ${$wpdb-&gt;prefix}" />
-                <marker date="1500786086908" expanded="true" signature="26159:26197" ph="..." />
-                <marker date="1500786086908" expanded="true" signature="26473:26512" ph="..." />
-                <marker date="1500786086908" expanded="false" signature="27290:27319" ph="..." />
-                <marker date="1500786086908" expanded="false" signature="27360:27376" ph="..." />
-                <marker date="1500786086908" expanded="false" signature="27620:27667" ph="..." />
-                <marker date="1500786086908" expanded="false" signature="27682:27713" ph="..." />
-                <marker date="1500786086908" expanded="false" signature="27788:27819" ph="..." />
-                <marker date="1500786086908" expanded="false" signature="27864:27895" ph="..." />
-                <marker date="1500786086908" expanded="false" signature="28303:28365" ph="..." />
-                <marker date="1500786086908" expanded="false" signature="28617:28679" ph="..." />
-                <marker date="1500786086908" expanded="false" signature="28890:28952" ph="..." />
-                <marker date="1500786086908" expanded="true" signature="59943:60086" ph="..." />
-                <marker date="1500786086908" expanded="true" signature="61073:61081" ph="..." />
-                <marker date="1500786086908" expanded="true" signature="62208:62216" ph="..." />
-                <marker date="1500786086908" expanded="true" signature="62592:62600" ph="..." />
-                <marker date="1500786086908" expanded="true" signature="64289:64297" ph="..." />
-                <marker date="1500786086908" expanded="true" signature="64652:64660" ph="..." />
-                <marker date="1500786086908" expanded="true" signature="65375:65383" ph="..." />
-                <marker date="1500786086908" expanded="true" signature="65733:65741" ph="..." />
-                <marker date="1500786086908" expanded="true" signature="69433:69437" ph="&lt;" />
-                <marker date="1500786086908" expanded="true" signature="69442:69446" ph="&gt;" />
-                <marker date="1500786086908" expanded="true" signature="69711:69715" ph="&lt;" />
-                <marker date="1500786086908" expanded="true" signature="69733:69737" ph="&gt;" />
-                <marker date="1500786086908" expanded="true" signature="69986:69990" ph="&lt;" />
-                <marker date="1500786086908" expanded="true" signature="70006:70010" ph="&gt;" />
-                <marker date="1500786086908" expanded="true" signature="70294:70298" ph="&lt;" />
-                <marker date="1500786086908" expanded="true" signature="70304:70308" ph="&gt;" />
-                <marker date="1500786086908" expanded="true" signature="70521:70525" ph="&lt;" />
-                <marker date="1500786086908" expanded="true" signature="70526:70530" ph="&gt;" />
-                <marker date="1500786086908" expanded="true" signature="70748:70752" ph="&lt;" />
-                <marker date="1500786086908" expanded="true" signature="70754:70758" ph="&gt;" />
-                <marker date="1500786086908" expanded="true" signature="70982:70986" ph="&lt;" />
-                <marker date="1500786086908" expanded="true" signature="70988:70992" ph="&gt;" />
-                <marker date="1500786086908" expanded="true" signature="71351:71362" ph="..." />
-                <marker date="1500786086908" expanded="true" signature="71471:71494" ph="..." />
-                <marker date="1500786086908" expanded="true" signature="71618:71641" ph="..." />
-                <marker date="1500786086908" expanded="true" signature="75056:75067" ph="..." />
-                <marker date="1500786086908" expanded="true" signature="75574:75616" ph="..." />
-                <marker date="1500786086908" expanded="true" signature="75793:75809" ph="..." />
-                <marker date="1500786086908" expanded="true" signature="88217:88228" ph="..." />
-                <marker date="1500786086908" expanded="true" signature="88390:88396" ph=" " />
-                <marker date="1500786086908" expanded="true" signature="95660:95805" ph="SELECT id FR... ${$wpdb-&gt;prefix}" />
-                <marker date="1500786086908" expanded="true" signature="97041:97142" ph="SELECT id FR... ${$wpdb-&gt;prefix}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="both.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/easyreservations/css/both.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/easyreservations/css/admin.css">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/royalgold/footer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="easyReservations_admin_resources.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/easyreservations/easyReservations_admin_resources.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="253" column="78" lean-forward="false" selection-start-line="253" selection-start-column="78" selection-end-line="253" selection-end-column="78" />
+              <caret line="581" column="28" lean-forward="true" selection-start-line="581" selection-start-column="28" selection-end-line="581" selection-end-column="28" />
               <folding>
-                <marker date="1500783435109" expanded="true" signature="7314:7372" ph="DELETE FROM " />
-                <marker date="1500783435109" expanded="true" signature="12846:12929" ph="SELECT COUNT... ${$wpdb-&gt;prefix}" />
-                <marker date="1500783435109" expanded="true" signature="40741:40756" ph="..." />
-                <marker date="1500783435109" expanded="true" signature="41360:41401" ph="..." />
-                <marker date="1500783435109" expanded="true" signature="41676:41705" ph="..." />
-                <marker date="1500783435109" expanded="true" signature="41778:41806" ph="..." />
-                <marker date="1500783435109" expanded="true" signature="44228:44243" ph="..." />
+                <marker date="1500842909723" expanded="true" signature="512:599" ph="DELETE FROM " />
+                <marker date="1500842909723" expanded="true" signature="12111:12205" ph="SELECT optio... ${$wpdb-&gt;prefix}" />
+                <marker date="1500842909723" expanded="true" signature="26159:26197" ph="..." />
+                <marker date="1500842909723" expanded="true" signature="26473:26512" ph="..." />
+                <marker date="1500842909723" expanded="true" signature="59947:60090" ph="..." />
+                <marker date="1500842909723" expanded="true" signature="61077:61085" ph="..." />
+                <marker date="1500842909723" expanded="true" signature="62212:62220" ph="..." />
+                <marker date="1500842909723" expanded="true" signature="62596:62604" ph="..." />
+                <marker date="1500842909723" expanded="true" signature="64293:64301" ph="..." />
+                <marker date="1500842909723" expanded="true" signature="64656:64664" ph="..." />
+                <marker date="1500842909723" expanded="true" signature="65379:65387" ph="..." />
+                <marker date="1500842909723" expanded="true" signature="65737:65745" ph="..." />
+                <marker date="1500842909723" expanded="true" signature="69437:69441" ph="&lt;" />
+                <marker date="1500842909723" expanded="true" signature="69446:69450" ph="&gt;" />
+                <marker date="1500842909723" expanded="true" signature="69715:69719" ph="&lt;" />
+                <marker date="1500842909723" expanded="true" signature="69737:69741" ph="&gt;" />
+                <marker date="1500842909723" expanded="true" signature="69990:69994" ph="&lt;" />
+                <marker date="1500842909723" expanded="true" signature="70010:70014" ph="&gt;" />
+                <marker date="1500842909723" expanded="true" signature="70298:70302" ph="&lt;" />
+                <marker date="1500842909723" expanded="true" signature="70308:70312" ph="&gt;" />
+                <marker date="1500842909723" expanded="true" signature="70525:70529" ph="&lt;" />
+                <marker date="1500842909723" expanded="true" signature="70530:70534" ph="&gt;" />
+                <marker date="1500842909723" expanded="true" signature="70752:70756" ph="&lt;" />
+                <marker date="1500842909723" expanded="true" signature="70758:70762" ph="&gt;" />
+                <marker date="1500842909723" expanded="true" signature="70986:70990" ph="&lt;" />
+                <marker date="1500842909723" expanded="true" signature="70992:70996" ph="&gt;" />
+                <marker date="1500842909723" expanded="true" signature="71355:71366" ph="..." />
+                <marker date="1500842909723" expanded="true" signature="71475:71498" ph="..." />
+                <marker date="1500842909723" expanded="true" signature="71622:71645" ph="..." />
+                <marker date="1500842909723" expanded="true" signature="75060:75071" ph="..." />
+                <marker date="1500842909723" expanded="true" signature="75578:75620" ph="..." />
+                <marker date="1500842909723" expanded="true" signature="75797:75813" ph="..." />
+                <marker date="1500842909723" expanded="true" signature="88221:88232" ph="..." />
+                <marker date="1500842909723" expanded="true" signature="88394:88400" ph=" " />
+                <marker date="1500842909723" expanded="true" signature="95664:95809" ph="SELECT id FR... ${$wpdb-&gt;prefix}" />
+                <marker date="1500842909723" expanded="true" signature="97045:97146" ph="SELECT id FR... ${$wpdb-&gt;prefix}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wp-config-sample.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-config-sample.php">
+      <file leaf-file-name="template-reservation.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/royalgold/template-reservation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="-202">
+              <caret line="25" column="48" lean-forward="false" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+              <folding>
+                <element signature="e#6#134#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="easyReservations_form_shortcode.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/easyreservations/easyReservations_form_shortcode.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="423" column="41" lean-forward="false" selection-start-line="423" selection-start-column="41" selection-end-line="423" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="core.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/core/core.php">
+      <file leaf-file-name="form.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/easyreservations/js/ajax/form.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="432" column="87" lean-forward="false" selection-start-line="432" selection-start-column="87" selection-end-line="432" selection-end-column="120" />
+            <state relative-caret-position="192">
+              <caret line="311" column="39" lean-forward="false" selection-start-line="311" selection-start-column="25" selection-end-line="311" selection-end-column="39" />
               <folding>
-                <element signature="e#23481#23576#0#HTML" expanded="true" />
-                <element signature="e#23937#23972#0#HTML" expanded="true" />
-                <marker date="1500784101612" expanded="true" signature="581:609" ph="..." />
-                <marker date="1500784101612" expanded="true" signature="18988:19001" ph="..." />
-                <marker date="1500784101612" expanded="true" signature="19168:19181" ph="..." />
-                <marker date="1500784101612" expanded="true" signature="19233:19246" ph="..." />
-                <marker date="1500784101612" expanded="true" signature="22734:22747" ph="..." />
-                <marker date="1500784101612" expanded="true" signature="22848:22882" ph="..." />
-                <marker date="1500784101612" expanded="true" signature="22916:22929" ph="..." />
-                <marker date="1500784101612" expanded="true" signature="22973:23008" ph="..." />
-                <marker date="1500784101612" expanded="true" signature="23054:23087" ph="..." />
-                <marker date="1500784101612" expanded="true" signature="24182:24195" ph="..." />
-                <marker date="1500784101612" expanded="true" signature="37482:37515" ph="..." />
-                <marker date="1500784101612" expanded="true" signature="37792:37812" ph="..." />
+                <marker date="1500841326465" expanded="true" signature="3083:3150" ph="..." />
+                <marker date="1500841326465" expanded="true" signature="7749:7765" ph="..." />
+                <marker date="1500841326465" expanded="true" signature="8071:8089" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="useredit.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/modules/useredit/useredit.php">
+      <file leaf-file-name="form_premium.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/modules/styles/form/form_premium.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="408" column="24" lean-forward="false" selection-start-line="408" selection-start-column="24" selection-end-line="408" selection-end-column="24" />
+            <state relative-caret-position="476">
+              <caret line="435" column="15" lean-forward="false" selection-start-line="435" selection-start-column="15" selection-end-line="435" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="frontend.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/easyreservations/css/frontend.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4083">
+              <caret line="80" column="19" lean-forward="true" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings_page.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-live-chat-support/includes/settings_page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="586" column="61" lean-forward="false" selection-start-line="586" selection-start-column="61" selection-end-line="586" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/royalgold/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="566" column="23" lean-forward="true" selection-start-line="566" selection-start-column="23" selection-end-line="566" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wp-live-chat-support-pro.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-live-chat-support-pro/wp-live-chat-support-pro.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="4186" column="33" lean-forward="false" selection-start-line="4186" selection-start-column="33" selection-end-line="4186" selection-end-column="33" />
               <folding>
-                <marker date="1500752656928" expanded="true" signature="1228:1245" ph="..." />
-                <marker date="1500752656928" expanded="true" signature="2404:2421" ph="..." />
-                <marker date="1500752656928" expanded="true" signature="3415:3440" ph="..." />
-                <marker date="1500752656928" expanded="true" signature="3856:3903" ph="..." />
-                <marker date="1500752656928" expanded="true" signature="7789:7806" ph="..." />
-                <marker date="1500752656928" expanded="true" signature="12368:12396" ph="..." />
-                <marker date="1500752656928" expanded="true" signature="31642:31660" ph="..." />
-                <marker date="1500752656928" expanded="true" signature="32541:32559" ph="..." />
-                <marker date="1500752656928" expanded="true" signature="32898:32916" ph="..." />
-                <marker date="1500752656928" expanded="true" signature="33446:33464" ph="..." />
-                <marker date="1500752656928" expanded="true" signature="34718:34736" ph="..." />
-                <marker date="1500752656928" expanded="true" signature="38176:38194" ph="..." />
-                <marker date="1500752656928" expanded="true" signature="40690:40795" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
-                <marker date="1500752656928" expanded="true" signature="43680:43698" ph="..." />
-                <marker date="1500752656928" expanded="true" signature="43926:43952" ph="..." />
-                <marker date="1500752656928" expanded="true" signature="45393:45399" ph="..." />
-                <marker date="1500752656928" expanded="true" signature="45870:45955" ph="..." />
-                <marker date="1500752656928" expanded="true" signature="47531:47617" ph="..." />
-                <marker date="1500752656928" expanded="false" signature="47838:47852" ph="..." />
-                <marker date="1500752656928" expanded="true" signature="47853:48201" ph="..." />
-                <marker date="1500752656928" expanded="true" signature="50717:50727" ph="..." />
-                <marker date="1500752656928" expanded="true" signature="50918:50928" ph="..." />
-                <marker date="1500752656928" expanded="true" signature="51089:51099" ph="..." />
-                <marker date="1500752656928" expanded="true" signature="51422:51432" ph="..." />
-                <marker date="1500752656928" expanded="true" signature="51600:51610" ph="..." />
-                <marker date="1500752656928" expanded="true" signature="51772:51782" ph="..." />
-                <marker date="1500752656928" expanded="true" signature="54579:54648" ph="..." />
-                <marker date="1500752656928" expanded="true" signature="56182:56191" ph="..." />
-                <marker date="1500752656928" expanded="true" signature="57618:57650" ph="..." />
-                <marker date="1500752656928" expanded="true" signature="57720:57737" ph="..." />
-                <marker date="1500752656928" expanded="true" signature="58133:58194" ph="..." />
-                <marker date="1500752656928" expanded="true" signature="58578:58596" ph="..." />
-                <marker date="1500752656928" expanded="true" signature="59837:59855" ph="..." />
-                <marker date="1500752656928" expanded="true" signature="59994:60027" ph="..." />
-                <marker date="1500752656928" expanded="true" signature="60713:60724" ph="..." />
-                <marker date="1500752656928" expanded="true" signature="60738:60760" ph="..." />
+                <element signature="e#6#369#0#PHP" expanded="true" />
+                <marker date="1500824639758" expanded="true" signature="28088:28108" ph="SELECT blog_... ${$wpdb-&gt;blogs}" />
+                <marker date="1500824639758" expanded="true" signature="28365:28442" ph="ALTER TABLE $... " />
+                <marker date="1500824639758" expanded="true" signature="28704:28786" ph="ALTER TABLE $... " />
+                <marker date="1500824639758" expanded="true" signature="29037:29102" ph="ALTER TABLE `${$wplc_tblname_chats}`... " />
+                <marker date="1500824639758" expanded="true" signature="29338:29408" ph="ALTER TABLE `${$wplc_tblname_chats}`... " />
+                <marker date="1500824639758" expanded="true" signature="29483:29887" ph="CREATE TABLE... ${$wplc_tblname_chat_ratings}" />
+                <marker date="1500824639758" expanded="true" signature="29921:30297" ph="CREATE TABLE... ${$wplc_tblname_chat_triggers}" />
+                <marker date="1500824639758" expanded="true" signature="36580:36612" ph="..." />
+                <marker date="1500824639758" expanded="true" signature="110716:110727" ph="..." />
+                <marker date="1500824639758" expanded="true" signature="111900:111955" ph="SELECT * FRO... ${$wplc_tblname_chats}" />
+                <marker date="1500824639758" expanded="true" signature="112055:112127" ph="UPDATE `${$w... " />
+                <marker date="1500824639758" expanded="true" signature="113491:113550" ph="SELECT * FRO... ${$wplc_tblname_chats}" />
+                <marker date="1500824639758" expanded="true" signature="114737:114802" ph="ALTER TABLE `${$wplc_tblname_chats}`... " />
+                <marker date="1500824639758" expanded="true" signature="148181:148195" ph="..." />
+                <marker date="1500824639758" expanded="true" signature="148322:148336" ph="..." />
+                <marker date="1500824639758" expanded="true" signature="148460:148474" ph="..." />
+                <marker date="1500824639758" expanded="true" signature="148586:148598" ph="..." />
+                <marker date="1500824639758" expanded="true" signature="149023:149036" ph="..." />
+                <marker date="1500824639758" expanded="true" signature="149289:149302" ph="..." />
+                <marker date="1500824639758" expanded="true" signature="149667:149680" ph="..." />
+                <marker date="1500824639758" expanded="true" signature="149739:149752" ph="..." />
+                <marker date="1500824639758" expanded="true" signature="150191:150417" ph="UPDATE ${$wp... " />
+                <marker date="1500824639758" expanded="true" signature="150597:150819" ph="INSERT INTO ${$wplc_tblname_chat_ratings}... " />
+                <marker date="1500824639758" expanded="true" signature="151079:151143" ph="SELECT `id` ${$wplc_tblname_chat_ratings}" />
+                <marker date="1500824639758" expanded="true" signature="151429:151498" ph="SELECT * FRO... ${$wplc_tblname_chat_ratings}" />
+                <marker date="1500824639758" expanded="true" signature="151552:151640" ph="SELECT * FRO... ${$wplc_tblname_chat_ratings}" />
+                <marker date="1500824639758" expanded="true" signature="151774:151855" ph="UPDATE ${$wp... " />
+                <marker date="1500824639758" expanded="true" signature="152297:152936" ph="..." />
+                <marker date="1500824639758" expanded="true" signature="153051:153347" ph="..." />
+                <marker date="1500824639758" expanded="true" signature="153884:153945" ph="SELECT * FRO... ${$wplc_tblname_chat_ratings}" />
+                <marker date="1500824639758" expanded="true" signature="153987:154098" ph="SELECT * FRO... ${$wplc_tblname_chat_ratings}" />
+                <marker date="1500824639758" expanded="true" signature="154146:154258" ph="SELECT * FRO... ${$wplc_tblname_chat_ratings}" />
+                <marker date="1500824639758" expanded="true" signature="154306:154418" ph="SELECT * FRO... ${$wplc_tblname_chat_ratings}" />
+                <marker date="1500824639758" expanded="true" signature="154467:154579" ph="SELECT * FRO... ${$wplc_tblname_chat_ratings}" />
+                <marker date="1500824639758" expanded="true" signature="154627:154739" ph="SELECT * FRO... ${$wplc_tblname_chat_ratings}" />
+                <marker date="1500824639758" expanded="true" signature="158600:158650" ph="..." />
+                <marker date="1500824639758" expanded="true" signature="158913:158963" ph="..." />
+                <marker date="1500824639758" expanded="true" signature="159221:159232" ph="..." />
+                <marker date="1500824639758" expanded="true" signature="162264:162339" ph="..." />
+                <marker date="1500824639758" expanded="true" signature="162551:162626" ph="..." />
+                <marker date="1500824639758" expanded="true" signature="162812:162887" ph="..." />
+                <marker date="1500824639758" expanded="true" signature="163165:163192" ph="..." />
+                <marker date="1500824639758" expanded="true" signature="163333:163388" ph="..." />
+                <marker date="1500824639758" expanded="true" signature="163427:163454" ph="..." />
+                <marker date="1500824639758" expanded="true" signature="163506:163561" ph="..." />
+                <marker date="1500824639758" expanded="true" signature="164024:164116" ph="SELECT * FRO... ${$wplc_tblname_chats}" />
+                <marker date="1500824639758" expanded="true" signature="194039:194050" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="coupons.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/modules/coupons/coupons.php">
+      <file leaf-file-name="wplc_roi.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-live-chat-support-pro/includes/wplc_roi.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="69" column="46" lean-forward="false" selection-start-line="69" selection-start-column="46" selection-end-line="69" selection-end-column="46" />
+            <state relative-caret-position="363">
+              <caret line="636" column="0" lean-forward="false" selection-start-line="636" selection-start-column="0" selection-end-line="636" selection-end-column="0" />
               <folding>
-                <element signature="e#3222#3241#0#HTML" expanded="true" />
-                <marker date="1500783866407" expanded="true" signature="588:616" ph="..." />
-                <marker date="1500783866407" expanded="true" signature="1361:1378" ph="..." />
-                <marker date="1500783866407" expanded="true" signature="1511:1522" ph="..." />
-                <marker date="1500783866407" expanded="true" signature="2136:2180" ph="..." />
-                <marker date="1500783866407" expanded="true" signature="2321:2338" ph="..." />
-                <marker date="1500783866407" expanded="true" signature="2557:2582" ph="..." />
-                <marker date="1500783866407" expanded="true" signature="3425:3442" ph="..." />
-                <marker date="1500783866407" expanded="true" signature="3858:3941" ph="..." />
-                <marker date="1500783866407" expanded="true" signature="4212:4305" ph="..." />
-                <marker date="1500783866407" expanded="true" signature="5268:5331" ph="{...}" />
+                <marker date="1500827383767" expanded="true" signature="1269:1599" ph="CREATE TABLE... ${$wplc_tblname_chat_roi_goals}" />
+                <marker date="1500827383767" expanded="true" signature="1651:1955" ph="CREATE TABLE... ${$wplc_tblname_chat_roi_conversions}" />
+                <marker date="1500827383767" expanded="true" signature="3674:3724" ph="..." />
+                <marker date="1500827383767" expanded="true" signature="4227:4236" ph="..." />
+                <marker date="1500827383767" expanded="true" signature="6028:6042" ph="SELECT * FRO... ${$wplc_tblname_chat_roi_goals}" />
+                <marker date="1500827383767" expanded="true" signature="7250:7259" ph="..." />
+                <marker date="1500827383767" expanded="true" signature="8730:8749" ph="..." />
+                <marker date="1500827383767" expanded="true" signature="8842:8860" ph="..." />
+                <marker date="1500827383767" expanded="true" signature="9065:9086" ph="..." />
+                <marker date="1500827383767" expanded="true" signature="15012:15175" ph="INSERT INTO ${$wplc_tblname_chat_roi_goals}... " />
+                <marker date="1500827383767" expanded="true" signature="16177:16363" ph="UPDATE ${$wp... " />
+                <marker date="1500827383767" expanded="true" signature="16669:16737" ph="DELETE FROM " />
+                <marker date="1500827383767" expanded="true" signature="17032:17098" ph="SELECT * FRO... ${$wplc_tblname_chat_roi_goals}" />
+                <marker date="1500827383767" expanded="true" signature="17795:17804" ph="..." />
+                <marker date="1500827383767" expanded="true" signature="19115:19257" ph="INSERT INTO ${$wplc_tblname_chat_roi_conversions}... " />
+                <marker date="1500827383767" expanded="true" signature="19614:19687" ph="SELECT * FRO... ${$wplc_tblname_chat_roi_conversions}" />
+                <marker date="1500827383767" expanded="true" signature="22777:22787" ph="..." />
+                <marker date="1500827383767" expanded="true" signature="22821:22896" ph="..." />
+                <marker date="1500827383767" expanded="true" signature="23101:23176" ph="..." />
+                <marker date="1500827383767" expanded="true" signature="23364:23439" ph="..." />
+                <marker date="1500827383767" expanded="true" signature="26257:26335" ph="SELECT * FRO... ${$wplc_tblname_chat_roi_conversions}" />
               </folding>
             </state>
           </provider>
@@ -346,27 +245,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>GuestContact</find>
-      <find>Speak with us!</find>
-      <find>editreservation</find>
-      <find>message.png</find>
-      <find>$avail</find>
-      <find>Thank you for reserving in our hotel. If you have any question feel free to ask.</find>
-      <find>$custom_fields</find>
-      <find>Phone</find>
-      <find>$local</find>
-      <find>Your Reservation was edited</find>
-      <find>easyreservations_generate_invoice</find>
-      <find>Reservation edited.</find>
-      <find>easyreservations_dashboard_message</find>
-      <find>$easy_errors</find>
-      <find>easy-resource-max-nights</find>
-      <find>Validate</find>
-      <find>Country:</find>
-      <find>Back to Dashboard</find>
-      <find>attachments</find>
-      <find>textarea</find>
-      <find>easyreservations_generate_custom_field</find>
       <find>arrival</find>
       <find>Reservation</find>
       <find>wp_register_menu</find>
@@ -376,7 +254,31 @@
       <find>easy-chat-title</find>
       <find>reservation_core_upload</find>
       <find>Choose your language</find>
+      <find>chat</find>
+      <find>Custom fields</find>
+      <find>wp-livechat</find>
+      <find>Custom</find>
+      <find>Custom Fields</find>
+      <find>Phone</find>
+      <find>custom</find>
+      <find>$popuptemplate</find>
+      <find>$easyreservations_script</find>
+      <find>&lt;/table</find>
+      <find>table-responsive</find>
+      <find>easyFormOverlay</find>
+      <find>inline-block</find>
+      <find>captcha</find>
+      <find>post_title</find>
+      <find>submitForm</find>
+      <find>easyFormInnerlay</find>
+      <find>easybackbutton</find>
+      <find>changeHiddenOption</find>
+      <find>cart-</find>
+      <find>fields</find>
     </findStrings>
+    <replaceStrings>
+      <replace>'wplivechat'</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>C:\xampp\htdocs\thaihoaresort\wp-content\plugins\easyreservations</dir>
       <dir>C:\xampp\htdocs\thaihoaresort\wp-content\themes\royalgold</dir>
@@ -388,10 +290,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wp-includes/class.wp-scripts.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/royalgold/header.php" />
-        <option value="$PROJECT_DIR$/.htaccess" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/functions/ajax.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/easyreservations/overview.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/easyreservations/js/ajax/send_calendar.js" />
         <option value="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/modules/invoice/generate.php" />
@@ -404,30 +302,21 @@
         <option value="$PROJECT_DIR$/wp-content/themes/royalgold/part-background.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/easyreservations/js/ajax/send_validate.js" />
         <option value="$PROJECT_DIR$/wp-content/plugins/easyreservations/easyReservations.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/easyreservations/js/ajax/form.js" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/easyreservations/css/frontend.css" />
         <option value="$PROJECT_DIR$/wp-content/plugins/thaihoa-facebook-share-and-preview/thaihoa-facebook-share-and-preview.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/royalgold/template-no-social.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/royalgold/page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/royalgold/single.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/royalgold/template-fullpage.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/modules/styles/form/form_premium.css" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/classes/reservation.class.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/modules/useredit/useredit.php" />
         <option value="$PROJECT_DIR$/wp-content/languages/plugins/easyReservations-vi.po" />
         <option value="$PROJECT_DIR$/wp-content/plugins/easyreservations/easyReservations_admin_main.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/widgets/form_widget.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/royalgold/template-reservation.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/royalgold/style.css" />
         <option value="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/modules/invoice/invoice.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/functions/both.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/easyreservations/easyReservations_form_shortcode.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/modules/paypal/paypal.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/modules/paypal/creditcards.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/tutorials/dashboard.tutorials.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/functions/admin.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/modules/statistics/statistics.php" />
-        <option value="$PROJECT_DIR$/wp-config.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/easyreservations/languages/easyreservations.pot" />
         <option value="$PROJECT_DIR$/wp-content/languages/plugins/easyReservations-ru.po" />
         <option value="$PROJECT_DIR$/wp-content/plugins/easyreservations/easyReservations_admin_resources.php" />
@@ -436,7 +325,22 @@
         <option value="$PROJECT_DIR$/wp-content/plugins/easyreservations/css/admin.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/royalgold/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/royalgold/languages/royalgold.pot" />
+        <option value="$PROJECT_DIR$/wp-config.php" />
+        <option value="$PROJECT_DIR$/wp-content/languages/plugins/wplivechat-vi.po" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/wp-live-chat-support-pro/functions-pro.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/wp-live-chat-support-pro/includes/wplc_custom_fields.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/wp-live-chat-support/wp-live-chat-support.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/wp-live-chat-support-pro/wp-live-chat-support-pro.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/wp-live-chat-support-pro/includes/wplc_roi.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/royalgold/template-fullpage.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/easyreservations/js/ajax/form.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/royalgold/template-reservation.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/classes/reservation.class.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/easyreservations/easyReservations_form_shortcode.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/easyreservations/easyReservations_admin_settings.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/easyreservations/css/frontend.css" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/modules/styles/form/form_premium.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/royalgold/style.css" />
       </list>
     </option>
   </component>
@@ -469,7 +373,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -550,15 +453,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="royalgold" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="languages" />
+              <option name="myItemId" value="plugins" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -579,9 +474,32 @@
               <option name="myItemId" value="plugins" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="easyreservations" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thaihoaresort" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thaihoaresort" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="languages" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -671,12 +589,13 @@
       <workItem from="1500222659313" duration="22409000" />
       <workItem from="1500476956961" duration="6541000" />
       <workItem from="1500563062409" duration="43685000" />
-      <workItem from="1500754094644" duration="22529000" />
+      <workItem from="1500754094644" duration="29317000" />
+      <workItem from="1500823436383" duration="19184000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105426000" />
+    <option name="totallyTimeSpent" value="131398000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -685,11 +604,10 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22986823" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22093023" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.038799413" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.030014642" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -698,6 +616,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -732,204 +651,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/royalgold/part-background.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/royalgold/page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="312" lean-forward="false" selection-start-line="15" selection-start-column="312" selection-end-line="15" selection-end-column="312" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/modules/styles/form/form_premium.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="38" column="1" lean-forward="false" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/functions/ajax.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11288">
-          <caret line="664" column="40" lean-forward="false" selection-start-line="664" selection-start-column="40" selection-end-line="664" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/easyreservations/assets/alertifyjs/alertify.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/easyreservations/assets/alertifyjs/css/alertify.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/classes/resource.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="68" column="20" lean-forward="false" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
-          <folding>
-            <marker date="1499703322615" expanded="true" signature="1600:1669" ph="SELECT post_... ${$wpdb-&gt;prefix}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/modules/invoice/html2pdf/_tcpdf_5.0.002/tcpdf.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="12404" column="48" lean-forward="true" selection-start-line="12404" selection-start-column="48" selection-end-line="12404" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/modules/invoice/html2pdf/html2pdf.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="126" column="24" lean-forward="false" selection-start-line="126" selection-start-column="24" selection-end-line="126" selection-end-column="24" />
-          <folding>
-            <marker date="1500212437796" expanded="true" signature="20120:20405" ph="..." />
-            <marker date="1500212437796" expanded="true" signature="20131:20297" ph="..." />
-            <marker date="1500212437796" expanded="false" signature="20316:20371" ph="..." />
-            <marker date="1500212437796" expanded="true" signature="20372:20397" ph="..." />
-            <marker date="1500212437796" expanded="true" signature="26967:26986" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/classes/reservation.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="952" column="21" lean-forward="false" selection-start-line="952" selection-start-column="21" selection-end-line="952" selection-end-column="21" />
-          <folding>
-            <marker date="1500749074810" expanded="true" signature="2531:2717" ph="SELECT id, n... ${$wpdb-&gt;prefix}" />
-            <marker date="1500749074810" expanded="true" signature="20952:21079" ph="SELECT SUM(n... ${$wpdb-&gt;prefix}" />
-            <marker date="1500749074810" expanded="true" signature="21372:21501" ph="SELECT COUNT... ${$wpdb-&gt;prefix}" />
-            <marker date="1500749074810" expanded="true" signature="22172:22346" ph="SELECT SUM(n... ${$wpdb-&gt;prefix}" />
-            <marker date="1500749074810" expanded="true" signature="22720:22883" ph="SELECT COUNT... ${$wpdb-&gt;prefix}" />
-            <marker date="1500749074810" expanded="true" signature="23616:23733" ph="SELECT sum(n... " />
-            <marker date="1500749074810" expanded="true" signature="24859:25004" ph="SELECT sum($... " />
-            <marker date="1500749074810" expanded="true" signature="27873:27959" ph="SELECT COUNT... ${$wpdb-&gt;prefix}" />
-            <marker date="1500749074810" expanded="true" signature="65115:65171" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/widgets/form_widget.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="146" column="45" lean-forward="false" selection-start-line="146" selection-start-column="45" selection-end-line="146" selection-end-column="45" />
-          <folding>
-            <marker date="1500765743925" expanded="true" signature="8953:9000" ph="..." />
-            <marker date="1500765743925" expanded="true" signature="9251:9298" ph="..." />
-            <marker date="1500765743925" expanded="true" signature="9568:9615" ph="..." />
-            <marker date="1500765743925" expanded="true" signature="10313:10360" ph="..." />
-            <marker date="1500765743925" expanded="true" signature="10660:10707" ph="..." />
-            <marker date="1500765743925" expanded="true" signature="11012:11059" ph="..." />
-            <marker date="1500765743925" expanded="true" signature="11310:11357" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-includes/link-template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="26" column="63" lean-forward="false" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="63" />
-          <folding>
-            <marker date="1482830920000" expanded="true" signature="53933:53981" ph="SELECT p.ID ${$wpdb-&gt;posts}" />
-            <marker date="1482830920000" expanded="true" signature="82915:83002" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="791" column="59" lean-forward="false" selection-start-line="791" selection-start-column="53" selection-end-line="791" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_8.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="612" column="24" lean-forward="false" selection-start-line="612" selection-start-column="24" selection-end-line="612" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/royalgold/utils/meta-box/inc/fields/image-advanced.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="109" column="59" lean-forward="false" selection-start-line="109" selection-start-column="59" selection-end-line="109" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/royalgold/template-reservation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/royalgold/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="468" column="0" lean-forward="false" selection-start-line="468" selection-start-column="0" selection-end-line="468" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/modules/invoice/invoice.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="316" column="50" lean-forward="false" selection-start-line="316" selection-start-column="50" selection-end-line="316" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/functions/both.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="383" column="51" lean-forward="false" selection-start-line="383" selection-start-column="13" selection-end-line="383" selection-end-column="51" />
-          <folding>
-            <marker date="1500775869164" expanded="true" signature="140:235" ph="SELECT COUNT... ${$wpdb-&gt;prefix}" />
-            <marker date="1500775869164" expanded="true" signature="6039:6189" ph="SELECT ID, p... ${$wpdb-&gt;prefix}" />
-            <marker date="1500775869164" expanded="true" signature="8474:8634" ph="SELECT post_... ${$wpdb-&gt;prefix}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/easyreservations/languages/easyReservations-ru_RU.po">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2856">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/modules/paypal/paypal.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="211" column="354" lean-forward="true" selection-start-line="211" selection-start-column="354" selection-end-line="211" selection-end-column="354" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/modules/paypal/creditcards.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
@@ -967,14 +688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/easyreservations/easyReservations_form_shortcode.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="25" column="37" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/easyreservations/overview.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="39">
@@ -994,19 +707,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/easyreservations/easyreservations.pot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-79231">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/easyreservations/easyreservations.pot" />
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/tutorials/dashboard.tutorials.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="56" lean-forward="true" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1014,7 +719,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1022,26 +726,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <marker date="1500779777291" expanded="true" signature="9018:9035" ph="..." />
-            <marker date="1500779777291" expanded="true" signature="9145:9162" ph="..." />
-            <marker date="1500779777291" expanded="true" signature="10026:10060" ph="..." />
-            <marker date="1500779777291" expanded="true" signature="10272:10306" ph="..." />
-            <marker date="1500779777291" expanded="true" signature="10491:10525" ph="..." />
-            <marker date="1500779777291" expanded="true" signature="10979:10985" ph="..." />
-            <marker date="1500779777291" expanded="true" signature="14857:14874" ph="..." />
-            <marker date="1500779777291" expanded="true" signature="20469:20481" ph="..." />
-            <marker date="1500779777291" expanded="true" signature="20585:20613" ph="..." />
-            <marker date="1500779777291" expanded="true" signature="22085:22113" ph="..." />
-            <marker date="1500779777291" expanded="true" signature="22237:22265" ph="..." />
-            <marker date="1500779777291" expanded="true" signature="23210:23238" ph="..." />
-            <marker date="1500779777291" expanded="true" signature="24206:24217" ph="..." />
-            <marker date="1500779777291" expanded="true" signature="25210:25238" ph="..." />
-            <marker date="1500779777291" expanded="true" signature="26541:26569" ph="..." />
-            <marker date="1500779777291" expanded="true" signature="27242:27253" ph="..." />
-            <marker date="1500779777291" expanded="true" signature="28545:28584" ph="..." />
-            <marker date="1500779777291" expanded="true" signature="49678:49695" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1076,14 +761,6 @@
             <marker date="1500780263500" expanded="true" signature="37172:37190" ph="..." />
             <marker date="1500780263500" expanded="true" signature="37262:37278" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="63" column="33" lean-forward="true" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1140,7 +817,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-51">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1148,7 +824,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-91">
           <caret line="4961" column="8" lean-forward="false" selection-start-line="4961" selection-start-column="8" selection-end-line="4961" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1156,7 +831,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
           <caret line="4603" column="0" lean-forward="false" selection-start-line="4563" selection-start-column="0" selection-end-line="4603" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1164,7 +838,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1172,14 +845,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/easyreservations/css/both.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1249,19 +914,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="69" column="46" lean-forward="false" selection-start-line="69" selection-start-column="46" selection-end-line="69" selection-end-column="46" />
-          <folding>
-            <element signature="e#3222#3241#0#HTML" expanded="true" />
-            <marker date="1500783866407" expanded="true" signature="588:616" ph="..." />
-            <marker date="1500783866407" expanded="true" signature="1361:1378" ph="..." />
-            <marker date="1500783866407" expanded="true" signature="1511:1522" ph="..." />
-            <marker date="1500783866407" expanded="true" signature="2136:2180" ph="..." />
-            <marker date="1500783866407" expanded="true" signature="2321:2338" ph="..." />
-            <marker date="1500783866407" expanded="true" signature="2557:2582" ph="..." />
-            <marker date="1500783866407" expanded="true" signature="3425:3442" ph="..." />
-            <marker date="1500783866407" expanded="true" signature="3858:3941" ph="..." />
-            <marker date="1500783866407" expanded="true" signature="4212:4305" ph="..." />
-            <marker date="1500783866407" expanded="true" signature="5268:5331" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1270,8 +922,8 @@
         <state relative-caret-position="165">
           <caret line="432" column="87" lean-forward="false" selection-start-line="432" selection-start-column="87" selection-end-line="432" selection-end-column="120" />
           <folding>
-            <element signature="e#23481#23576#0#HTML" expanded="true" />
-            <element signature="e#23937#23972#0#HTML" expanded="true" />
+            <element signature="e#23481#23576#0#HTML" expanded="false" />
+            <element signature="e#23937#23972#0#HTML" expanded="false" />
             <marker date="1500784101612" expanded="true" signature="581:609" ph="..." />
             <marker date="1500784101612" expanded="true" signature="18988:19001" ph="..." />
             <marker date="1500784101612" expanded="true" signature="19168:19181" ph="..." />
@@ -1288,81 +940,559 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/easyreservations/css/admin.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/royalgold/languages/royalgold.pot">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="516">
           <caret line="1054" column="0" lean-forward="true" selection-start-line="1054" selection-start-column="0" selection-end-line="1054" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/easyreservations/css/both.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/royalgold/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
-          <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+          <caret line="20" column="40" lean-forward="false" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/easyreservations/css/admin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-live-chat-support/js/wplc_u_admin_chat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-live-chat-support/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1547">
+          <caret line="91" column="46" lean-forward="false" selection-start-line="91" selection-start-column="46" selection-end-line="91" selection-end-column="46" />
+          <folding>
+            <marker date="1499706008134" expanded="true" signature="6370:6439" ph="SELECT * FRO... ${$wplc_tblname_chats}" />
+            <marker date="1499706008134" expanded="true" signature="6675:6744" ph="SELECT * FRO... ${$wplc_tblname_chats}" />
+            <marker date="1499706008134" expanded="true" signature="7002:7129" ph="SELECT * FRO... ${$wplc_tblname_chats}" />
+            <marker date="1499706008134" expanded="true" signature="16440:16514" ph="SELECT COUNT... ${$wplc_tblname_chats}" />
+            <marker date="1499706008134" expanded="true" signature="16741:16893" ph="SELECT * FRO... ${$wplc_tblname_chats}" />
+            <marker date="1499706008134" expanded="true" signature="20185:20338" ph="SELECT * FRO... ${$wplc_tblname_msgs}" />
+            <marker date="1499706008134" expanded="true" signature="25950:26018" ph="SELECT * FRO... ${$wplc_tblname_chats}" />
+            <marker date="1499706008134" expanded="true" signature="35558:35744" ph="SELECT * FRO... ${$wplc_tblname_msgs}" />
+            <marker date="1499706008134" expanded="true" signature="37034:37187" ph="SELECT * FRO... ${$wplc_tblname_msgs}" />
+            <marker date="1499706008134" expanded="true" signature="40085:40154" ph="SELECT * FRO... ${$wplc_tblname_chats}" />
+            <marker date="1499706008134" expanded="true" signature="40396:40465" ph="SELECT * FRO... ${$wplc_tblname_chats}" />
+            <marker date="1499706008134" expanded="true" signature="41528:43628" ph="..." />
+            <marker date="1499706008134" expanded="true" signature="41544:43620" ph="..." />
+            <marker date="1499706008134" expanded="false" signature="41633:41659" ph="..." />
+            <marker date="1499706008134" expanded="true" signature="41660:43582" ph="..." />
+            <marker date="1499706008134" expanded="true" signature="41676:43567" ph="..." />
+            <marker date="1499706008134" expanded="true" signature="41691:43550" ph="..." />
+            <marker date="1499706008134" expanded="false" signature="41729:41759" ph="..." />
+            <marker date="1499706008134" expanded="true" signature="41760:43534" ph="..." />
+            <marker date="1499706008134" expanded="false" signature="41859:41902" ph="..." />
+            <marker date="1499706008134" expanded="true" signature="41903:42187" ph="..." />
+            <marker date="1499706008134" expanded="true" signature="41927:42164" ph="..." />
+            <marker date="1499706008134" expanded="true" signature="41950:42139" ph="..." />
+            <marker date="1499706008134" expanded="false" signature="41983:42024" ph="..." />
+            <marker date="1499706008134" expanded="true" signature="42025:42115" ph="..." />
+            <marker date="1499706008134" expanded="false" signature="42293:42504" ph="..." />
+            <marker date="1499706008134" expanded="true" signature="42505:42788" ph="..." />
+            <marker date="1499706008134" expanded="true" signature="42527:42765" ph="..." />
+            <marker date="1499706008134" expanded="true" signature="42550:42740" ph="..." />
+            <marker date="1499706008134" expanded="false" signature="42617:42649" ph="..." />
+            <marker date="1499706008134" expanded="true" signature="42650:42716" ph="..." />
+            <marker date="1499706008134" expanded="false" signature="42888:42930" ph="..." />
+            <marker date="1499706008134" expanded="true" signature="42931:43516" ph="..." />
+            <marker date="1499706008134" expanded="true" signature="42955:43493" ph="..." />
+            <marker date="1499706008134" expanded="true" signature="42978:43468" ph="..." />
+            <marker date="1499706008134" expanded="false" signature="43011:43024" ph="..." />
+            <marker date="1499706008134" expanded="true" signature="43025:43444" ph="..." />
+            <marker date="1499706008134" expanded="true" signature="43120:43418" ph="..." />
+            <marker date="1499706008134" expanded="true" signature="43152:43387" ph="..." />
+            <marker date="1499706008134" expanded="true" signature="43183:43354" ph="..." />
+            <marker date="1499706008134" expanded="true" signature="43237:43322" ph="..." />
+            <marker date="1499706008134" expanded="true" signature="56000:56178" ph="SELECT * FRO... ${$wplc_tblname_chats}" />
+            <marker date="1499706008134" expanded="true" signature="57698:57752" ph="SELECT * FRO... ${$wplc_tblname_chats}" />
+            <marker date="1499706008134" expanded="true" signature="58169:58257" ph="SELECT * FRO... ${$wplc_tblname_chats}" />
+            <marker date="1499706008134" expanded="true" signature="62930:63034" ph="DELETE FROM " />
+            <marker date="1499706008134" expanded="true" signature="63180:63215" ph="..." />
+            <marker date="1499706008134" expanded="true" signature="63216:63326" ph="..." />
+            <marker date="1499706008134" expanded="true" signature="63413:63469" ph="..." />
+            <marker date="1499706008134" expanded="true" signature="63470:63564" ph="..." />
+            <marker date="1499706008134" expanded="true" signature="63687:63722" ph="..." />
+            <marker date="1499706008134" expanded="true" signature="63723:64127" ph="..." />
+            <marker date="1499706008134" expanded="true" signature="64244:65024" ph="..." />
+            <marker date="1499706008134" expanded="true" signature="64264:64957" ph="..." />
+            <marker date="1499706008134" expanded="true" signature="64285:64936" ph="..." />
+            <marker date="1499706008134" expanded="true" signature="65102:65201" ph="SELECT * FRO... ${$wplc_tblname_chats}" />
+            <marker date="1499706008134" expanded="true" signature="65233:65311" ph="SELECT * FRO... ${$wplc_tblname_chats}" />
+            <marker date="1499706008134" expanded="true" signature="74377:75340" ph="..." />
+            <marker date="1499706008134" expanded="true" signature="74406:74482" ph="..." />
+            <marker date="1499706008134" expanded="true" signature="74499:75324" ph="..." />
+            <marker date="1499706008134" expanded="true" signature="74556:74834" ph="..." />
+            <marker date="1499706008134" expanded="true" signature="74945:75216" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/languages/plugins/wplivechat-vi_VN.po" />
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-live-chat-support-pro/functions-external.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1445">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/languages/plugins/wplivechat-vi.po">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12937">
+          <caret line="761" column="8" lean-forward="false" selection-start-line="761" selection-start-column="8" selection-end-line="761" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-live-chat-support-pro/functions-pro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26809">
+          <caret line="1577" column="39" lean-forward="false" selection-start-line="1577" selection-start-column="39" selection-end-line="1577" selection-end-column="39" />
+          <folding>
+            <marker date="1500819698859" expanded="true" signature="436:614" ph="SELECT * FRO... ${$wplc_tblname_chats}" />
+            <marker date="1500819698859" expanded="true" signature="5726:5837" ph="SELECT * FRO... ${$wplc_tblname_chats}" />
+            <marker date="1500819698859" expanded="true" signature="8240:10283" ph="..." />
+            <marker date="1500819698859" expanded="true" signature="8303:9174" ph="..." />
+            <marker date="1500819698859" expanded="true" signature="8389:8525" ph="..." />
+            <marker date="1500819698859" expanded="true" signature="8583:9143" ph="..." />
+            <marker date="1500819698859" expanded="true" signature="8671:9080" ph="..." />
+            <marker date="1500819698859" expanded="true" signature="8845:9045" ph="..." />
+            <marker date="1500819698859" expanded="true" signature="8914:9006" ph="..." />
+            <marker date="1500819698859" expanded="true" signature="9226:10240" ph="..." />
+            <marker date="1500819698859" expanded="true" signature="9292:9638" ph="..." />
+            <marker date="1500819698859" expanded="true" signature="9705:10213" ph="..." />
+            <marker date="1500819698859" expanded="true" signature="9939:10207" ph="..." />
+            <marker date="1500819698859" expanded="true" signature="10168:10207" ph="..." />
+            <marker date="1500819698859" expanded="true" signature="12529:12656" ph="SELECT * FRO... ${$wplc_tblname_chats}" />
+            <marker date="1500819698859" expanded="true" signature="31370:31453" ph="SELECT `id` ${$wplc_tblname_chats}" />
+            <marker date="1500819698859" expanded="true" signature="38916:38971" ph="SELECT * FRO... ${$wplc_tblname_chats}" />
+            <marker date="1500819698859" expanded="true" signature="39060:39132" ph="UPDATE `${$w... " />
+            <marker date="1500819698859" expanded="true" signature="39541:39596" ph="SELECT * FRO... ${$wplc_tblname_chats}" />
+            <marker date="1500819698859" expanded="true" signature="39952:40705" ph="..." />
+            <marker date="1500819698859" expanded="true" signature="40025:40705" ph="..." />
+            <marker date="1500819698859" expanded="true" signature="40045:40638" ph="..." />
+            <marker date="1500819698859" expanded="true" signature="40066:40617" ph="..." />
+            <marker date="1500819698859" expanded="true" signature="40735:40845" ph="SELECT * FRO... ${$wplc_tblname_offline_msgs}" />
+            <marker date="1500819698859" expanded="true" signature="59731:59863" ph="SELECT * FRO... ${$wplc_tblname_msgs}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-live-chat-support-pro/includes/wplc_custom_fields.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding>
+            <marker date="1500822517356" expanded="true" signature="236:592" ph="CREATE TABLE... ${$wplc_custom_fields}" />
+            <marker date="1500822517356" expanded="true" signature="2552:2561" ph="..." />
+            <marker date="1500822517356" expanded="true" signature="5330:5343" ph="..." />
+            <marker date="1500822517356" expanded="true" signature="5570:5583" ph="..." />
+            <marker date="1500822517356" expanded="true" signature="6053:6066" ph="..." />
+            <marker date="1500822517356" expanded="true" signature="6165:6179" ph="..." />
+            <marker date="1500822517356" expanded="true" signature="6364:6377" ph="..." />
+            <marker date="1500822517356" expanded="true" signature="7043:7096" ph="SELECT * FRO... ${$wplc_custom_fields_table}" />
+            <marker date="1500822517356" expanded="true" signature="8045:8058" ph="..." />
+            <marker date="1500822517356" expanded="true" signature="8321:8334" ph="..." />
+            <marker date="1500822517356" expanded="true" signature="8593:8606" ph="..." />
+            <marker date="1500822517356" expanded="true" signature="9246:9259" ph="..." />
+            <marker date="1500822517356" expanded="true" signature="11072:11086" ph="SELECT * FRO... ${$wplc_custom_fields}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-live-chat-support/modules/node_server.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="201" column="86" lean-forward="false" selection-start-line="201" selection-start-column="86" selection-end-line="201" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-live-chat-support/includes/settings_page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="586" column="61" lean-forward="false" selection-start-line="586" selection-start-column="61" selection-end-line="586" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-live-chat-support-pro/wp-live-chat-support-pro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="4186" column="33" lean-forward="false" selection-start-line="4186" selection-start-column="33" selection-end-line="4186" selection-end-column="33" />
+          <folding>
+            <element signature="e#6#369#0#PHP" expanded="true" />
+            <marker date="1500824639758" expanded="true" signature="28088:28108" ph="SELECT blog_... ${$wpdb-&gt;blogs}" />
+            <marker date="1500824639758" expanded="true" signature="28365:28442" ph="ALTER TABLE $... " />
+            <marker date="1500824639758" expanded="true" signature="28704:28786" ph="ALTER TABLE $... " />
+            <marker date="1500824639758" expanded="true" signature="29037:29102" ph="ALTER TABLE `${$wplc_tblname_chats}`... " />
+            <marker date="1500824639758" expanded="true" signature="29338:29408" ph="ALTER TABLE `${$wplc_tblname_chats}`... " />
+            <marker date="1500824639758" expanded="true" signature="29483:29887" ph="CREATE TABLE... ${$wplc_tblname_chat_ratings}" />
+            <marker date="1500824639758" expanded="true" signature="29921:30297" ph="CREATE TABLE... ${$wplc_tblname_chat_triggers}" />
+            <marker date="1500824639758" expanded="true" signature="36580:36612" ph="..." />
+            <marker date="1500824639758" expanded="true" signature="110716:110727" ph="..." />
+            <marker date="1500824639758" expanded="true" signature="111900:111955" ph="SELECT * FRO... ${$wplc_tblname_chats}" />
+            <marker date="1500824639758" expanded="true" signature="112055:112127" ph="UPDATE `${$w... " />
+            <marker date="1500824639758" expanded="true" signature="113491:113550" ph="SELECT * FRO... ${$wplc_tblname_chats}" />
+            <marker date="1500824639758" expanded="true" signature="114737:114802" ph="ALTER TABLE `${$wplc_tblname_chats}`... " />
+            <marker date="1500824639758" expanded="true" signature="148181:148195" ph="..." />
+            <marker date="1500824639758" expanded="true" signature="148322:148336" ph="..." />
+            <marker date="1500824639758" expanded="true" signature="148460:148474" ph="..." />
+            <marker date="1500824639758" expanded="true" signature="148586:148598" ph="..." />
+            <marker date="1500824639758" expanded="true" signature="149023:149036" ph="..." />
+            <marker date="1500824639758" expanded="true" signature="149289:149302" ph="..." />
+            <marker date="1500824639758" expanded="true" signature="149667:149680" ph="..." />
+            <marker date="1500824639758" expanded="true" signature="149739:149752" ph="..." />
+            <marker date="1500824639758" expanded="true" signature="150191:150417" ph="UPDATE ${$wp... " />
+            <marker date="1500824639758" expanded="true" signature="150597:150819" ph="INSERT INTO ${$wplc_tblname_chat_ratings}... " />
+            <marker date="1500824639758" expanded="true" signature="151079:151143" ph="SELECT `id` ${$wplc_tblname_chat_ratings}" />
+            <marker date="1500824639758" expanded="true" signature="151429:151498" ph="SELECT * FRO... ${$wplc_tblname_chat_ratings}" />
+            <marker date="1500824639758" expanded="true" signature="151552:151640" ph="SELECT * FRO... ${$wplc_tblname_chat_ratings}" />
+            <marker date="1500824639758" expanded="true" signature="151774:151855" ph="UPDATE ${$wp... " />
+            <marker date="1500824639758" expanded="true" signature="152297:152936" ph="..." />
+            <marker date="1500824639758" expanded="true" signature="153051:153347" ph="..." />
+            <marker date="1500824639758" expanded="true" signature="153884:153945" ph="SELECT * FRO... ${$wplc_tblname_chat_ratings}" />
+            <marker date="1500824639758" expanded="true" signature="153987:154098" ph="SELECT * FRO... ${$wplc_tblname_chat_ratings}" />
+            <marker date="1500824639758" expanded="true" signature="154146:154258" ph="SELECT * FRO... ${$wplc_tblname_chat_ratings}" />
+            <marker date="1500824639758" expanded="true" signature="154306:154418" ph="SELECT * FRO... ${$wplc_tblname_chat_ratings}" />
+            <marker date="1500824639758" expanded="true" signature="154467:154579" ph="SELECT * FRO... ${$wplc_tblname_chat_ratings}" />
+            <marker date="1500824639758" expanded="true" signature="154627:154739" ph="SELECT * FRO... ${$wplc_tblname_chat_ratings}" />
+            <marker date="1500824639758" expanded="true" signature="158600:158650" ph="..." />
+            <marker date="1500824639758" expanded="true" signature="158913:158963" ph="..." />
+            <marker date="1500824639758" expanded="true" signature="159221:159232" ph="..." />
+            <marker date="1500824639758" expanded="true" signature="162264:162339" ph="..." />
+            <marker date="1500824639758" expanded="true" signature="162551:162626" ph="..." />
+            <marker date="1500824639758" expanded="true" signature="162812:162887" ph="..." />
+            <marker date="1500824639758" expanded="true" signature="163165:163192" ph="..." />
+            <marker date="1500824639758" expanded="true" signature="163333:163388" ph="..." />
+            <marker date="1500824639758" expanded="true" signature="163427:163454" ph="..." />
+            <marker date="1500824639758" expanded="true" signature="163506:163561" ph="..." />
+            <marker date="1500824639758" expanded="true" signature="164024:164116" ph="SELECT * FRO... ${$wplc_tblname_chats}" />
+            <marker date="1500824639758" expanded="true" signature="194039:194050" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-live-chat-support-pro/includes/wplc_roi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="636" column="0" lean-forward="false" selection-start-line="636" selection-start-column="0" selection-end-line="636" selection-end-column="0" />
+          <folding>
+            <marker date="1500827383767" expanded="true" signature="1269:1599" ph="CREATE TABLE... ${$wplc_tblname_chat_roi_goals}" />
+            <marker date="1500827383767" expanded="true" signature="1651:1955" ph="CREATE TABLE... ${$wplc_tblname_chat_roi_conversions}" />
+            <marker date="1500827383767" expanded="true" signature="3674:3724" ph="..." />
+            <marker date="1500827383767" expanded="true" signature="4227:4236" ph="..." />
+            <marker date="1500827383767" expanded="true" signature="6028:6042" ph="SELECT * FRO... ${$wplc_tblname_chat_roi_goals}" />
+            <marker date="1500827383767" expanded="true" signature="7250:7259" ph="..." />
+            <marker date="1500827383767" expanded="true" signature="8730:8749" ph="..." />
+            <marker date="1500827383767" expanded="true" signature="8842:8860" ph="..." />
+            <marker date="1500827383767" expanded="true" signature="9065:9086" ph="..." />
+            <marker date="1500827383767" expanded="true" signature="15012:15175" ph="INSERT INTO ${$wplc_tblname_chat_roi_goals}... " />
+            <marker date="1500827383767" expanded="true" signature="16177:16363" ph="UPDATE ${$wp... " />
+            <marker date="1500827383767" expanded="true" signature="16669:16737" ph="DELETE FROM " />
+            <marker date="1500827383767" expanded="true" signature="17032:17098" ph="SELECT * FRO... ${$wplc_tblname_chat_roi_goals}" />
+            <marker date="1500827383767" expanded="true" signature="17795:17804" ph="..." />
+            <marker date="1500827383767" expanded="true" signature="19115:19257" ph="INSERT INTO ${$wplc_tblname_chat_roi_conversions}... " />
+            <marker date="1500827383767" expanded="true" signature="19614:19687" ph="SELECT * FRO... ${$wplc_tblname_chat_roi_conversions}" />
+            <marker date="1500827383767" expanded="true" signature="22777:22787" ph="..." />
+            <marker date="1500827383767" expanded="true" signature="22821:22896" ph="..." />
+            <marker date="1500827383767" expanded="true" signature="23101:23176" ph="..." />
+            <marker date="1500827383767" expanded="true" signature="23364:23439" ph="..." />
+            <marker date="1500827383767" expanded="true" signature="26257:26335" ph="SELECT * FRO... ${$wplc_tblname_chat_roi_conversions}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/royalgold/template-fullpage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-live-chat-support/includes/deprecated.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="150" column="42" lean-forward="true" selection-start-line="150" selection-start-column="42" selection-end-line="150" selection-end-column="42" />
+          <folding>
+            <marker date="1499706008235" expanded="true" signature="6054:6067" ph="..." />
+            <marker date="1499706008235" expanded="true" signature="6174:6187" ph="..." />
+            <marker date="1499706008235" expanded="true" signature="6302:6317" ph="..." />
+            <marker date="1499706008235" expanded="true" signature="6619:6632" ph="..." />
+            <marker date="1499706008235" expanded="true" signature="8890:8923" ph="..." />
+            <marker date="1499706008235" expanded="true" signature="10541:10554" ph="..." />
+            <marker date="1499706008235" expanded="true" signature="10805:10818" ph="..." />
+            <marker date="1499706008235" expanded="true" signature="11047:11060" ph="..." />
+            <marker date="1499706008235" expanded="true" signature="11141:11183" ph="..." />
+            <marker date="1499706008235" expanded="true" signature="11314:11348" ph="..." />
+            <marker date="1499706008235" expanded="true" signature="18849:18882" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-live-chat-support/wp-live-chat-support.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="2968" column="8" lean-forward="true" selection-start-line="2968" selection-start-column="8" selection-end-line="2968" selection-end-column="8" />
+          <folding>
+            <marker date="1500824639794" expanded="true" signature="38679:38739" ph="DELETE FROM " />
+            <marker date="1500824639794" expanded="false" signature="90602:90620" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="90621:90943" ph="..." />
+            <marker date="1500824639794" expanded="false" signature="90705:90723" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="92400:92442" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="101201:101214" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="101301:101314" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="101797:101810" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="102155:102168" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="102424:102437" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="102611:102624" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="102840:102853" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="104240:104253" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="104369:104382" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="104471:104484" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="104549:104562" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="105413:105426" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="105634:105647" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="105931:105944" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="110846:110979" ph="SELECT * FRO... ${$wplc_tblname_msgs}" />
+            <marker date="1500824639794" expanded="true" signature="133894:133957" ph="SELECT * FRO... ${$wplc_tblname_chats}" />
+            <marker date="1500824639794" expanded="true" signature="134075:134155" ph="UPDATE `${$w... " />
+            <marker date="1500824639794" expanded="true" signature="135208:135293" ph="SELECT * FRO... ${$wplc_tblname_chats}" />
+            <marker date="1500824639794" expanded="true" signature="138691:138715" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="138846:138857" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="140828:140860" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="155681:156247" ph="CREATE TABLE... ${$wplc_tblname_chats}" />
+            <marker date="1500824639794" expanded="true" signature="156363:156839" ph="CREATE TABLE... ${$wplc_tblname_msgs}" />
+            <marker date="1500824639794" expanded="true" signature="157237:157308" ph="ALTER TABLE ${$wplc_tblname_msgs}... " />
+            <marker date="1500824639794" expanded="true" signature="157338:157760" ph="CREATE TABLE... ${$wplc_tblname_offline_msgs}" />
+            <marker date="1500824639794" expanded="true" signature="169895:170041" ph="DELETE FROM " />
+            <marker date="1500824639794" expanded="true" signature="170242:170277" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="170278:170388" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="170475:170531" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="170532:170626" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="170749:170784" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="170785:171195" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="171288:171406" ph="SELECT * FRO... ${$wplc_tblname_chats}" />
+            <marker date="1500824639794" expanded="true" signature="171461:171621" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="171693:172706" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="171703:172634" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="171710:172623" ph="..." />
+            <marker date="1500824639794" expanded="false" signature="172121:172125" ph="..." />
+            <marker date="1500824639794" expanded="false" signature="172256:172260" ph="..." />
+            <marker date="1500824639794" expanded="false" signature="172396:172400" ph="..." />
+            <marker date="1500824639794" expanded="false" signature="172553:172557" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="172697:172706" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="177912:178705" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="177932:178638" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="177953:178617" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="178722:178788" ph="SELECT * FRO... ${$wplc_tblname_offline_msgs}" />
+            <marker date="1500824639794" expanded="true" signature="194223:194237" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="202997:203038" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="203641:203682" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="222568:222641" ph="SELECT * FRO... ${$wplc_tblname_chats}" />
+            <marker date="1500824639794" expanded="true" signature="223442:223578" ph="SELECT * FRO... ${$wplc_tblname_msgs}" />
+            <marker date="1500824639794" expanded="true" signature="223694:223851" ph="SELECT * FRO... ${$wplc_tblname_msgs}" />
+            <marker date="1500824639794" expanded="true" signature="223914:224054" ph="SELECT * FRO... ${$wplc_tblname_msgs}" />
+            <marker date="1500824639794" expanded="true" signature="226515:226528" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="227697:227788" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="228162:228251" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="228600:228655" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="235773:235825" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="236518:236570" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="238628:238768" ph="SELECT * FRO... ${$wplc_tblname_msgs}" />
+            <marker date="1500824639794" expanded="true" signature="240108:240240" ph="SELECT * FRO... ${$wplc_tblname_msgs}" />
+            <marker date="1500824639794" expanded="true" signature="242261:242524" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="242266:242272" ph=" " />
+            <marker date="1500824639794" expanded="true" signature="242300:242310" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="242311:242519" ph="..." />
+            <marker date="1500824639794" expanded="false" signature="242317:242323" ph=" " />
+            <marker date="1500824639794" expanded="false" signature="242324:242330" ph=" " />
+            <marker date="1500824639794" expanded="true" signature="248319:248605" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="253513:253522" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="253576:253606" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="254003:254022" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="254339:254377" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="255154:255233" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="255728:255807" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="256294:256957" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="256346:256939" ph="{...}" />
+            <marker date="1500824639794" expanded="true" signature="256390:256927" ph="{...}" />
+            <marker date="1500824639794" expanded="true" signature="256424:256908" ph="{...}" />
+            <marker date="1500824639794" expanded="true" signature="256445:256655" ph="{...}" />
+            <marker date="1500824639794" expanded="true" signature="256513:256640" ph="{...}" />
+            <marker date="1500824639794" expanded="true" signature="256661:256871" ph="{...}" />
+            <marker date="1500824639794" expanded="true" signature="256784:256856" ph="{...}" />
+            <marker date="1500824639794" expanded="true" signature="257057:257066" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="257120:257150" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="257886:257905" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="258329:258367" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="259025:259104" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="259607:259686" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="260254:260263" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="260317:260347" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="260741:260760" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="261118:261156" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="261673:261752" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="262255:262334" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="264526:264594" ph="..." />
+            <marker date="1500824639794" expanded="true" signature="268950:268959" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/functions.wp-styles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="119" column="9" lean-forward="false" selection-start-line="119" selection-start-column="9" selection-end-line="119" selection-end-column="9" />
+          <folding>
+            <marker date="1472962168000" expanded="true" signature="2387:2391" ph="&lt;" />
+            <marker date="1472962168000" expanded="true" signature="2396:2400" ph="&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/classes/reservation.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="876" column="59" lean-forward="false" selection-start-line="876" selection-start-column="59" selection-end-line="876" selection-end-column="59" />
+          <folding>
+            <marker date="1500831431135" expanded="true" signature="2531:2717" ph="SELECT id, n... ${$wpdb-&gt;prefix}" />
+            <marker date="1500831431135" expanded="true" signature="20981:21108" ph="SELECT SUM(n... ${$wpdb-&gt;prefix}" />
+            <marker date="1500831431135" expanded="true" signature="21401:21530" ph="SELECT COUNT... ${$wpdb-&gt;prefix}" />
+            <marker date="1500831431135" expanded="true" signature="22201:22375" ph="SELECT SUM(n... ${$wpdb-&gt;prefix}" />
+            <marker date="1500831431135" expanded="true" signature="22749:22912" ph="SELECT COUNT... ${$wpdb-&gt;prefix}" />
+            <marker date="1500831431135" expanded="true" signature="23645:23762" ph="SELECT sum(n... " />
+            <marker date="1500831431135" expanded="true" signature="24888:25033" ph="SELECT sum($... " />
+            <marker date="1500831431135" expanded="true" signature="27902:27988" ph="SELECT COUNT... ${$wpdb-&gt;prefix}" />
+            <marker date="1500831431135" expanded="true" signature="65322:65378" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/royalgold/template-reservation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-202">
+          <caret line="25" column="48" lean-forward="false" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <folding>
+            <element signature="e#6#134#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/easyreservations/css/frontend.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4083">
+          <caret line="80" column="19" lean-forward="true" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/easyreservations/js/ajax/form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="311" column="39" lean-forward="false" selection-start-line="311" selection-start-column="25" selection-end-line="311" selection-end-column="39" />
+          <folding>
+            <marker date="1500841326465" expanded="true" signature="3083:3150" ph="..." />
+            <marker date="1500841326465" expanded="true" signature="7749:7765" ph="..." />
+            <marker date="1500841326465" expanded="true" signature="8071:8089" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/easyreservations/easyReservations_form_shortcode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="423" column="41" lean-forward="false" selection-start-line="423" selection-start-column="41" selection-end-line="423" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/easyreservations/lib/modules/styles/form/form_premium.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="435" column="15" lean-forward="false" selection-start-line="435" selection-start-column="15" selection-end-line="435" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/easyreservations/easyReservations_admin_settings.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="308" column="31" lean-forward="true" selection-start-line="308" selection-start-column="31" selection-end-line="308" selection-end-column="31" />
+        <state relative-caret-position="255">
+          <caret line="581" column="28" lean-forward="true" selection-start-line="581" selection-start-column="28" selection-end-line="581" selection-end-column="28" />
           <folding>
-            <marker date="1500786086908" expanded="true" signature="512:599" ph="DELETE FROM " />
-            <marker date="1500786086908" expanded="true" signature="12111:12205" ph="SELECT optio... ${$wpdb-&gt;prefix}" />
-            <marker date="1500786086908" expanded="true" signature="26159:26197" ph="..." />
-            <marker date="1500786086908" expanded="true" signature="26473:26512" ph="..." />
-            <marker date="1500786086908" expanded="false" signature="27290:27319" ph="..." />
-            <marker date="1500786086908" expanded="false" signature="27360:27376" ph="..." />
-            <marker date="1500786086908" expanded="false" signature="27620:27667" ph="..." />
-            <marker date="1500786086908" expanded="false" signature="27682:27713" ph="..." />
-            <marker date="1500786086908" expanded="false" signature="27788:27819" ph="..." />
-            <marker date="1500786086908" expanded="false" signature="27864:27895" ph="..." />
-            <marker date="1500786086908" expanded="false" signature="28303:28365" ph="..." />
-            <marker date="1500786086908" expanded="false" signature="28617:28679" ph="..." />
-            <marker date="1500786086908" expanded="false" signature="28890:28952" ph="..." />
-            <marker date="1500786086908" expanded="true" signature="59943:60086" ph="..." />
-            <marker date="1500786086908" expanded="true" signature="61073:61081" ph="..." />
-            <marker date="1500786086908" expanded="true" signature="62208:62216" ph="..." />
-            <marker date="1500786086908" expanded="true" signature="62592:62600" ph="..." />
-            <marker date="1500786086908" expanded="true" signature="64289:64297" ph="..." />
-            <marker date="1500786086908" expanded="true" signature="64652:64660" ph="..." />
-            <marker date="1500786086908" expanded="true" signature="65375:65383" ph="..." />
-            <marker date="1500786086908" expanded="true" signature="65733:65741" ph="..." />
-            <marker date="1500786086908" expanded="true" signature="69433:69437" ph="&lt;" />
-            <marker date="1500786086908" expanded="true" signature="69442:69446" ph="&gt;" />
-            <marker date="1500786086908" expanded="true" signature="69711:69715" ph="&lt;" />
-            <marker date="1500786086908" expanded="true" signature="69733:69737" ph="&gt;" />
-            <marker date="1500786086908" expanded="true" signature="69986:69990" ph="&lt;" />
-            <marker date="1500786086908" expanded="true" signature="70006:70010" ph="&gt;" />
-            <marker date="1500786086908" expanded="true" signature="70294:70298" ph="&lt;" />
-            <marker date="1500786086908" expanded="true" signature="70304:70308" ph="&gt;" />
-            <marker date="1500786086908" expanded="true" signature="70521:70525" ph="&lt;" />
-            <marker date="1500786086908" expanded="true" signature="70526:70530" ph="&gt;" />
-            <marker date="1500786086908" expanded="true" signature="70748:70752" ph="&lt;" />
-            <marker date="1500786086908" expanded="true" signature="70754:70758" ph="&gt;" />
-            <marker date="1500786086908" expanded="true" signature="70982:70986" ph="&lt;" />
-            <marker date="1500786086908" expanded="true" signature="70988:70992" ph="&gt;" />
-            <marker date="1500786086908" expanded="true" signature="71351:71362" ph="..." />
-            <marker date="1500786086908" expanded="true" signature="71471:71494" ph="..." />
-            <marker date="1500786086908" expanded="true" signature="71618:71641" ph="..." />
-            <marker date="1500786086908" expanded="true" signature="75056:75067" ph="..." />
-            <marker date="1500786086908" expanded="true" signature="75574:75616" ph="..." />
-            <marker date="1500786086908" expanded="true" signature="75793:75809" ph="..." />
-            <marker date="1500786086908" expanded="true" signature="88217:88228" ph="..." />
-            <marker date="1500786086908" expanded="true" signature="88390:88396" ph=" " />
-            <marker date="1500786086908" expanded="true" signature="95660:95805" ph="SELECT id FR... ${$wpdb-&gt;prefix}" />
-            <marker date="1500786086908" expanded="true" signature="97041:97142" ph="SELECT id FR... ${$wpdb-&gt;prefix}" />
+            <marker date="1500842909723" expanded="true" signature="512:599" ph="DELETE FROM " />
+            <marker date="1500842909723" expanded="true" signature="12111:12205" ph="SELECT optio... ${$wpdb-&gt;prefix}" />
+            <marker date="1500842909723" expanded="true" signature="26159:26197" ph="..." />
+            <marker date="1500842909723" expanded="true" signature="26473:26512" ph="..." />
+            <marker date="1500842909723" expanded="true" signature="59947:60090" ph="..." />
+            <marker date="1500842909723" expanded="true" signature="61077:61085" ph="..." />
+            <marker date="1500842909723" expanded="true" signature="62212:62220" ph="..." />
+            <marker date="1500842909723" expanded="true" signature="62596:62604" ph="..." />
+            <marker date="1500842909723" expanded="true" signature="64293:64301" ph="..." />
+            <marker date="1500842909723" expanded="true" signature="64656:64664" ph="..." />
+            <marker date="1500842909723" expanded="true" signature="65379:65387" ph="..." />
+            <marker date="1500842909723" expanded="true" signature="65737:65745" ph="..." />
+            <marker date="1500842909723" expanded="true" signature="69437:69441" ph="&lt;" />
+            <marker date="1500842909723" expanded="true" signature="69446:69450" ph="&gt;" />
+            <marker date="1500842909723" expanded="true" signature="69715:69719" ph="&lt;" />
+            <marker date="1500842909723" expanded="true" signature="69737:69741" ph="&gt;" />
+            <marker date="1500842909723" expanded="true" signature="69990:69994" ph="&lt;" />
+            <marker date="1500842909723" expanded="true" signature="70010:70014" ph="&gt;" />
+            <marker date="1500842909723" expanded="true" signature="70298:70302" ph="&lt;" />
+            <marker date="1500842909723" expanded="true" signature="70308:70312" ph="&gt;" />
+            <marker date="1500842909723" expanded="true" signature="70525:70529" ph="&lt;" />
+            <marker date="1500842909723" expanded="true" signature="70530:70534" ph="&gt;" />
+            <marker date="1500842909723" expanded="true" signature="70752:70756" ph="&lt;" />
+            <marker date="1500842909723" expanded="true" signature="70758:70762" ph="&gt;" />
+            <marker date="1500842909723" expanded="true" signature="70986:70990" ph="&lt;" />
+            <marker date="1500842909723" expanded="true" signature="70992:70996" ph="&gt;" />
+            <marker date="1500842909723" expanded="true" signature="71355:71366" ph="..." />
+            <marker date="1500842909723" expanded="true" signature="71475:71498" ph="..." />
+            <marker date="1500842909723" expanded="true" signature="71622:71645" ph="..." />
+            <marker date="1500842909723" expanded="true" signature="75060:75071" ph="..." />
+            <marker date="1500842909723" expanded="true" signature="75578:75620" ph="..." />
+            <marker date="1500842909723" expanded="true" signature="75797:75813" ph="..." />
+            <marker date="1500842909723" expanded="true" signature="88221:88232" ph="..." />
+            <marker date="1500842909723" expanded="true" signature="88394:88400" ph=" " />
+            <marker date="1500842909723" expanded="true" signature="95664:95809" ph="SELECT id FR... ${$wpdb-&gt;prefix}" />
+            <marker date="1500842909723" expanded="true" signature="97045:97146" ph="SELECT id FR... ${$wpdb-&gt;prefix}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/royalgold/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="566" column="23" lean-forward="true" selection-start-line="566" selection-start-column="23" selection-end-line="566" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -181,12 +181,13 @@ function easyInnerlay(content,add){
 		}
 
 		easyEffectSavere = false;
-		var thecon = '<div id="easyFormInnerlay" class="'+easyReservationAtts['multiple']+'" style="width:'+width+'px;">'+content+'</div>';
+		// var thecon = '<div id="easyFormInnerlay" class="'+easyReservationAtts['multiple']+'" style="width:'+width+'px;">'+content+'</div>';
+		var thecon = '<div id="easyFormInnerlay" class="'+easyReservationAtts['multiple']+'">'+content+'</div>';
 		var test = jQuery('#easyFormOverlay').after(thecon);
 		if(reservations) jQuery('#easy_overlay_tbody').html(reservations);
 		jQuery('#easyFormInnerlay').focus();
 		jQuery("#easyFormInnerlay").fadeIn("fast");
-		jQuery("#easyFormInnerlay").css("display", "inline-block");
+		//jQuery("#easyFormInnerlay").css("display", "inline-block");
 		jQuery("#easyFormOverlay").removeClass('easyloading');
 		window.location.hash = 'easyFormInnerlay';
 		easyReservationEdit = false;

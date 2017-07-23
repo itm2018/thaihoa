@@ -330,6 +330,9 @@
 	}
 	#easyFrontendFormular .easy-show-error-div {
 		padding: 0px;
+		padding-left: 22px;
+		padding-right: 10px;
+		word-wrap: break-word;
 	}
 	#easyFrontendFormular .easy-show-error-div h2 {
 		padding:0px;
@@ -381,4 +384,54 @@
 		margin: 0px 0px 2px 18px;
 		width:90%;
 	}
+
+	section#main{
+		width: 100%;
+	}
+	#easyFrontendFormular{
+		width: auto;
+	}
+	.easyFrontendFormular{
+		width: 99%;
+		max-width: 99%;
+	}
+	.submit-reservation{
+		width: 89%;
+	}
+	.submit-reservation input{
+		float: left !important;
+		width: 65% !important;
+	}
+
+	/*.cart-table{*/
+		/*max-width: 245px;*/
+		/*position: relative;*/
+	/*}*/
+
+	#easyFormOverlay{
+		max-width: 95%;
+	}
+
+
+}
+
+@media screen and (max-width: 414px) {
+	#easyFormOverlay{
+		max-width: 89%;
+	}
+	#easyFormInnerlay{
+		width: 83%;
+		margin-left: 7px;
+		background-color: transparent;
+	}
+}
+
+#easyFormOverlay,
+easyFormInnerlay{
+	max-width: 94%;
+}
+.cart-table{
+	position: relative;
+	float: left;
+	width: 98%;
 }
