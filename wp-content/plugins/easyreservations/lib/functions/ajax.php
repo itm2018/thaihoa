@@ -439,7 +439,7 @@ function easyreservations_send_validate_callback(){
 		foreach($explode_customs as $cstm){
 			if(!empty($cstm)){
 				$error[] = $cstm;
-				$error[] =  sprintf(__( '%1$s is required' , 'easyReservations' ), ucfirst(str_replace('easy-custom-req-', '', $cstm)));
+				$error[] =  sprintf(__( '%1$s is required' , 'easyReservations' ), __(ucfirst(str_replace('easy-custom-req-', '', $cstm)), 'easyReservations') );
 			}
 		}
 		if(!empty($_POST['new_custom'])){
@@ -450,7 +450,7 @@ function easyreservations_send_validate_callback(){
 				$c_id = str_replace('easy-new-custom-', '', $c_id);
 				if(isset($custom_fields['fields'][$c_id]) && $custom_fields['fields'][$c_id]['required']){
 					$error[] = 'easy-new-custom-'.$c_id;
-					$error[] =  sprintf(__( '%1$s is required' , 'easyReservations' ), $custom_fields['fields'][$c_id]['title']);
+					$error[] =  sprintf(__( '%1$s is required' , 'easyReservations' ), __($custom_fields['fields'][$c_id]['title'], 'easyReservations'));
 				}
 			}
 		}

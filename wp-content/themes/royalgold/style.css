@@ -583,4 +583,5 @@ body.page-template-template-fullpage #wp-live-chat{
 		float: left;
 	}
 }
+.page-template-template-fullpage-php #wplc_hovercard{bottom: 159px;}
 /*#footer{background-color: #faee9c;}*/

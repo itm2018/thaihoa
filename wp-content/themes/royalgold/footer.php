@@ -2,7 +2,7 @@
 if (is_page_template('template-nocontent.php')) :
 	the_content();
 else :
-    function make_multilanguage_link($lang = 'en', $support_langs = array('en', 'ru')){
+    function make_multilanguage_link($lang = 'en', $support_langs = array('en', 'ru', 'zh')){
         try{
             $link = get_permalink();
             $relative_link = preg_replace( '|https?://[^/]+(/.*)|i', '$1', $link );
@@ -20,9 +20,10 @@ else :
 
             <ul class="language-switch">
                 <li><?php echo __('Choose your language:', 'royalgold')?></li>
-                <li class="menu"><a href="<?php echo make_multilanguage_link('')?>"><?php echo __('Vietnamese', 'royalgold')?></a> </li>
+                <li class="menu"><a href="<?php echo make_multilanguage_link('')?>"><?php echo __('Tiếng Việt', 'royalgold')?></a> </li>
                 <li class="menu"><a href="<?php echo make_multilanguage_link('en')?>"><?php echo __('English', 'royalgold')?></a> </li>
-                <li class="menu"><a href="<?php echo make_multilanguage_link('ru')?>"><?php echo __('Russian', 'royalgold')?></a> </li>
+                <li class="menu"><a href="<?php echo make_multilanguage_link('ru')?>"><?php echo __('Pусский', 'royalgold')?></a> </li>
+                <li class="menu"><a href="<?php echo make_multilanguage_link('zh')?>"><?php echo __('中文', 'royalgold')?></a> </li>
             </ul>
             <?php
 			if(!empty($smof_data['footer_right_side']))

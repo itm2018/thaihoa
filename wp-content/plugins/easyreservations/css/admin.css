@@ -14,7 +14,7 @@ table.greyfat tr td.thumbnail{
 table.greyfat tr td:first-child{
     /*width: 100px;*/
 }
-table.greyfat tr td:first-child a img{
+table.greyfat tr td.thumbnail a img{
     height: 50px;
     width: 50px;
 }
