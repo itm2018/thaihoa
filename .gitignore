@@ -1,7 +1,6 @@
-wp-content/uploads/
 .idea
-.idea/
 wp-admin
+wp-content/uploads/
 wp-includes
 .htaccess
 index.php
