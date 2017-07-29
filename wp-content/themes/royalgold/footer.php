@@ -2,18 +2,6 @@
 if (is_page_template('template-nocontent.php')) :
 	the_content();
 else :
-    function make_multilanguage_link($lang = 'en', $support_langs = array('en', 'ru', 'zh')){
-        try{
-            $link = get_permalink();
-            $relative_link = preg_replace( '|https?://[^/]+(/.*)|i', '$1', $link );
-            foreach($support_langs as $l){
-                $relative_link = str_replace('/'.$l, '', $relative_link);
-            }
-            return site_url() . (!empty($lang) ? '/' : '') . $lang . $relative_link;
-        }catch (Exception $e){
-            return '/'. $lang;
-        }
-    }
 	global $smof_data; ?>
 	<footer id="footer">
 		<div class="right-side">

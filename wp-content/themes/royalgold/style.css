@@ -554,6 +554,7 @@ body.page-template-template-fullpage #wp-live-chat{
 	padding-right: 10px;
 	padding-left: 0px !important;
 	text-decoration: none;
+	color: #222
 }
 .language-switch li a:visited{
 	color: #222 !important;
@@ -569,6 +570,11 @@ body.page-template-template-fullpage #wp-live-chat{
 .social-links{
 	margin-bottom: 5px;
 }
+@media all and (max-width: 414px) {
+	.language-switch li:first-child{
+		width: 100%;
+	}
+}
 @media (max-width: 964px) {
 	.language-switch{
 		width: 100%;
@@ -576,12 +582,65 @@ body.page-template-template-fullpage #wp-live-chat{
 		margin: 0;
 		padding: 0;
 	}
-	.language-switch li:first-child{
-		width: 100%;
-	}
+
 	.language-switch li.menu{
 		float: left;
 	}
 }
 .page-template-template-fullpage-php #wplc_hovercard{bottom: 159px;}
 /*#footer{background-color: #faee9c;}*/
+.page-template-template-panorama #header{
+	position: relative;
+	top: 0;
+	max-height: none;
+	margin-bottom: 0;
+	z-index: 8;
+}
+.page-template-template-panorama #footer{
+	width: 100%;
+	bottom: 0;
+}
+.page-template-template-panorama .panorama360{
+	position: fixed !important;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.page-template-template-panorama #wp-live-chat {
+	margin-bottom: 0px;
+	/*right: 6px;*/
+	display: block;
+	bottom: 62px !important;
+}
+
+.page-template-template-panorama #wplc_hovercard {
+	bottom: 142px !important;
+}
+
+@media (max-width: 767px) {
+
+	.page-template-template-panorama .panorama360 .controls {
+		bottom: 97px;
+	}
+	.page-template-template-panorama #footer{
+		position: fixed;
+		bottom: 0;
+	}
+	.page-template-template-panorama #wp-live-chat {
+		margin-bottom: 0px;
+		/*right: 6px;*/
+		display: block;
+		bottom: 0px !important;
+	}
+
+	.page-template-template-panorama #wplc_hovercard {
+		bottom: 80px !important;
+	}
+}
+
+@media (max-width: 414px) {
+	.page-template-template-panorama .panorama360 .controls {
+		bottom: 120px;
+	}
+}

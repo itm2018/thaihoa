@@ -171,6 +171,9 @@ if ( !function_exists( 'wp_mail' ) ) :
  * @return bool Whether the email contents were sent successfully.
  */
 function wp_mail( $to, $subject, $message, $headers = '', $attachments = array() ) {
+    if(class_exists('WPGlobus_Core')){
+        WPGlobus_Core::extract_text($subject);
+    }
 	// Compact the input, apply the filters, and extract them back out
 
 	/**

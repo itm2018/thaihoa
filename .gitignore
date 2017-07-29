@@ -1,6 +1,6 @@
 wp-content/uploads/
 .idea
-.idea/*
+.idea/
 wp-admin
 wp-includes
 .htaccess

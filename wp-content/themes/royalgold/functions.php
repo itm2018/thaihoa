@@ -308,3 +308,20 @@ if ( ! function_exists( 'royalgold_comment' ) ) {
 	}
 
 } // function_exists
+
+if(!function_exists('make_multilanguage_link')){
+
+    function make_multilanguage_link($lang = 'en', $support_langs = array('en', 'ru', 'zh'))
+    {
+        try {
+            $link = get_permalink();
+            $relative_link = preg_replace('|https?://[^/]+(/.*)|i', '$1', $link);
+            foreach ($support_langs as $l) {
+                $relative_link = str_replace('/' . $l, '', $relative_link);
+            }
+            return site_url() . (!empty($lang) ? '/' : '') . $lang . $relative_link;
+        } catch (Exception $e) {
+            return '/' . $lang;
+        }
+    }
+}

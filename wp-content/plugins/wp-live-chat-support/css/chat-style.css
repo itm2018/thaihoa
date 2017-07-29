@@ -21,7 +21,7 @@
     clear:both;
 }
 .wplc-extension-label {
-    display:block; float:left; padding:5px; margin-right:5px; font-size:0.8em; background-color:#bbb; color:#FFF; webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
+    display:block; float:left; padding:5px; margin-right:5px; font-size:0.8em; background-color:#bbb; color:#FFF; webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; 
 }
 .wplc-sub-item-email-string {
     white-space: nowrap;
@@ -1021,3 +1021,5 @@ span.wplc_system_notification {
 }
 
 
+#wplc_tabs{min-height: 600px;}
+.ui-widget-header{background: none;}

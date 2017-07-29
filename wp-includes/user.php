@@ -1811,6 +1811,10 @@ function wp_update_user($userdata) {
 
 		$blog_name = wp_specialchars_decode( get_option( 'blogname' ), ENT_QUOTES );
 
+		if(class_exists('WPGlobus_Core')){
+            $blog_name = WPGlobus_Core::extract_text($blog_name);
+        }
+
 		$switched_locale = false;
 		if ( ! empty( $send_password_change_email ) || ! empty( $send_email_change_email ) ) {
 			$switched_locale = switch_to_locale( get_user_locale( $user_id ) );

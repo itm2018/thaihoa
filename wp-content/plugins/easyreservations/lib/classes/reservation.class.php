@@ -1225,7 +1225,7 @@
 						} else $send_from = $support_mail;
 					}
 
-					$headers = "From: \"".str_replace(array(','), array(''), get_bloginfo('name'))."\" <".$send_from.">\n";
+					$headers = "From: \"".str_replace(array(','), array(''), WPGlobus_Core::extract_text(get_bloginfo('name')))."\" <".$send_from.">\n";
 					if(!$attachment && function_exists('easyreservations_insert_attachment')) $attachment = easyreservations_insert_attachment($this, str_replace('reservations_email_', '', $options_name));
 
 					if(!$to || empty($to)){

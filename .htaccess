@@ -1,9 +1,22 @@
 php_flag display_errors off
+ErrorDocument 401 404.shtml
+ErrorDocument 403 404.shtml
+
+#<IfModule mod_rewrite.c>
+#RewriteEngine on
+#RewriteCond %{REQUEST_URI} ^(.*)?wp-login\.php(.*)$ [OR]
+#RewriteCond %{REQUEST_URI} ^(.*)?wp-admin$
+#RewriteCond %{REMOTE_ADDR} !^2405:4800:528c:c1c0:4158:a84:a41e:dae6$
+#RewriteCond %{REMOTE_ADDR} !^127.0.0.1$
+#RewriteCond %{REMOTE_ADDR} !^IP Address Three$
+#RewriteRule ^(.*)$ - [R=403,L]
+#</IfModule>
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteBase /
 RewriteRule ^index\.php$ - [L]
+RewriteRule ^admin/(.*)$ /wp-admin/$1 [QSA,L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /index.php [L]

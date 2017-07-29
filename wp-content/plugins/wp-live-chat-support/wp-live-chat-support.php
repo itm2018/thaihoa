@@ -2090,7 +2090,6 @@ function wplc_filter_control_live_chat_box_html_1st_layer($wplc_settings,$logged
     $ret_msg .= $wplc_tl_msg;
   } else {
     $wplc_na = __('Chat offline. Leave a message', 'wplivechat');
-    var_dump($wplc_using_locale);
     $wplc_tl_msg = "<span class='wplc_offline'>" . ($wplc_using_locale ? $wplc_na : stripslashes($wplc_settings['wplc_pro_na'])) . "</span>";
     $ret_msg .= $wplc_tl_msg;
   }

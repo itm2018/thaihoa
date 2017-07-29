@@ -203,7 +203,7 @@
 #wp-live-chat-2-info {
     font-size: 1em;
     display: block;
-    width: 100%;
+    /*width: 100%;*/
     overflow: hidden;
     text-align: center;
     margin: 0 auto;
