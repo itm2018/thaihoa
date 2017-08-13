@@ -299,7 +299,8 @@ z-index: 2147483000;
     
     width: 368px;
     max-width: 100%;
-    bottom: 90px;
+    /*bottom: 90px;*/
+    bottom: 140px;
     right: 20px;
     background: #fff;
     box-shadow: 0 0 40px 1px rgba(0,0,0,.07);
